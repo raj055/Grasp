@@ -1,0 +1,6471 @@
+[
+  {
+    "Chapter1": {
+      "Level1": {
+        "Step1":{
+          "Displays": {
+            "targetBall": {
+              "Image": "data_ch1/square_1.png",
+              "Size": [
+                300,
+                400
+              ],
+              "Position": [
+                10,
+                550
+              ],
+              "Visible": true
+
+            },
+            "displayBall": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                220
+              ],
+              "Visible": false
+            },
+            "displayBall1": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                270
+              ],
+              "Visible": false
+            },
+            "displayBall2": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                320
+              ],
+              "Visible": false
+            },
+            "displayBall3": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                370
+              ],
+              "Visible": false
+            },
+            "displayBall4": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                420
+              ],
+              "Visible": false
+            },
+            "displayBall5": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                470
+              ],
+              "Visible": false
+            },
+            "displayBall6": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                520
+              ],
+              "Visible": false
+            },
+            "progBar": {
+              "Image": "data_ch1/scall_1.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                340,
+                600
+              ],
+              "Visible": true
+            },
+            "progBar1": {
+              "Image": "data_ch1/scall_2.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                340,
+                600
+              ],
+              "Visible": false
+            },
+            "backgndA":{
+              "Image": "data/back1.png",
+              "Size": [
+                80,
+                30
+              ],
+              "Position": [
+                100,
+                35
+              ],
+              "Visible": true
+
+            },
+            "backgndB":{
+              "Image": "data/back1.png",
+              "Size": [
+                80,
+                30
+              ],
+              "Position": [
+                8,
+                35
+              ],
+              "Visible": true
+
+            },
+            "backgndEqu":{
+              "Image": "data/back1.png",
+              "Size": [
+                110,
+                40
+              ],
+              "Position": [
+                8,
+                110
+              ],
+              "Visible": true
+
+            },
+            "backgndScore":{
+              "Image": "data/back1.png",
+              "Size": [
+                80,
+                40
+              ],
+              "Position": [
+                315,
+                210
+              ],
+              "Visible": true
+
+            },
+            "bgSquare":{
+              "Image": "data_ch1/square_target.png",
+              "Size": [
+                70,
+                60
+              ],
+              "Position": [
+                340,
+                280
+              ],
+              "Visible": true
+
+            },
+            "bgTarget":{
+              "Image": "data/back1.png",
+              "Size": [
+                150,
+                40
+              ],
+              "Position": [
+                180,
+                700
+              ],
+              "Visible": true
+            },
+            "bgRoundSquare":{
+              "Image": "data_ch1/square_rounded.png",
+              "Size": [
+                60,
+                60
+              ],
+              "Position": [
+                330,
+                700
+              ],
+              "Visible": true
+            },
+            "SubmitBttn":{
+              "Image": "data_ch1/button.png",
+              "Size": [
+                160,
+                60
+              ],
+              "Position": [
+                10,
+                700
+              ],
+              "Visible": true
+            },
+            "PauseBttn":{
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            }
+          },
+          "Draggable": {
+            "DragBall":{
+              "Image": "data/ball_1.png",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                150,
+                100
+              ],
+              "Touchable": true,
+              "Total":5,
+              "DragListener": "dragBallListener"
+            },
+            "RemBall":{
+              "Image": "data/ball_1.png",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                15,
+                630
+              ],
+              "Touchable": true,
+              "Total":5,
+              "DragListener": "dragBallListener"
+            }
+          },
+          "Updatable": {
+            "LabelA": {
+              "Text" :"A = 12",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                10,
+                30
+              ]
+            },
+            "LabelB": {
+              "Text" :"B = 5",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                100,
+                30
+              ]
+            },
+            "Score1": {
+              "Text" :"B *",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                20,
+                100
+              ]
+            },
+            "Score2": {
+              "Text" :"0",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                100
+              ]
+            },
+            "Score3": {
+              "Text" :"+",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                70,
+                100
+              ]
+            },
+            "Score4": {
+              "Text" :"0",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                90,
+                100
+              ]
+            },
+            "Target": {
+              "Text" :"Target",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                320,
+                200
+              ]
+            },
+            "TargetScore": {
+              "Text" :"12",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                360,
+                260
+              ]
+            },
+            "YourScore": {
+              "Text" :"Your score : ",
+              "Size": [
+                100,
+                30
+              ],
+              "Position": [
+                190,
+                690
+              ]
+            },
+            "ScoreValue": {
+              "Text" :"0",
+              "Size": [
+                60,
+                60
+              ],
+              "Position": [
+                350,
+                700
+              ]
+            },
+            "SubmitButtn": {
+              "Text" :"Submit",
+              "Size": [
+                160,
+                60
+              ],
+              "Position": [
+                40,
+                700
+              ]
+            }
+          }
+        }
+      },
+      "Level2": {
+        "Step1":{
+          "Displays": {
+            "targetBall": {
+              "Image": "data_ch1/square_1.png",
+              "Size": [
+                300,
+                400
+              ],
+              "Position": [
+                10,
+                550
+              ],
+              "Visible": true
+
+            },
+            "displayBall": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                220
+              ],
+              "Visible": false
+            },
+            "displayBall1": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                270
+              ],
+              "Visible": false
+            },
+            "displayBall2": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                320
+              ],
+              "Visible": false
+            },
+            "displayBall3": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                370
+              ],
+              "Visible": false
+            },
+            "displayBall4": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                420
+              ],
+              "Visible": false
+            },
+            "displayBall5": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                470
+              ],
+              "Visible": false
+            },
+            "displayBall6": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                520
+              ],
+              "Visible": false
+            },
+            "progBar": {
+              "Image": "data_ch1/scall_1.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                340,
+                600
+              ],
+              "Visible": true
+            },
+            "progBar1": {
+              "Image": "data_ch1/scall_2.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                340,
+                600
+              ],
+              "Visible": false
+            },
+            "backgndA":{
+              "Image": "data/back1.png",
+              "Size": [
+                80,
+                30
+              ],
+              "Position": [
+                100,
+                35
+              ],
+              "Visible": true
+
+            },
+            "backgndB":{
+              "Image": "data/back1.png",
+              "Size": [
+                80,
+                30
+              ],
+              "Position": [
+                8,
+                35
+              ],
+              "Visible": true
+
+            },
+            "backgndEqu":{
+              "Image": "data/back1.png",
+              "Size": [
+                110,
+                40
+              ],
+              "Position": [
+                8,
+                110
+              ],
+              "Visible": true
+
+            },
+            "backgndScore":{
+              "Image": "data/back1.png",
+              "Size": [
+                80,
+                40
+              ],
+              "Position": [
+                315,
+                210
+              ],
+              "Visible": true
+
+            },
+            "bgSquare":{
+              "Image": "data_ch1/square_target.png",
+              "Size": [
+                70,
+                60
+              ],
+              "Position": [
+                340,
+                280
+              ],
+              "Visible": true
+
+            },
+            "bgTarget":{
+              "Image": "data/back1.png",
+              "Size": [
+                150,
+                40
+              ],
+              "Position": [
+                180,
+                700
+              ],
+              "Visible": true
+            },
+            "bgRoundSquare":{
+              "Image": "data_ch1/square_rounded.png",
+              "Size": [
+                60,
+                60
+              ],
+              "Position": [
+                330,
+                700
+              ],
+              "Visible": true
+            },
+            "SubmitBttn":{
+              "Image": "data_ch1/button.png",
+              "Size": [
+                160,
+                60
+              ],
+              "Position": [
+                10,
+                700
+              ],
+              "Visible": true
+            },
+            "PauseBttn":{
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            }
+          },
+          "Draggable": {
+            "DragBall":{
+              "Image": "data/ball_1.png",
+              "Size": [
+                40,
+                40
+              ],
+              "Position": [
+                150,
+                100
+              ],
+              "Touchable": true,
+              "Total": 6,
+              "DragListener": "dragBallListener"
+            },
+            "RemBall":{
+              "Image": "data/ball_1.png",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                15,
+                630
+              ],
+              "Touchable": true,
+              "Total": 6,
+              "DragListener": "dragBallListener"
+            }
+          },
+          "Updatable": {
+            "LabelA": {
+              "Text" :"A = 17",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                10,
+                30
+              ]
+            },
+            "LabelB": {
+              "Text" :"B = 6",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                100,
+                30
+              ]
+            },
+            "Score1": {
+              "Text" :"B *",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                20,
+                100
+              ]
+            },
+            "Score2": {
+              "Text" :" 0",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                100
+              ]
+            },
+            "Score3": {
+              "Text" :"+",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                70,
+                100
+              ]
+            },
+            "Score4": {
+              "Text" :"0",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                90,
+                100
+              ]
+            },
+            "Target": {
+              "Text" :"Target",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                320,
+                200
+              ]
+            },
+            "TargetScore": {
+              "Text" :"17",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                360,
+                260
+              ]
+            },
+            "YourScore": {
+              "Text" :"Your score : ",
+              "Size": [
+                100,
+                30
+              ],
+              "Position": [
+                190,
+                690
+              ]
+            },
+            "ScoreValue": {
+              "Text" :"0",
+              "Size": [
+                60,
+                60
+              ],
+              "Position": [
+                350,
+                700
+              ]
+            },
+            "SubmitButtn": {
+              "Text" :"Submit",
+              "Size": [
+                160,
+                60
+              ],
+              "Position": [
+                40,
+                700
+              ]
+            }
+          }
+        }
+      },
+      "Level3": {
+        "Step1":{
+          "Displays": {
+            "targetBall": {
+              "Image": "data_ch1/square_1.png",
+              "Size": [
+                300,
+                400
+              ],
+              "Position": [
+                10,
+                550
+              ],
+              "Visible": true
+
+            },
+            "displayBall": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                220
+              ],
+              "Visible": false
+            },
+            "displayBall1": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                270
+              ],
+              "Visible": false
+            },
+            "displayBall2": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                320
+              ],
+              "Visible": false
+            },
+            "displayBall3": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                370
+              ],
+              "Visible": false
+            },
+            "displayBall4": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                420
+              ],
+              "Visible": false
+            },
+            "displayBall5": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                470
+              ],
+              "Visible": false
+            },
+            "displayBall6": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                520
+              ],
+              "Visible": false
+            },
+            "progBar": {
+              "Image": "data_ch1/scall_1.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                340,
+                600
+              ],
+              "Visible": true
+            },
+            "progBar1": {
+              "Image": "data_ch1/scall_2.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                340,
+                600
+              ],
+              "Visible": false
+            },
+            "backgndA":{
+              "Image": "data/back1.png",
+              "Size": [
+                80,
+                30
+              ],
+              "Position": [
+                100,
+                35
+              ],
+              "Visible": true
+
+            },
+            "backgndB":{
+              "Image": "data/back1.png",
+              "Size": [
+                80,
+                30
+              ],
+              "Position": [
+                8,
+                35
+              ],
+              "Visible": true
+
+            },
+            "backgndEqu":{
+              "Image": "data/back1.png",
+              "Size": [
+                110,
+                40
+              ],
+              "Position": [
+                8,
+                110
+              ],
+              "Visible": true
+
+            },
+            "backgndScore":{
+              "Image": "data/back1.png",
+              "Size": [
+                80,
+                40
+              ],
+              "Position": [
+                315,
+                210
+              ],
+              "Visible": true
+
+            },
+            "bgSquare":{
+              "Image": "data_ch1/square_target.png",
+              "Size": [
+                70,
+                60
+              ],
+              "Position": [
+                340,
+                280
+              ],
+              "Visible": true
+
+            },
+            "bgTarget":{
+              "Image": "data/back1.png",
+              "Size": [
+                150,
+                40
+              ],
+              "Position": [
+                180,
+                700
+              ],
+              "Visible": true
+            },
+            "bgRoundSquare":{
+              "Image": "data_ch1/square_rounded.png",
+              "Size": [
+                60,
+                60
+              ],
+              "Position": [
+                330,
+                700
+              ],
+              "Visible": true
+            },
+            "SubmitBttn":{
+              "Image": "data_ch1/button.png",
+              "Size": [
+                160,
+                60
+              ],
+              "Position": [
+                10,
+                700
+              ],
+              "Visible": true
+            },
+            "PauseBttn":{
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            }
+          },
+          "Draggable": {
+            "DragBall":{
+              "Image": "data/ball_1.png",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                150,
+                100
+              ],
+              "Touchable": true,
+              "Total": 4,
+              "DragListener": "dragBallListener"
+            },
+            "RemBall":{
+              "Image": "data/ball_1.png",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                15,
+                630
+              ],
+              "Touchable": true,
+              "Total": 4,
+              "DragListener": "dragBallListener"
+            }
+          },
+          "Updatable": {
+            "LabelA": {
+              "Text" :"A = 20",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                10,
+                30
+              ]
+            },
+            "LabelB": {
+              "Text" :"B = 4",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                100,
+                30
+              ]
+            },
+            "Score1": {
+              "Text" :"B *",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                20,
+                100
+              ]
+            },
+            "Score2": {
+              "Text" :" 0",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                100
+              ]
+            },
+            "Score3": {
+              "Text" :"+",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                70,
+                100
+              ]
+            },
+            "Score4": {
+              "Text" :"0",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                90,
+                100
+              ]
+            },
+            "Target": {
+              "Text" :"Target",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                320,
+                200
+              ]
+            },
+            "TargetScore": {
+              "Text" :"20",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                360,
+                260
+              ]
+            },
+            "YourScore": {
+              "Text" :"Your score : ",
+              "Size": [
+                100,
+                30
+              ],
+              "Position": [
+                190,
+                690
+              ]
+            },
+            "ScoreValue": {
+              "Text" :"0",
+              "Size": [
+                60,
+                60
+              ],
+              "Position": [
+                350,
+                700
+              ]
+            },
+            "SubmitButtn": {
+              "Text" :"Submit",
+              "Size": [
+                160,
+                60
+              ],
+              "Position": [
+                40,
+                700
+              ]
+            }
+          }
+        }
+      },
+      "Level4": {
+        "Step1":{
+          "Displays": {
+            "targetBall": {
+              "Image": "data_ch1/square_1.png",
+              "Size": [
+                300,
+                400
+              ],
+              "Position": [
+                10,
+                550
+              ],
+              "Visible": true
+
+            },
+            "displayBall": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                220
+              ],
+              "Visible": false
+            },
+            "displayBall1": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                270
+              ],
+              "Visible": false
+            },
+            "displayBall2": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                320
+              ],
+              "Visible": false
+            },
+            "displayBall3": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                370
+              ],
+              "Visible": false
+            },
+            "displayBall4": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                420
+              ],
+              "Visible": false
+            },
+            "displayBall5": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                470
+              ],
+              "Visible": false
+            },
+            "displayBall6": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                520
+              ],
+              "Visible": false
+            },
+            "progBar": {
+              "Image": "data_ch1/scall_1.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                340,
+                600
+              ],
+              "Visible": true
+            },
+            "progBar1": {
+              "Image": "data_ch1/scall_2.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                340,
+                600
+              ],
+              "Visible": false
+            },
+            "backgndA":{
+              "Image": "data/back1.png",
+              "Size": [
+                80,
+                30
+              ],
+              "Position": [
+                100,
+                35
+              ],
+              "Visible": true
+
+            },
+            "backgndB":{
+              "Image": "data/back1.png",
+              "Size": [
+                80,
+                30
+              ],
+              "Position": [
+                8,
+                35
+              ],
+              "Visible": true
+
+            },
+            "backgndEqu":{
+              "Image": "data/back1.png",
+              "Size": [
+                110,
+                40
+              ],
+              "Position": [
+                8,
+                110
+              ],
+              "Visible": true
+
+            },
+            "backgndScore":{
+              "Image": "data/back1.png",
+              "Size": [
+                80,
+                40
+              ],
+              "Position": [
+                315,
+                210
+              ],
+              "Visible": true
+
+            },
+            "bgSquare":{
+              "Image": "data_ch1/square_target.png",
+              "Size": [
+                70,
+                60
+              ],
+              "Position": [
+                340,
+                280
+              ],
+              "Visible": true
+
+            },
+            "bgTarget":{
+              "Image": "data/back1.png",
+              "Size": [
+                150,
+                40
+              ],
+              "Position": [
+                180,
+                700
+              ],
+              "Visible": true
+            },
+            "bgRoundSquare":{
+              "Image": "data_ch1/square_rounded.png",
+              "Size": [
+                60,
+                60
+              ],
+              "Position": [
+                330,
+                700
+              ],
+              "Visible": true
+            },
+            "SubmitBttn":{
+              "Image": "data_ch1/button.png",
+              "Size": [
+                160,
+                60
+              ],
+              "Position": [
+                10,
+                700
+              ],
+              "Visible": true
+            },
+            "PauseBttn":{
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            }
+          },
+          "Draggable": {
+            "DragBall":{
+              "Image": "data/ball_1.png",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                200,
+                80
+              ],
+              "Touchable": true,
+              "Total":3,
+              "DragListener": "dragBallListener"
+            },
+            "RemBall":{
+              "Image": "data/ball_1.png",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                15,
+                630
+              ],
+              "Touchable": true,
+              "Total": 3,
+              "DragListener": "dragBallListener"
+            }
+
+          },
+          "Updatable": {
+            "LabelA": {
+              "Text" :"A = 10",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                10,
+                30
+              ]
+            },
+            "LabelB": {
+              "Text" :"B = 3",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                100,
+                30
+              ]
+            },
+            "Score1": {
+              "Text" :"B *",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                20,
+                100
+              ]
+            },
+            "Score2": {
+              "Text" :" 0",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                100
+              ]
+            },
+            "Score3": {
+              "Text" :"+",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                70,
+                100
+              ]
+            },
+            "Score4": {
+              "Text" :"0",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                90,
+                100
+              ]
+            },
+            "Target": {
+              "Text" :"Target",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                320,
+                200
+              ]
+            },
+            "TargetScore": {
+              "Text" :"10",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                360,
+                260
+              ]
+            },
+            "YourScore": {
+              "Text" :"Your score : ",
+              "Size": [
+                100,
+                30
+              ],
+              "Position": [
+                190,
+                690
+              ]
+            },
+            "ScoreValue": {
+              "Text" :"0",
+              "Size": [
+                60,
+                60
+              ],
+              "Position": [
+                350,
+                700
+              ]
+            },
+            "SubmitButtn": {
+              "Text" :"Submit",
+              "Size": [
+                160,
+                60
+              ],
+              "Position": [
+                40,
+                700
+              ]
+            }
+          }
+        }
+      },
+      "Level5": {
+        "Step1":{
+          "Displays": {
+            "targetBall": {
+              "Image": "data_ch1/square_1.png",
+              "Size": [
+                300,
+                400
+              ],
+              "Position": [
+                10,
+                550
+              ],
+              "Visible": true
+
+            },
+            "displayBall": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                220
+              ],
+              "Visible": false
+            },
+            "displayBall1": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                270
+              ],
+              "Visible": false
+            },
+            "displayBall2": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                320
+              ],
+              "Visible": false
+            },
+            "displayBall3": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                370
+              ],
+              "Visible": false
+            },
+            "displayBall4": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                420
+              ],
+              "Visible": false
+            },
+            "displayBall5": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                470
+              ],
+              "Visible": false
+            },
+            "displayBall6": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                520
+              ],
+              "Visible": false
+            },
+            "progBar": {
+              "Image": "data_ch1/scall_1.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                340,
+                600
+              ],
+              "Visible": true
+            },
+            "progBar1": {
+              "Image": "data_ch1/scall_2.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                340,
+                600
+              ],
+              "Visible": false
+            },
+            "backgndA":{
+              "Image": "data/back1.png",
+              "Size": [
+                80,
+                30
+              ],
+              "Position": [
+                100,
+                35
+              ],
+              "Visible": true
+
+            },
+            "backgndB":{
+              "Image": "data/back1.png",
+              "Size": [
+                80,
+                30
+              ],
+              "Position": [
+                8,
+                35
+              ],
+              "Visible": true
+
+            },
+            "backgndEqu":{
+              "Image": "data/back1.png",
+              "Size": [
+                110,
+                40
+              ],
+              "Position": [
+                8,
+                110
+              ],
+              "Visible": true
+
+            },
+            "backgndScore":{
+              "Image": "data/back1.png",
+              "Size": [
+                80,
+                40
+              ],
+              "Position": [
+                315,
+                210
+              ],
+              "Visible": true
+
+            },
+            "bgSquare":{
+              "Image": "data_ch1/square_target.png",
+              "Size": [
+                70,
+                60
+              ],
+              "Position": [
+                340,
+                280
+              ],
+              "Visible": true
+
+            },
+            "bgTarget":{
+              "Image": "data/back1.png",
+              "Size": [
+                150,
+                40
+              ],
+              "Position": [
+                180,
+                700
+              ],
+              "Visible": true
+            },
+            "bgRoundSquare":{
+              "Image": "data_ch1/square_rounded.png",
+              "Size": [
+                60,
+                60
+              ],
+              "Position": [
+                330,
+                700
+              ],
+              "Visible": true
+            },
+            "SubmitBttn":{
+              "Image": "data_ch1/button.png",
+              "Size": [
+                160,
+                60
+              ],
+              "Position": [
+                10,
+                700
+              ],
+              "Visible": true
+            },
+            "PauseBttn":{
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            }
+          },
+          "Draggable": {
+            "DragBall":{
+              "Image": "data/ball_1.png",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                150,
+                100
+              ],
+              "Touchable": true,
+              "Total":4,
+              "DragListener": "dragBallListener"
+            },
+            "RemBall":{
+              "Image": "data/ball_1.png",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                15,
+                630
+              ],
+              "Touchable": true,
+              "Total": 4,
+              "DragListener": "dragBallListener"
+            }
+
+          },
+          "Updatable": {
+            "LabelA": {
+              "Text" :"A = 19",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                10,
+                30
+              ]
+            },
+            "LabelB": {
+              "Text" :"B = 4",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                100,
+                30
+              ]
+            },
+            "Score1": {
+              "Text" :"B *",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                20,
+                100
+              ]
+            },
+            "Score2": {
+              "Text" :" 0",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                100
+              ]
+            },
+            "Score3": {
+              "Text" :"+",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                70,
+                100
+              ]
+            },
+            "Score4": {
+              "Text" :"0",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                90,
+                100
+              ]
+            },
+            "Target": {
+              "Text" :"Target",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                320,
+                200
+              ]
+            },
+            "TargetScore": {
+              "Text" :"19",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                360,
+                260
+              ]
+            },
+            "YourScore": {
+              "Text" :"Your score : ",
+              "Size": [
+                100,
+                30
+              ],
+              "Position": [
+                190,
+                690
+              ]
+            },
+            "ScoreValue": {
+              "Text" :"0",
+              "Size": [
+                60,
+                60
+              ],
+              "Position": [
+                350,
+                700
+              ]
+            },
+            "SubmitButtn": {
+              "Text" :"Submit",
+              "Size": [
+                160,
+                60
+              ],
+              "Position": [
+                40,
+                700
+              ]
+            }
+          }
+        }
+      },
+      "Level6": {
+        "Step1":{
+          "Displays": {
+            "targetBall": {
+              "Image": "data_ch1/square_1.png",
+              "Size": [
+                300,
+                400
+              ],
+              "Position": [
+                10,
+                550
+              ],
+              "Visible": true
+
+            },
+            "displayBall": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                220
+              ],
+              "Visible": false
+            },
+            "displayBall1": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                270
+              ],
+              "Visible": false
+            },
+            "displayBall2": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                320
+              ],
+              "Visible": false
+            },
+            "displayBall3": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                370
+              ],
+              "Visible": false
+            },
+            "displayBall4": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                420
+              ],
+              "Visible": false
+            },
+            "displayBall5": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                470
+              ],
+              "Visible": false
+            },
+            "displayBall6": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                520
+              ],
+              "Visible": false
+            },
+            "progBar": {
+              "Image": "data_ch1/scall_1.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                340,
+                600
+              ],
+              "Visible": true
+            },
+            "progBar1": {
+              "Image": "data_ch1/scall_2.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                340,
+                600
+              ],
+              "Visible": false
+            },
+            "backgndA":{
+              "Image": "data/back1.png",
+              "Size": [
+                80,
+                30
+              ],
+              "Position": [
+                100,
+                35
+              ],
+              "Visible": true
+
+            },
+            "backgndB":{
+              "Image": "data/back1.png",
+              "Size": [
+                80,
+                30
+              ],
+              "Position": [
+                8,
+                35
+              ],
+              "Visible": true
+
+            },
+            "backgndEqu":{
+              "Image": "data/back1.png",
+              "Size": [
+                110,
+                40
+              ],
+              "Position": [
+                8,
+                110
+              ],
+              "Visible": true
+
+            },
+            "backgndScore":{
+              "Image": "data/back1.png",
+              "Size": [
+                80,
+                40
+              ],
+              "Position": [
+                315,
+                210
+              ],
+              "Visible": true
+
+            },
+            "bgSquare":{
+              "Image": "data_ch1/square_target.png",
+              "Size": [
+                70,
+                60
+              ],
+              "Position": [
+                340,
+                280
+              ],
+              "Visible": true
+
+            },
+            "bgTarget":{
+              "Image": "data/back1.png",
+              "Size": [
+                150,
+                40
+              ],
+              "Position": [
+                180,
+                700
+              ],
+              "Visible": true
+            },
+            "bgRoundSquare":{
+              "Image": "data_ch1/square_rounded.png",
+              "Size": [
+                60,
+                60
+              ],
+              "Position": [
+                330,
+                700
+              ],
+              "Visible": true
+            },
+            "SubmitBttn":{
+              "Image": "data_ch1/button.png",
+              "Size": [
+                160,
+                60
+              ],
+              "Position": [
+                10,
+                700
+              ],
+              "Visible": true
+            },
+            "PauseBttn":{
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            }
+          },
+          "Draggable": {
+            "DragBall":{
+              "Image": "data_ch1/basket_2.png",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                200,
+                80
+              ],
+              "Touchable": true,
+              "Total": 1,
+              "DragListener": "dragBallListener"
+            },
+            "RemBall":{
+              "Image": "data_ch1/basket_2.png",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                15,
+                630
+              ],
+              "Touchable": true,
+              "Total": 1,
+              "DragListener": "dragBallListener"
+            }
+
+          },
+          "Updatable": {
+            "LabelA": {
+              "Text" :"A = 81",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                10,
+                30
+              ]
+            },
+            "LabelB": {
+              "Text" :"B = 3",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                100,
+                30
+              ]
+            },
+            "Score1": {
+              "Text" :"B *",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                20,
+                100
+              ]
+            },
+            "Score2": {
+              "Text" :" 0",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                100
+              ]
+            },
+            "Score3": {
+              "Text" :"+",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                70,
+                100
+              ]
+            },
+            "Score4": {
+              "Text" :"0",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                90,
+                100
+              ]
+            },
+            "Target": {
+              "Text" :"Target",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                320,
+                200
+              ]
+            },
+            "TargetScore": {
+              "Text" :"81",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                360,
+                260
+              ]
+            },
+            "YourScore": {
+              "Text" :"Your score : ",
+              "Size": [
+                100,
+                30
+              ],
+              "Position": [
+                190,
+                690
+              ]
+            },
+            "ScoreValue": {
+              "Text" :"0",
+              "Size": [
+                60,
+                60
+              ],
+              "Position": [
+                350,
+                700
+              ]
+            },
+            "SubmitButtn": {
+              "Text" :"Submit",
+              "Size": [
+                160,
+                60
+              ],
+              "Position": [
+                40,
+                700
+              ]
+            }
+          }
+        },
+        "Step2":{
+          "Displays": {
+            "targetBall": {
+              "Image": "data_ch1/square_1.png",
+              "Size": [
+                300,
+                400
+              ],
+              "Position": [
+                10,
+                550
+              ],
+              "Visible": true
+
+            },
+            "displayBall": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                220
+              ],
+              "Visible": false
+            },
+            "displayBall1": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                270
+              ],
+              "Visible": false
+            },
+            "displayBall2": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                320
+              ],
+              "Visible": false
+            },
+            "displayBall3": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                370
+              ],
+              "Visible": false
+            },
+            "displayBall4": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                420
+              ],
+              "Visible": false
+            },
+            "displayBall5": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                470
+              ],
+              "Visible": false
+            },
+            "displayBall6": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                520
+              ],
+              "Visible": false
+            },
+            "progBar": {
+              "Image": "data_ch1/scall_1.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                340,
+                600
+              ],
+              "Visible": true
+            },
+            "progBar1": {
+              "Image": "data_ch1/scall_2.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                340,
+                600
+              ],
+              "Visible": false
+            },
+            "backgndA":{
+              "Image": "data/back1.png",
+              "Size": [
+                80,
+                30
+              ],
+              "Position": [
+                100,
+                35
+              ],
+              "Visible": true
+
+            },
+            "backgndB":{
+              "Image": "data/back1.png",
+              "Size": [
+                80,
+                30
+              ],
+              "Position": [
+                8,
+                35
+              ],
+              "Visible": true
+
+            },
+            "backgndEqu":{
+              "Image": "data/back1.png",
+              "Size": [
+                110,
+                40
+              ],
+              "Position": [
+                8,
+                110
+              ],
+              "Visible": true
+
+            },
+            "backgndScore":{
+              "Image": "data/back1.png",
+              "Size": [
+                80,
+                40
+              ],
+              "Position": [
+                315,
+                210
+              ],
+              "Visible": true
+
+            },
+            "bgSquare":{
+              "Image": "data_ch1/square_target.png",
+              "Size": [
+                70,
+                60
+              ],
+              "Position": [
+                340,
+                280
+              ],
+              "Visible": true
+
+            },
+            "bgTarget":{
+              "Image": "data/back1.png",
+              "Size": [
+                150,
+                40
+              ],
+              "Position": [
+                180,
+                700
+              ],
+              "Visible": true
+            },
+            "bgRoundSquare":{
+              "Image": "data_ch1/square_rounded.png",
+              "Size": [
+                60,
+                60
+              ],
+              "Position": [
+                330,
+                700
+              ],
+              "Visible": true
+            },
+            "SubmitBttn":{
+              "Image": "data_ch1/button.png",
+              "Size": [
+                160,
+                60
+              ],
+              "Position": [
+                10,
+                700
+              ],
+              "Visible": true
+            },
+            "PauseBttn":{
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            }
+          },
+          "Draggable": {
+            "DragBall":{
+              "Image": "data_ch1/basket_2.png",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                200,
+                80
+              ],
+              "Touchable": true,
+              "Total": 1,
+              "DragListener": "dragBallListener"
+            },
+            "RemBall":{
+              "Image": "data_ch1/basket_2.png",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                15,
+                630
+              ],
+              "Touchable": true,
+              "Total": 1,
+              "DragListener": "dragBallListener"
+            }
+
+          },
+          "Updatable": {
+            "LabelA": {
+              "Text" :"A = 422",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                10,
+                30
+              ]
+            },
+            "LabelB": {
+              "Text" :"B = 3",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                100,
+                30
+              ]
+            },
+            "Score1": {
+              "Text" :"B *",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                20,
+                100
+              ]
+            },
+            "Score2": {
+              "Text" :" 0",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                100
+              ]
+            },
+            "Score3": {
+              "Text" :"+",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                70,
+                100
+              ]
+            },
+            "Score4": {
+              "Text" :"0",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                90,
+                100
+              ]
+            },
+            "Target": {
+              "Text" :"Target",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                320,
+                200
+              ]
+            },
+            "TargetScore": {
+              "Text" :"422",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                360,
+                260
+              ]
+            },
+            "YourScore": {
+              "Text" :"Your score : ",
+              "Size": [
+                100,
+                30
+              ],
+              "Position": [
+                190,
+                690
+              ]
+            },
+            "ScoreValue": {
+              "Text" :"0",
+              "Size": [
+                60,
+                60
+              ],
+              "Position": [
+                350,
+                700
+              ]
+            },
+            "SubmitButtn": {
+              "Text" :"Submit",
+              "Size": [
+                160,
+                60
+              ],
+              "Position": [
+                40,
+                700
+              ]
+            }
+          }
+        }
+      },
+      "Level7": {
+        "Step1": {
+          "Displays": {
+            "targetBall": {
+              "Image": "data_ch1/square_1.png",
+              "Size": [
+                300,
+                400
+              ],
+              "Position": [
+                10,
+                550
+              ],
+              "Visible": true
+            },
+            "displayBall": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                220
+              ],
+              "Visible": false
+            },
+            "displayBall1": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                270
+              ],
+              "Visible": false
+            },
+            "displayBall2": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                320
+              ],
+              "Visible": false
+            },
+            "displayBall3": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                370
+              ],
+              "Visible": false
+            },
+            "displayBall4": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                420
+              ],
+              "Visible": false
+            },
+            "displayBall5": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                470
+              ],
+              "Visible": false
+            },
+            "displayBall6": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                520
+              ],
+              "Visible": false
+            },
+            "progBar": {
+              "Image": "data_ch1/scall_1.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                340,
+                600
+              ],
+              "Visible": true
+            },
+            "progBar1": {
+              "Image": "data_ch1/scall_2.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                340,
+                600
+              ],
+              "Visible": false
+            },
+            "backgndA": {
+              "Image": "data/back1.png",
+              "Size": [
+                80,
+                30
+              ],
+              "Position": [
+                100,
+                35
+              ],
+              "Visible": true
+            },
+            "backgndB": {
+              "Image": "data/back1.png",
+              "Size": [
+                80,
+                30
+              ],
+              "Position": [
+                8,
+                35
+              ],
+              "Visible": true
+            },
+            "backgndEqu": {
+              "Image": "data/back1.png",
+              "Size": [
+                110,
+                40
+              ],
+              "Position": [
+                8,
+                110
+              ],
+              "Visible": true
+            },
+            "backgndScore": {
+              "Image": "data/back1.png",
+              "Size": [
+                80,
+                40
+              ],
+              "Position": [
+                315,
+                210
+              ],
+              "Visible": true
+            },
+            "bgSquare": {
+              "Image": "data_ch1/square_target.png",
+              "Size": [
+                70,
+                60
+              ],
+              "Position": [
+                340,
+                280
+              ],
+              "Visible": true
+            },
+            "bgTarget": {
+              "Image": "data/back1.png",
+              "Size": [
+                150,
+                40
+              ],
+              "Position": [
+                180,
+                700
+              ],
+              "Visible": true
+            },
+            "bgRoundSquare": {
+              "Image": "data_ch1/square_rounded.png",
+              "Size": [
+                60,
+                60
+              ],
+              "Position": [
+                330,
+                700
+              ],
+              "Visible": true
+            },
+            "SubmitBttn": {
+              "Image": "data_ch1/button.png",
+              "Size": [
+                160,
+                60
+              ],
+              "Position": [
+                10,
+                700
+              ],
+              "Visible": true
+            },
+            "PauseBttn": {
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            }
+          },
+          "Draggable": {
+            "DragBall": {
+              "Image": "data_ch1/basket_2.png",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                200,
+                80
+              ],
+              "Touchable": true,
+              "Total": 1,
+              "DragListener": "dragBallListener"
+            },
+            "RemBall": {
+              "Image": "data_ch1/basket_2.png",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                15,
+                630
+              ],
+              "Touchable": true,
+              "Total": 1,
+              "DragListener": "dragBallListener"
+            }
+          },
+          "Updatable": {
+            "LabelA": {
+              "Text": "A = 455",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                10,
+                30
+              ]
+            },
+            "LabelB": {
+              "Text": "B = 42",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                100,
+                30
+              ]
+            },
+            "Score1": {
+              "Text": "B *",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                20,
+                100
+              ]
+            },
+            "Score2": {
+              "Text": " 0",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                100
+              ]
+            },
+            "Score3": {
+              "Text": "+",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                70,
+                100
+              ]
+            },
+            "Score4": {
+              "Text": "0",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                90,
+                100
+              ]
+            },
+            "Target": {
+              "Text": "Target",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                320,
+                200
+              ]
+            },
+            "TargetScore": {
+              "Text": "455",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                360,
+                260
+              ]
+            },
+            "YourScore": {
+              "Text": "Your score : ",
+              "Size": [
+                100,
+                30
+              ],
+              "Position": [
+                190,
+                690
+              ]
+            },
+            "ScoreValue": {
+              "Text": "0",
+              "Size": [
+                60,
+                60
+              ],
+              "Position": [
+                350,
+                700
+              ]
+            },
+            "SubmitButtn": {
+              "Text": "Submit",
+              "Size": [
+                160,
+                60
+              ],
+              "Position": [
+                40,
+                700
+              ]
+            }
+          }
+        },
+        "Step2": {
+          "Displays": {
+            "targetBall": {
+              "Image": "data_ch1/square_1.png",
+              "Size": [
+                300,
+                400
+              ],
+              "Position": [
+                10,
+                550
+              ],
+              "Visible": true
+            },
+            "displayBall": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                220
+              ],
+              "Visible": false
+            },
+            "displayBall1": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                270
+              ],
+              "Visible": false
+            },
+            "displayBall2": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                320
+              ],
+              "Visible": false
+            },
+            "displayBall3": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                370
+              ],
+              "Visible": false
+            },
+            "displayBall4": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                420
+              ],
+              "Visible": false
+            },
+            "displayBall5": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                470
+              ],
+              "Visible": false
+            },
+            "displayBall6": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                520
+              ],
+              "Visible": false
+            },
+            "progBar": {
+              "Image": "data_ch1/scall_1.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                340,
+                600
+              ],
+              "Visible": true
+            },
+            "progBar1": {
+              "Image": "data_ch1/scall_2.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                340,
+                600
+              ],
+              "Visible": false
+            },
+            "backgndA": {
+              "Image": "data/back1.png",
+              "Size": [
+                80,
+                30
+              ],
+              "Position": [
+                100,
+                35
+              ],
+              "Visible": true
+            },
+            "backgndB": {
+              "Image": "data/back1.png",
+              "Size": [
+                80,
+                30
+              ],
+              "Position": [
+                8,
+                35
+              ],
+              "Visible": true
+            },
+            "backgndEqu": {
+              "Image": "data/back1.png",
+              "Size": [
+                110,
+                40
+              ],
+              "Position": [
+                8,
+                110
+              ],
+              "Visible": true
+            },
+            "backgndScore": {
+              "Image": "data/back1.png",
+              "Size": [
+                80,
+                40
+              ],
+              "Position": [
+                315,
+                210
+              ],
+              "Visible": true
+            },
+            "bgSquare": {
+              "Image": "data_ch1/square_target.png",
+              "Size": [
+                70,
+                60
+              ],
+              "Position": [
+                340,
+                280
+              ],
+              "Visible": true
+            },
+            "bgTarget": {
+              "Image": "data/back1.png",
+              "Size": [
+                150,
+                40
+              ],
+              "Position": [
+                180,
+                700
+              ],
+              "Visible": true
+            },
+            "bgRoundSquare": {
+              "Image": "data_ch1/square_rounded.png",
+              "Size": [
+                60,
+                60
+              ],
+              "Position": [
+                330,
+                700
+              ],
+              "Visible": true
+            },
+            "SubmitBttn": {
+              "Image": "data_ch1/button.png",
+              "Size": [
+                160,
+                60
+              ],
+              "Position": [
+                10,
+                700
+              ],
+              "Visible": true
+            },
+            "PauseBttn": {
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            }
+          },
+          "Draggable": {
+            "DragBall": {
+              "Image": "data_ch1/basket_2.png",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                200,
+                80
+              ],
+              "Touchable": true,
+              "Total": 1,
+              "DragListener": "dragBallListener"
+            },
+            "RemBall": {
+              "Image": "data_ch1/basket_2.png",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                15,
+                630
+              ],
+              "Touchable": true,
+              "Total": 1,
+              "DragListener": "dragBallListener"
+            }
+          },
+          "Updatable": {
+            "LabelA": {
+              "Text": "A = 455",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                10,
+                30
+              ]
+            },
+            "LabelB": {
+              "Text": "B = 42",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                100,
+                30
+              ]
+            },
+            "Score1": {
+              "Text": "B *",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                20,
+                100
+              ]
+            },
+            "Score2": {
+              "Text": " 0",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                100
+              ]
+            },
+            "Score3": {
+              "Text": "+",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                70,
+                100
+              ]
+            },
+            "Score4": {
+              "Text": "0",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                90,
+                100
+              ]
+            },
+            "Target": {
+              "Text": "Target",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                320,
+                200
+              ]
+            },
+            "TargetScore": {
+              "Text": "455",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                360,
+                260
+              ]
+            },
+            "YourScore": {
+              "Text": "Your score : ",
+              "Size": [
+                100,
+                30
+              ],
+              "Position": [
+                190,
+                690
+              ]
+            },
+            "ScoreValue": {
+              "Text": "0",
+              "Size": [
+                60,
+                60
+              ],
+              "Position": [
+                350,
+                700
+              ]
+            },
+            "SubmitButtn": {
+              "Text": "Submit",
+              "Size": [
+                160,
+                60
+              ],
+              "Position": [
+                40,
+                700
+              ]
+            }
+          }
+        },
+        "Step3": {
+          "Displays": {
+            "targetBall": {
+              "Image": "data_ch1/square_1.png",
+              "Size": [
+                300,
+                400
+              ],
+              "Position": [
+                10,
+                550
+              ],
+              "Visible": true
+            },
+            "displayBall": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                220
+              ],
+              "Visible": false
+            },
+            "displayBall1": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                270
+              ],
+              "Visible": false
+            },
+            "displayBall2": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                320
+              ],
+              "Visible": false
+            },
+            "displayBall3": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                370
+              ],
+              "Visible": false
+            },
+            "displayBall4": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                420
+              ],
+              "Visible": false
+            },
+            "displayBall5": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                470
+              ],
+              "Visible": false
+            },
+            "displayBall6": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                520
+              ],
+              "Visible": false
+            },
+            "progBar": {
+              "Image": "data_ch1/scall_1.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                340,
+                600
+              ],
+              "Visible": true
+            },
+            "progBar1": {
+              "Image": "data_ch1/scall_2.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                340,
+                600
+              ],
+              "Visible": false
+            },
+            "backgndA": {
+              "Image": "data/back1.png",
+              "Size": [
+                80,
+                30
+              ],
+              "Position": [
+                100,
+                35
+              ],
+              "Visible": true
+            },
+            "backgndB": {
+              "Image": "data/back1.png",
+              "Size": [
+                80,
+                30
+              ],
+              "Position": [
+                8,
+                35
+              ],
+              "Visible": true
+            },
+            "backgndEqu": {
+              "Image": "data/back1.png",
+              "Size": [
+                110,
+                40
+              ],
+              "Position": [
+                8,
+                110
+              ],
+              "Visible": true
+            },
+            "backgndScore": {
+              "Image": "data/back1.png",
+              "Size": [
+                80,
+                40
+              ],
+              "Position": [
+                315,
+                210
+              ],
+              "Visible": true
+            },
+            "bgSquare": {
+              "Image": "data_ch1/square_target.png",
+              "Size": [
+                70,
+                60
+              ],
+              "Position": [
+                340,
+                280
+              ],
+              "Visible": true
+            },
+            "bgTarget": {
+              "Image": "data/back1.png",
+              "Size": [
+                150,
+                40
+              ],
+              "Position": [
+                180,
+                700
+              ],
+              "Visible": true
+            },
+            "bgRoundSquare": {
+              "Image": "data_ch1/square_rounded.png",
+              "Size": [
+                60,
+                60
+              ],
+              "Position": [
+                330,
+                700
+              ],
+              "Visible": true
+            },
+            "SubmitBttn": {
+              "Image": "data_ch1/button.png",
+              "Size": [
+                160,
+                60
+              ],
+              "Position": [
+                10,
+                700
+              ],
+              "Visible": true
+            },
+            "PauseBttn": {
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            }
+          },
+          "Draggable": {
+            "DragBall": {
+              "Image": "data_ch1/basket_2.png",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                200,
+                80
+              ],
+              "Touchable": true,
+              "Total": 1,
+              "DragListener": "dragBallListener"
+            },
+            "RemBall": {
+              "Image": "data_ch1/basket_2.png",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                15,
+                630
+              ],
+              "Touchable": true,
+              "Total": 1,
+              "DragListener": "dragBallListener"
+            }
+          },
+          "Updatable": {
+            "LabelA": {
+              "Text": "A = 455",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                10,
+                30
+              ]
+            },
+            "LabelB": {
+              "Text": "B = 42",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                100,
+                30
+              ]
+            },
+            "Score1": {
+              "Text": "B *",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                20,
+                100
+              ]
+            },
+            "Score2": {
+              "Text": " 0",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                100
+              ]
+            },
+            "Score3": {
+              "Text": "+",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                70,
+                100
+              ]
+            },
+            "Score4": {
+              "Text": "0",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                90,
+                100
+              ]
+            },
+            "Target": {
+              "Text": "Target",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                320,
+                200
+              ]
+            },
+            "TargetScore": {
+              "Text": "455",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                360,
+                260
+              ]
+            },
+            "YourScore": {
+              "Text": "Your score : ",
+              "Size": [
+                100,
+                30
+              ],
+              "Position": [
+                190,
+                690
+              ]
+            },
+            "ScoreValue": {
+              "Text": "0",
+              "Size": [
+                60,
+                60
+              ],
+              "Position": [
+                350,
+                700
+              ]
+            },
+            "SubmitButtn": {
+              "Text": "Submit",
+              "Size": [
+                160,
+                60
+              ],
+              "Position": [
+                40,
+                700
+              ]
+            }
+          }
+        },
+        "Step4": {
+          "Displays": {
+            "targetBall": {
+              "Image": "data_ch1/square_1.png",
+              "Size": [
+                300,
+                400
+              ],
+              "Position": [
+                10,
+                550
+              ],
+              "Visible": true
+            },
+            "displayBall": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                220
+              ],
+              "Visible": false
+            },
+            "displayBall1": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                270
+              ],
+              "Visible": false
+            },
+            "displayBall2": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                320
+              ],
+              "Visible": false
+            },
+            "displayBall3": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                370
+              ],
+              "Visible": false
+            },
+            "displayBall4": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                420
+              ],
+              "Visible": false
+            },
+            "displayBall5": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                470
+              ],
+              "Visible": false
+            },
+            "displayBall6": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                520
+              ],
+              "Visible": false
+            },
+            "progBar": {
+              "Image": "data_ch1/scall_1.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                340,
+                600
+              ],
+              "Visible": true
+            },
+            "progBar1": {
+              "Image": "data_ch1/scall_2.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                340,
+                600
+              ],
+              "Visible": false
+            },
+            "backgndA": {
+              "Image": "data/back1.png",
+              "Size": [
+                80,
+                30
+              ],
+              "Position": [
+                100,
+                35
+              ],
+              "Visible": true
+            },
+            "backgndB": {
+              "Image": "data/back1.png",
+              "Size": [
+                80,
+                30
+              ],
+              "Position": [
+                8,
+                35
+              ],
+              "Visible": true
+            },
+            "backgndEqu": {
+              "Image": "data/back1.png",
+              "Size": [
+                110,
+                40
+              ],
+              "Position": [
+                8,
+                110
+              ],
+              "Visible": true
+            },
+            "backgndScore": {
+              "Image": "data/back1.png",
+              "Size": [
+                80,
+                40
+              ],
+              "Position": [
+                315,
+                210
+              ],
+              "Visible": true
+            },
+            "bgSquare": {
+              "Image": "data_ch1/square_target.png",
+              "Size": [
+                70,
+                60
+              ],
+              "Position": [
+                340,
+                280
+              ],
+              "Visible": true
+            },
+            "bgTarget": {
+              "Image": "data/back1.png",
+              "Size": [
+                150,
+                40
+              ],
+              "Position": [
+                180,
+                700
+              ],
+              "Visible": true
+            },
+            "bgRoundSquare": {
+              "Image": "data_ch1/square_rounded.png",
+              "Size": [
+                60,
+                60
+              ],
+              "Position": [
+                330,
+                700
+              ],
+              "Visible": true
+            },
+            "SubmitBttn": {
+              "Image": "data_ch1/button.png",
+              "Size": [
+                160,
+                60
+              ],
+              "Position": [
+                10,
+                700
+              ],
+              "Visible": true
+            },
+            "PauseBttn": {
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            }
+          },
+          "Draggable": {
+            "DragBall": {
+              "Image": "data_ch1/basket_2.png",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                200,
+                80
+              ],
+              "Touchable": true,
+              "Total": 1,
+              "DragListener": "dragBallListener"
+            },
+            "RemBall": {
+              "Image": "data_ch1/basket_2.png",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                15,
+                630
+              ],
+              "Touchable": true,
+              "Total": 1,
+              "DragListener": "dragBallListener"
+            }
+          },
+          "Updatable": {
+            "LabelA": {
+              "Text": "A = 455",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                10,
+                30
+              ]
+            },
+            "LabelB": {
+              "Text": "B = 42",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                100,
+                30
+              ]
+            },
+            "Score1": {
+              "Text": "B *",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                20,
+                100
+              ]
+            },
+            "Score2": {
+              "Text": " 0",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                100
+              ]
+            },
+            "Score3": {
+              "Text": "+",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                70,
+                100
+              ]
+            },
+            "Score4": {
+              "Text": "0",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                90,
+                100
+              ]
+            },
+            "Target": {
+              "Text": "Target",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                320,
+                200
+              ]
+            },
+            "TargetScore": {
+              "Text": "455",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                360,
+                260
+              ]
+            },
+            "YourScore": {
+              "Text": "Your score : ",
+              "Size": [
+                100,
+                30
+              ],
+              "Position": [
+                190,
+                690
+              ]
+            },
+            "ScoreValue": {
+              "Text": "0",
+              "Size": [
+                60,
+                60
+              ],
+              "Position": [
+                350,
+                700
+              ]
+            },
+            "SubmitButtn": {
+              "Text": "Submit",
+              "Size": [
+                160,
+                60
+              ],
+              "Position": [
+                40,
+                700
+              ]
+            }
+          }
+        },
+        "Step5": {
+          "Displays": {
+            "targetBall": {
+              "Image": "data_ch1/square_1.png",
+              "Size": [
+                300,
+                400
+              ],
+              "Position": [
+                10,
+                550
+              ],
+              "Visible": true
+            },
+            "displayBall": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                220
+              ],
+              "Visible": false
+            },
+            "displayBall1": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                270
+              ],
+              "Visible": false
+            },
+            "displayBall2": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                320
+              ],
+              "Visible": false
+            },
+            "displayBall3": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                370
+              ],
+              "Visible": false
+            },
+            "displayBall4": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                420
+              ],
+              "Visible": false
+            },
+            "displayBall5": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                470
+              ],
+              "Visible": false
+            },
+            "displayBall6": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                520
+              ],
+              "Visible": false
+            },
+            "progBar": {
+              "Image": "data_ch1/scall_1.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                340,
+                600
+              ],
+              "Visible": true
+            },
+            "progBar1": {
+              "Image": "data_ch1/scall_2.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                340,
+                600
+              ],
+              "Visible": false
+            },
+            "backgndA": {
+              "Image": "data/back1.png",
+              "Size": [
+                80,
+                30
+              ],
+              "Position": [
+                100,
+                35
+              ],
+              "Visible": true
+            },
+            "backgndB": {
+              "Image": "data/back1.png",
+              "Size": [
+                80,
+                30
+              ],
+              "Position": [
+                8,
+                35
+              ],
+              "Visible": true
+            },
+            "backgndEqu": {
+              "Image": "data/back1.png",
+              "Size": [
+                110,
+                40
+              ],
+              "Position": [
+                8,
+                110
+              ],
+              "Visible": true
+            },
+            "backgndScore": {
+              "Image": "data/back1.png",
+              "Size": [
+                80,
+                40
+              ],
+              "Position": [
+                315,
+                210
+              ],
+              "Visible": true
+            },
+            "bgSquare": {
+              "Image": "data_ch1/square_target.png",
+              "Size": [
+                70,
+                60
+              ],
+              "Position": [
+                340,
+                280
+              ],
+              "Visible": true
+            },
+            "bgTarget": {
+              "Image": "data/back1.png",
+              "Size": [
+                150,
+                40
+              ],
+              "Position": [
+                180,
+                700
+              ],
+              "Visible": true
+            },
+            "bgRoundSquare": {
+              "Image": "data_ch1/square_rounded.png",
+              "Size": [
+                60,
+                60
+              ],
+              "Position": [
+                330,
+                700
+              ],
+              "Visible": true
+            },
+            "SubmitBttn": {
+              "Image": "data_ch1/button.png",
+              "Size": [
+                160,
+                60
+              ],
+              "Position": [
+                10,
+                700
+              ],
+              "Visible": true
+            },
+            "PauseBttn": {
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            }
+          },
+          "Draggable": {
+            "DragBall": {
+              "Image": "data_ch1/basket_2.png",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                200,
+                80
+              ],
+              "Touchable": true,
+              "Total": 1,
+              "DragListener": "dragBallListener"
+            },
+            "RemBall": {
+              "Image": "data_ch1/basket_2.png",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                15,
+                630
+              ],
+              "Touchable": true,
+              "Total": 1,
+              "DragListener": "dragBallListener"
+            }
+          },
+          "Updatable": {
+            "LabelA": {
+              "Text": "A = 455",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                10,
+                30
+              ]
+            },
+            "LabelB": {
+              "Text": "B = 42",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                100,
+                30
+              ]
+            },
+            "Score1": {
+              "Text": "B *",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                20,
+                100
+              ]
+            },
+            "Score2": {
+              "Text": " 0",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                100
+              ]
+            },
+            "Score3": {
+              "Text": "+",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                70,
+                100
+              ]
+            },
+            "Score4": {
+              "Text": "0",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                90,
+                100
+              ]
+            },
+            "Target": {
+              "Text": "Target",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                320,
+                200
+              ]
+            },
+            "TargetScore": {
+              "Text": "455",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                360,
+                260
+              ]
+            },
+            "YourScore": {
+              "Text": "Your score : ",
+              "Size": [
+                100,
+                30
+              ],
+              "Position": [
+                190,
+                690
+              ]
+            },
+            "ScoreValue": {
+              "Text": "0",
+              "Size": [
+                60,
+                60
+              ],
+              "Position": [
+                350,
+                700
+              ]
+            },
+            "SubmitButtn": {
+              "Text": "Submit",
+              "Size": [
+                160,
+                60
+              ],
+              "Position": [
+                40,
+                700
+              ]
+            }
+          }
+        }
+      },
+      "Level8": {
+        "Step1": {
+          "Displays": {
+            "targetBall": {
+              "Image": "data_ch1/square_1.png",
+              "Size": [
+                300,
+                400
+              ],
+              "Position": [
+                10,
+                550
+              ],
+              "Visible": true
+            },
+            "displayBall": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                220
+              ],
+              "Visible": false
+            },
+            "displayBall1": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                270
+              ],
+              "Visible": false
+            },
+            "displayBall2": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                320
+              ],
+              "Visible": false
+            },
+            "displayBall3": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                370
+              ],
+              "Visible": false
+            },
+            "displayBall4": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                420
+              ],
+              "Visible": false
+            },
+            "displayBall5": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                470
+              ],
+              "Visible": false
+            },
+            "displayBall6": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                520
+              ],
+              "Visible": false
+            },
+            "progBar": {
+              "Image": "data_ch1/scall_1.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                340,
+                600
+              ],
+              "Visible": true
+            },
+            "progBar1": {
+              "Image": "data_ch1/scall_2.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                340,
+                600
+              ],
+              "Visible": false
+            },
+            "backgndA": {
+              "Image": "data/back1.png",
+              "Size": [
+                80,
+                30
+              ],
+              "Position": [
+                100,
+                35
+              ],
+              "Visible": true
+            },
+            "backgndB": {
+              "Image": "data/back1.png",
+              "Size": [
+                80,
+                30
+              ],
+              "Position": [
+                8,
+                35
+              ],
+              "Visible": true
+            },
+            "backgndEqu": {
+              "Image": "data/back1.png",
+              "Size": [
+                110,
+                40
+              ],
+              "Position": [
+                8,
+                110
+              ],
+              "Visible": true
+            },
+            "backgndScore": {
+              "Image": "data/back1.png",
+              "Size": [
+                80,
+                40
+              ],
+              "Position": [
+                315,
+                210
+              ],
+              "Visible": true
+            },
+            "bgSquare": {
+              "Image": "data_ch1/square_target.png",
+              "Size": [
+                70,
+                60
+              ],
+              "Position": [
+                340,
+                280
+              ],
+              "Visible": true
+            },
+            "bgTarget": {
+              "Image": "data/back1.png",
+              "Size": [
+                150,
+                40
+              ],
+              "Position": [
+                180,
+                700
+              ],
+              "Visible": true
+            },
+            "bgRoundSquare": {
+              "Image": "data_ch1/square_rounded.png",
+              "Size": [
+                60,
+                60
+              ],
+              "Position": [
+                330,
+                700
+              ],
+              "Visible": true
+            },
+            "SubmitBttn": {
+              "Image": "data_ch1/button.png",
+              "Size": [
+                160,
+                60
+              ],
+              "Position": [
+                10,
+                700
+              ],
+              "Visible": true
+            },
+            "PauseBttn": {
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            }
+          },
+          "Draggable": {
+            "DragBall":{
+              "Image": "data_ch1/basket_2.png",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                200,
+                80
+              ],
+              "Touchable": true,
+              "Total": 1,
+              "DragListener": "dragBallListener"
+            },
+            "RemBall":{
+              "Image": "data_ch1/basket_2.png",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                15,
+                630
+              ],
+              "Touchable": true,
+              "Total": 1,
+              "DragListener": "dragBallListener"
+            }
+          },
+          "Updatable": {
+            "LabelA": {
+              "Text": "A = 19",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                10,
+                30
+              ]
+            },
+            "LabelB": {
+              "Text": "B = 4",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                100,
+                30
+              ]
+            },
+            "Score1": {
+              "Text": "B *",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                20,
+                100
+              ]
+            },
+            "Score2": {
+              "Text": " 0",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                100
+              ]
+            },
+            "Score3": {
+              "Text": "+",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                70,
+                100
+              ]
+            },
+            "Score4": {
+              "Text": "0",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                90,
+                100
+              ]
+            },
+            "Target": {
+              "Text": "Target",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                320,
+                200
+              ]
+            },
+            "TargetScore": {
+              "Text": "19",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                360,
+                260
+              ]
+            },
+            "YourScore": {
+              "Text": "Your score : ",
+              "Size": [
+                100,
+                30
+              ],
+              "Position": [
+                190,
+                690
+              ]
+            },
+            "ScoreValue": {
+              "Text": "0",
+              "Size": [
+                60,
+                60
+              ],
+              "Position": [
+                350,
+                700
+              ]
+            },
+            "SubmitButtn": {
+              "Text": "Submit",
+              "Size": [
+                160,
+                60
+              ],
+              "Position": [
+                40,
+                700
+              ]
+            }
+          }
+        }
+      },
+      "Level9": {
+        "Step1": {
+          "Displays": {
+            "targetBall": {
+              "Image": "data_ch1/square_1.png",
+              "Size": [
+                300,
+                400
+              ],
+              "Position": [
+                10,
+                550
+              ],
+              "Visible": true
+            },
+            "displayBall": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                220
+              ],
+              "Visible": false
+            },
+            "displayBall1": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                270
+              ],
+              "Visible": false
+            },
+            "displayBall2": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                320
+              ],
+              "Visible": false
+            },
+            "displayBall3": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                370
+              ],
+              "Visible": false
+            },
+            "displayBall4": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                420
+              ],
+              "Visible": false
+            },
+            "displayBall5": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                470
+              ],
+              "Visible": false
+            },
+            "displayBall6": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                520
+              ],
+              "Visible": false
+            },
+            "progBar": {
+              "Image": "data_ch1/scall_1.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                340,
+                600
+              ],
+              "Visible": true
+            },
+            "progBar1": {
+              "Image": "data_ch1/scall_2.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                340,
+                600
+              ],
+              "Visible": false
+            },
+            "backgndA": {
+              "Image": "data/back1.png",
+              "Size": [
+                80,
+                30
+              ],
+              "Position": [
+                100,
+                35
+              ],
+              "Visible": true
+            },
+            "backgndB": {
+              "Image": "data/back1.png",
+              "Size": [
+                80,
+                30
+              ],
+              "Position": [
+                8,
+                35
+              ],
+              "Visible": true
+            },
+            "backgndEqu": {
+              "Image": "data/back1.png",
+              "Size": [
+                110,
+                40
+              ],
+              "Position": [
+                8,
+                110
+              ],
+              "Visible": true
+            },
+            "backgndScore": {
+              "Image": "data/back1.png",
+              "Size": [
+                80,
+                40
+              ],
+              "Position": [
+                315,
+                210
+              ],
+              "Visible": true
+            },
+            "bgSquare": {
+              "Image": "data_ch1/square_target.png",
+              "Size": [
+                70,
+                60
+              ],
+              "Position": [
+                340,
+                280
+              ],
+              "Visible": true
+            },
+            "bgTarget": {
+              "Image": "data/back1.png",
+              "Size": [
+                150,
+                40
+              ],
+              "Position": [
+                180,
+                700
+              ],
+              "Visible": true
+            },
+            "bgRoundSquare": {
+              "Image": "data_ch1/square_rounded.png",
+              "Size": [
+                60,
+                60
+              ],
+              "Position": [
+                330,
+                700
+              ],
+              "Visible": true
+            },
+            "SubmitBttn": {
+              "Image": "data_ch1/button.png",
+              "Size": [
+                160,
+                60
+              ],
+              "Position": [
+                10,
+                700
+              ],
+              "Visible": true
+            },
+            "PauseBttn": {
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            }
+          },
+          "Draggable": {
+            "DragBall": {
+              "Image": "data_ch1/basket_2.png",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                200,
+                80
+              ],
+              "Touchable": true,
+              "DragListener": "dragBallListener"
+            },
+            "RemBall": {
+              "Image": "data_ch1/basket_2.png",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                15,
+                630
+              ],
+              "Touchable": true,
+              "DragListener": "dragBallListener"
+            }
+          },
+          "Updatable": {
+            "LabelA": {
+              "Text": "A = 19",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                10,
+                30
+              ]
+            },
+            "LabelB": {
+              "Text": "B = 4",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                100,
+                30
+              ]
+            },
+            "Score1": {
+              "Text": "B *",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                20,
+                100
+              ]
+            },
+            "Score2": {
+              "Text": " 0",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                100
+              ]
+            },
+            "Score3": {
+              "Text": "+",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                70,
+                100
+              ]
+            },
+            "Score4": {
+              "Text": "0",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                90,
+                100
+              ]
+            },
+            "Target": {
+              "Text": "Target",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                320,
+                200
+              ]
+            },
+            "TargetScore": {
+              "Text": "19",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                360,
+                260
+              ]
+            },
+            "YourScore": {
+              "Text": "Your score : ",
+              "Size": [
+                100,
+                30
+              ],
+              "Position": [
+                190,
+                690
+              ]
+            },
+            "ScoreValue": {
+              "Text": "0",
+              "Size": [
+                60,
+                60
+              ],
+              "Position": [
+                350,
+                700
+              ]
+            },
+            "SubmitButtn": {
+              "Text": "Submit",
+              "Size": [
+                160,
+                60
+              ],
+              "Position": [
+                40,
+                700
+              ]
+            }
+          }
+        }
+      },
+      "Level10": {
+        "Step1": {
+          "Displays": {
+            "targetBall": {
+              "Image": "data_ch1/square_1.png",
+              "Size": [
+                300,
+                400
+              ],
+              "Position": [
+                10,
+                550
+              ],
+              "Visible": true
+            },
+            "displayBall": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                220
+              ],
+              "Visible": false
+            },
+            "displayBall1": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                270
+              ],
+              "Visible": false
+            },
+            "displayBall2": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                320
+              ],
+              "Visible": false
+            },
+            "displayBall3": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                370
+              ],
+              "Visible": false
+            },
+            "displayBall4": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                420
+              ],
+              "Visible": false
+            },
+            "displayBall5": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                470
+              ],
+              "Visible": false
+            },
+            "displayBall6": {
+              "Image": "data/ball_2.png",
+              "Size": [
+                280,
+                50
+              ],
+              "Position": [
+                20,
+                520
+              ],
+              "Visible": false
+            },
+            "progBar": {
+              "Image": "data_ch1/scall_1.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                340,
+                600
+              ],
+              "Visible": true
+            },
+            "progBar1": {
+              "Image": "data_ch1/scall_2.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                340,
+                600
+              ],
+              "Visible": false
+            },
+            "backgndA": {
+              "Image": "data/back1.png",
+              "Size": [
+                80,
+                30
+              ],
+              "Position": [
+                100,
+                35
+              ],
+              "Visible": true
+            },
+            "backgndB": {
+              "Image": "data/back1.png",
+              "Size": [
+                80,
+                30
+              ],
+              "Position": [
+                8,
+                35
+              ],
+              "Visible": true
+            },
+            "backgndEqu": {
+              "Image": "data/back1.png",
+              "Size": [
+                110,
+                40
+              ],
+              "Position": [
+                8,
+                110
+              ],
+              "Visible": true
+            },
+            "backgndScore": {
+              "Image": "data/back1.png",
+              "Size": [
+                80,
+                40
+              ],
+              "Position": [
+                315,
+                210
+              ],
+              "Visible": true
+            },
+            "bgSquare": {
+              "Image": "data_ch1/square_target.png",
+              "Size": [
+                70,
+                60
+              ],
+              "Position": [
+                340,
+                280
+              ],
+              "Visible": true
+            },
+            "bgTarget": {
+              "Image": "data/back1.png",
+              "Size": [
+                150,
+                40
+              ],
+              "Position": [
+                180,
+                700
+              ],
+              "Visible": true
+            },
+            "bgRoundSquare": {
+              "Image": "data_ch1/square_rounded.png",
+              "Size": [
+                60,
+                60
+              ],
+              "Position": [
+                330,
+                700
+              ],
+              "Visible": true
+            },
+            "SubmitBttn": {
+              "Image": "data_ch1/button.png",
+              "Size": [
+                160,
+                60
+              ],
+              "Position": [
+                10,
+                700
+              ],
+              "Visible": true
+            },
+            "PauseBttn": {
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            }
+          },
+          "Draggable": {
+            "DragBall":{
+              "Image": "data_ch1/basket_2.png",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                200,
+                80
+              ],
+              "Touchable": true,
+              "Total": 1,
+              "DragListener": "dragBallListener"
+            },
+            "RemBall":{
+              "Image": "data_ch1/basket_2.png",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                15,
+                630
+              ],
+              "Touchable": true,
+              "Total": 1,
+              "DragListener": "dragBallListener"
+            }
+          },
+          "Updatable": {
+            "LabelA": {
+              "Text": "A = 19",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                10,
+                30
+              ]
+            },
+            "LabelB": {
+              "Text": "B = 4",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                100,
+                30
+              ]
+            },
+            "Score1": {
+              "Text": "B *",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                20,
+                100
+              ]
+            },
+            "Score2": {
+              "Text": " 0",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                100
+              ]
+            },
+            "Score3": {
+              "Text": "+",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                70,
+                100
+              ]
+            },
+            "Score4": {
+              "Text": "0",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                90,
+                100
+              ]
+            },
+            "Target": {
+              "Text": "Target",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                320,
+                200
+              ]
+            },
+            "TargetScore": {
+              "Text": "19",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                360,
+                260
+              ]
+            },
+            "YourScore": {
+              "Text": "Your score : ",
+              "Size": [
+                100,
+                30
+              ],
+              "Position": [
+                190,
+                690
+              ]
+            },
+            "ScoreValue": {
+              "Text": "0",
+              "Size": [
+                60,
+                60
+              ],
+              "Position": [
+                350,
+                700
+              ]
+            },
+            "SubmitButtn": {
+              "Text": "Submit",
+              "Size": [
+                160,
+                60
+              ],
+              "Position": [
+                40,
+                700
+              ]
+            }
+          }
+        }
+      },
+      "Level11": {
+        "Step1": {
+          "Displays": {
+            "ball1": {
+              "Image": "data/ball_1.png",
+              "Size": [
+                40,
+                40
+              ],
+              "Position": [
+                50,
+                260
+              ],
+              "Visible": false,
+              "Total": 36
+            },
+            "Checkmark": {
+              "Image": "data_ch1/green_boxCheckmark.png",
+              "Size": [
+                40,
+                40
+              ],
+              "Position": [
+                20,
+                680
+              ],
+              "Visible": true
+            },
+            "PauseBttn": {
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            },
+            "YellowBox": {
+              "Image": "data_ch1/yellowbox.png",
+              "Size": [
+                150,
+                60
+              ],
+              "Position": [
+                20,
+                80
+              ],
+              "Visible": true
+            },
+            "GreenText": {
+              "Image": "data_ch1/greentext.png",
+              "Size": [
+                300,
+                70
+              ],
+              "Position": [
+                20,
+                180
+              ],
+              "Visible": true
+            },
+            "GreyPanel": {
+              "Image": "data_ch1/greypanel.png",
+              "Size": [
+                340,
+                360
+              ],
+              "Position": [
+                25,
+                550
+              ],
+              "Visible": true
+            }
+          },
+          "Updatable": {
+            "LabelA": {
+              "Text": "6",
+              "Size": [
+                50,
+                35
+              ],
+              "Position": [
+                70,
+                60
+              ]
+            },
+            "LabelB": {
+              "Text": " ",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                100,
+                160
+              ]
+            },
+            "Score1": {
+              "Text": " ",
+              "Size": [
+                50,
+                35
+              ],
+              "Position": [
+                100,
+                160
+              ]
+            },
+            "Score2": {
+              "Text": " ",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                130,
+                160
+              ]
+            }
+          }
+        }
+      },
+      "Level12": {
+        "Step1": {
+          "Displays": {
+            "ball1": {
+              "Image": "data/ball_1.png",
+              "Size": [
+                40,
+                40
+              ],
+              "Position": [
+                50,
+                260
+              ],
+              "Visible": false,
+              "Total": 36
+            },
+            "Checkmark": {
+              "Image": "data_ch1/green_boxCheckmark.png",
+              "Size": [
+                40,
+                40
+              ],
+              "Position": [
+                20,
+                680
+              ],
+              "Visible": true
+            },
+            "PauseBttn": {
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            },
+            "YellowBox": {
+              "Image": "data_ch1/yellowbox.png",
+              "Size": [
+                150,
+                60
+              ],
+              "Position": [
+                20,
+                80
+              ],
+              "Visible": true
+            },
+            "GreenText": {
+              "Image": "data_ch1/greentext.png",
+              "Size": [
+                300,
+                70
+              ],
+              "Position": [
+                20,
+                180
+              ],
+              "Visible": true
+            },
+            "GreyPanel": {
+              "Image": "data_ch1/greypanel.png",
+              "Size": [
+                340,
+                360
+              ],
+              "Position": [
+                25,
+                550
+              ],
+              "Visible": true
+            }
+          },
+          "Updatable": {
+            "LabelA": {
+              "Text": "6",
+              "Size": [
+                50,
+                35
+              ],
+              "Position": [
+                70,
+                60
+              ]
+            },
+            "LabelB": {
+              "Text": " ",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                100,
+                160
+              ]
+            },
+            "Score1": {
+              "Text": " ",
+              "Size": [
+                50,
+                35
+              ],
+              "Position": [
+                100,
+                160
+              ]
+            },
+            "Score2": {
+              "Text": " ",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                130,
+                160
+              ]
+            }
+          }
+        }
+      },
+      "Level13": {
+        "Step1": {
+          "Displays": {
+            "ball1": {
+              "Image": "data/ball_1.png",
+              "Size": [
+                40,
+                40
+              ],
+              "Position": [
+                50,
+                260
+              ],
+              "Visible": false,
+              "Total": 36
+            },
+            "Checkmark": {
+              "Image": "data_ch1/green_boxCheckmark.png",
+              "Size": [
+                40,
+                40
+              ],
+              "Position": [
+                20,
+                680
+              ],
+              "Visible": true
+            },
+            "PauseBttn": {
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            },
+            "YellowBox": {
+              "Image": "data_ch1/yellowbox.png",
+              "Size": [
+                150,
+                60
+              ],
+              "Position": [
+                20,
+                80
+              ],
+              "Visible": true
+            },
+            "GreenText": {
+              "Image": "data_ch1/greentext.png",
+              "Size": [
+                300,
+                70
+              ],
+              "Position": [
+                20,
+                180
+              ],
+              "Visible": true
+            },
+            "GreyPanel": {
+              "Image": "data_ch1/greypanel.png",
+              "Size": [
+                340,
+                360
+              ],
+              "Position": [
+                25,
+                550
+              ],
+              "Visible": true
+            }
+          },
+          "Updatable": {
+            "LabelA": {
+              "Text": "6",
+              "Size": [
+                50,
+                35
+              ],
+              "Position": [
+                70,
+                60
+              ]
+            },
+            "LabelB": {
+              "Text": " ",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                100,
+                160
+              ]
+            },
+            "Score1": {
+              "Text": " ",
+              "Size": [
+                50,
+                35
+              ],
+              "Position": [
+                100,
+                160
+              ]
+            },
+            "Score2": {
+              "Text": " ",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                130,
+                160
+              ]
+            }
+          }
+        }
+      },
+      "Level14": {
+        "Step1": {
+          "Displays": {
+            "ball1": {
+              "Image": "data/ball_1.png",
+              "Size": [
+                40,
+                40
+              ],
+              "Position": [
+                50,
+                260
+              ],
+              "Visible": false,
+              "Total": 36
+            },
+            "Checkmark": {
+              "Image": "data_ch1/green_boxCheckmark.png",
+              "Size": [
+                40,
+                40
+              ],
+              "Position": [
+                20,
+                680
+              ],
+              "Visible": true
+            },
+            "PauseBttn": {
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            },
+            "YellowBox": {
+              "Image": "data_ch1/yellowbox.png",
+              "Size": [
+                150,
+                60
+              ],
+              "Position": [
+                20,
+                80
+              ],
+              "Visible": true
+            },
+            "GreenText": {
+              "Image": "data_ch1/greentext.png",
+              "Size": [
+                300,
+                70
+              ],
+              "Position": [
+                20,
+                180
+              ],
+              "Visible": true
+            },
+            "GreyPanel": {
+              "Image": "data_ch1/greypanel.png",
+              "Size": [
+                340,
+                360
+              ],
+              "Position": [
+                25,
+                550
+              ],
+              "Visible": true
+            }
+          },
+          "Updatable": {
+            "LabelA": {
+              "Text": "6",
+              "Size": [
+                50,
+                35
+              ],
+              "Position": [
+                70,
+                60
+              ]
+            },
+            "LabelB": {
+              "Text": " ",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                100,
+                160
+              ]
+            },
+            "Score1": {
+              "Text": " ",
+              "Size": [
+                50,
+                35
+              ],
+              "Position": [
+                100,
+                160
+              ]
+            },
+            "Score2": {
+              "Text": " ",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                130,
+                160
+              ]
+            }
+          }
+        }
+      },
+      "Level15": {
+        "Step1": {
+          "Displays": {
+            "ball1": {
+              "Image": "data/ball_1.png",
+              "Size": [
+                40,
+                40
+              ],
+              "Position": [
+                50,
+                260
+              ],
+              "Visible": false,
+              "Total": 36
+            },
+            "Checkmark": {
+              "Image": "data_ch1/green_boxCheckmark.png",
+              "Size": [
+                40,
+                40
+              ],
+              "Position": [
+                20,
+                680
+              ],
+              "Visible": true
+            },
+            "PauseBttn": {
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            },
+            "YellowBox": {
+              "Image": "data_ch1/yellowbox.png",
+              "Size": [
+                150,
+                60
+              ],
+              "Position": [
+                20,
+                80
+              ],
+              "Visible": true
+            },
+            "GreenText": {
+              "Image": "data_ch1/greentext.png",
+              "Size": [
+                300,
+                70
+              ],
+              "Position": [
+                20,
+                180
+              ],
+              "Visible": true
+            },
+            "GreyPanel": {
+              "Image": "data_ch1/greypanel.png",
+              "Size": [
+                340,
+                360
+              ],
+              "Position": [
+                25,
+                550
+              ],
+              "Visible": true
+            }
+          },
+          "Updatable": {
+            "LabelA": {
+              "Text": "6",
+              "Size": [
+                50,
+                35
+              ],
+              "Position": [
+                70,
+                60
+              ]
+            },
+            "LabelB": {
+              "Text": " ",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                100,
+                160
+              ]
+            },
+            "Score1": {
+              "Text": " ",
+              "Size": [
+                50,
+                35
+              ],
+              "Position": [
+                100,
+                160
+              ]
+            },
+            "Score2": {
+              "Text": " ",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                130,
+                160
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+
+]

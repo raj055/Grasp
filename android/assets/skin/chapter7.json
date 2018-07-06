@@ -1,0 +1,7497 @@
+[
+  {
+    "Chapter7" : {
+      "Level1" : {
+        "Step1" : {
+          "Displays" : {
+            "BgImage": {
+              "Image": "data/bg_1.png",
+              "Size": [
+                250,
+                60
+              ],
+              "Position": [
+                10,
+                60
+              ],
+              "Visible": false
+            },
+            "BoxImage": {
+              "Image": "data_ch7/box.png",
+              "Size": [
+                300,
+                250
+              ],
+              "Position": [
+                50,
+                310
+              ],
+              "Visible": true
+            },
+            "MainboxImage": {
+              "Image": "data_ch7/mainbox.png",
+              "Size": [
+                350,
+                350
+              ],
+              "Position": [
+                25,
+                665
+              ],
+              "Visible": true
+            },
+            "Syntax1Image": {
+              "Image": "data_ch7/syntax1.png",
+              "Size": [
+                340,
+                40
+              ],
+              "Position": [
+                30,
+                495
+              ],
+              "Visible": true
+            },
+            "PauseBttn": {
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            },
+            "Levelsel": {
+              "Image": "data/levelsel.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "PlayImage": {
+              "Image": "data/play.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "ReplayImage": {
+              "Image": "data/rep.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            }
+          },
+          "Updatable" : {
+            "LabelValue": {
+              "Text" :"Q(",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                110,
+                130
+              ]
+            },
+            "LabelValue1": {
+              "Text" :"2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                130
+              ]
+            },
+            "LabelValue2": {
+              "Text" :",",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                160,
+                130
+              ]
+            },
+            "LabelValue3": {
+              "Text" :"8",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                170,
+                130
+              ]
+            },
+            "LabelValue4": {
+              "Text" :")",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                190,
+                130
+              ]
+            },
+            "LabelValue11": {
+              "Text" :"P(",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                210,
+                250
+              ]
+            },
+            "LabelValue12": {
+              "Text" :"7",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                250
+              ]
+            },
+            "LabelValue13": {
+              "Text" :",",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                260,
+                250
+              ]
+            },
+            "LabelValue14": {
+              "Text" :"5",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                270,
+                250
+              ]
+            },
+            "LabelValue15": {
+              "Text" :")",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                290,
+                250
+              ]
+            },
+            "SyntaxLabel": {
+              "Text" :"x2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                125,
+                495
+              ]
+            },
+            "SyntaxLabel1": {
+              "Text" :"x1",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                170,
+                495
+              ]
+            },
+            "SyntaxLabel2": {
+              "Text" :"y1",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                315,
+                495
+              ]
+            },
+            "SyntaxLabel3": {
+              "Text" :"y2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                278,
+                495
+              ]
+            }
+          }
+        }
+      },
+      "Level2" : {
+        "Step1" : {
+          "Displays" : {
+            "BgImage": {
+              "Image": "data/bg_1.png",
+              "Size": [
+                250,
+                60
+              ],
+              "Position": [
+                10,
+                60
+              ],
+              "Visible": false
+            },
+            "BoxImage": {
+              "Image": "data_ch7/box.png",
+              "Size": [
+                300,
+                250
+              ],
+              "Position": [
+                50,
+                310
+              ],
+              "Visible": true
+            },
+            "MainboxImage": {
+              "Image": "data_ch7/mainbox.png",
+              "Size": [
+                350,
+                350
+              ],
+              "Position": [
+                25,
+                665
+              ],
+              "Visible": true
+            },
+            "Syntax1Image": {
+              "Image": "data_ch7/syntax1.png",
+              "Size": [
+                340,
+                40
+              ],
+              "Position": [
+                30,
+                495
+              ],
+              "Visible": true
+            },
+            "PauseBttn": {
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            },
+            "Levelsel": {
+              "Image": "data/levelsel.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "PlayImage": {
+              "Image": "data/play.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "ReplayImage": {
+              "Image": "data/rep.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            }
+          },
+          "Updatable" : {
+            "LabelValue": {
+              "Text" :"Q(",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                110,
+                130
+              ]
+            },
+            "LabelValue1": {
+              "Text" :"2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                130
+              ]
+            },
+            "LabelValue2": {
+              "Text" :",",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                160,
+                130
+              ]
+            },
+            "LabelValue3": {
+              "Text" :"8",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                170,
+                130
+              ]
+            },
+            "LabelValue4": {
+              "Text" :")",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                190,
+                130
+              ]
+            },
+            "LabelValue11": {
+              "Text" :"P(",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                210,
+                250
+              ]
+            },
+            "LabelValue12": {
+              "Text" :"7",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                250
+              ]
+            },
+            "LabelValue13": {
+              "Text" :",",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                260,
+                250
+              ]
+            },
+            "LabelValue14": {
+              "Text" :"5",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                270,
+                250
+              ]
+            },
+            "LabelValue15": {
+              "Text" :")",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                290,
+                250
+              ]
+            },
+            "SyntaxLabel": {
+              "Text" :"x2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                125,
+                495
+              ]
+            },
+            "SyntaxLabel1": {
+              "Text" :"x1",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                170,
+                495
+              ]
+            },
+            "SyntaxLabel2": {
+              "Text" :"y1",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                315,
+                495
+              ]
+            },
+            "SyntaxLabel3": {
+              "Text" :"y2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                278,
+                495
+              ]
+            }
+          }
+        }
+      },
+      "Level3" : {
+        "Step1" : {
+          "Displays" : {
+            "BgImage": {
+              "Image": "data/bg_1.png",
+              "Size": [
+                250,
+                60
+              ],
+              "Position": [
+                10,
+                60
+              ],
+              "Visible": false
+            },
+            "BoxImage": {
+              "Image": "data_ch7/box.png",
+              "Size": [
+                300,
+                250
+              ],
+              "Position": [
+                50,
+                310
+              ],
+              "Visible": true
+            },
+            "MainboxImage": {
+              "Image": "data_ch7/mainbox.png",
+              "Size": [
+                350,
+                350
+              ],
+              "Position": [
+                25,
+                665
+              ],
+              "Visible": true
+            },
+            "Syntax1Image": {
+              "Image": "data_ch7/syntax1.png",
+              "Size": [
+                340,
+                40
+              ],
+              "Position": [
+                30,
+                495
+              ],
+              "Visible": true
+            },
+            "PauseBttn": {
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            },
+            "Levelsel": {
+              "Image": "data/levelsel.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "PlayImage": {
+              "Image": "data/play.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "ReplayImage": {
+              "Image": "data/rep.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            }
+          },
+          "Updatable" : {
+            "LabelValue": {
+              "Text" :"Q(",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                110,
+                130
+              ]
+            },
+            "LabelValue1": {
+              "Text" :"2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                130
+              ]
+            },
+            "LabelValue2": {
+              "Text" :",",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                160,
+                130
+              ]
+            },
+            "LabelValue3": {
+              "Text" :"8",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                170,
+                130
+              ]
+            },
+            "LabelValue4": {
+              "Text" :")",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                190,
+                130
+              ]
+            },
+            "LabelValue11": {
+              "Text" :"P(",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                210,
+                250
+              ]
+            },
+            "LabelValue12": {
+              "Text" :"7",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                250
+              ]
+            },
+            "LabelValue13": {
+              "Text" :",",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                260,
+                250
+              ]
+            },
+            "LabelValue14": {
+              "Text" :"5",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                270,
+                250
+              ]
+            },
+            "LabelValue15": {
+              "Text" :")",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                290,
+                250
+              ]
+            },
+            "SyntaxLabel": {
+              "Text" :"x2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                125,
+                495
+              ]
+            },
+            "SyntaxLabel1": {
+              "Text" :"x1",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                170,
+                495
+              ]
+            },
+            "SyntaxLabel2": {
+              "Text" :"y1",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                315,
+                495
+              ]
+            },
+            "SyntaxLabel3": {
+              "Text" :"y2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                278,
+                495
+              ]
+            }
+          }
+        }
+      },
+      "Level4" : {
+        "Step1" : {
+          "Displays" : {
+            "BgImage": {
+              "Image": "data/bg_1.png",
+              "Size": [
+                250,
+                60
+              ],
+              "Position": [
+                10,
+                60
+              ],
+              "Visible": false
+            },
+            "BoxImage": {
+              "Image": "data_ch7/box.png",
+              "Size": [
+                300,
+                250
+              ],
+              "Position": [
+                50,
+                310
+              ],
+              "Visible": true
+            },
+            "MainboxImage": {
+              "Image": "data_ch7/mainbox.png",
+              "Size": [
+                350,
+                350
+              ],
+              "Position": [
+                25,
+                665
+              ],
+              "Visible": true
+            },
+            "Syntax1Image": {
+              "Image": "data_ch7/syntax1.png",
+              "Size": [
+                340,
+                40
+              ],
+              "Position": [
+                30,
+                495
+              ],
+              "Visible": true
+            },
+            "PauseBttn": {
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            },
+            "Levelsel": {
+              "Image": "data/levelsel.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "PlayImage": {
+              "Image": "data/play.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "ReplayImage": {
+              "Image": "data/rep.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            }
+          },
+          "Updatable" : {
+            "LabelValue": {
+              "Text" :"Q(",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                110,
+                130
+              ]
+            },
+            "LabelValue1": {
+              "Text" :"2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                130
+              ]
+            },
+            "LabelValue2": {
+              "Text" :",",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                160,
+                130
+              ]
+            },
+            "LabelValue3": {
+              "Text" :"8",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                170,
+                130
+              ]
+            },
+            "LabelValue4": {
+              "Text" :")",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                190,
+                130
+              ]
+            },
+            "LabelValue11": {
+              "Text" :"P(",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                210,
+                250
+              ]
+            },
+            "LabelValue12": {
+              "Text" :"7",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                250
+              ]
+            },
+            "LabelValue13": {
+              "Text" :",",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                260,
+                250
+              ]
+            },
+            "LabelValue14": {
+              "Text" :"5",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                270,
+                250
+              ]
+            },
+            "LabelValue15": {
+              "Text" :")",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                290,
+                250
+              ]
+            },
+            "SyntaxLabel": {
+              "Text" :"x2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                125,
+                495
+              ]
+            },
+            "SyntaxLabel1": {
+              "Text" :"x1",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                170,
+                495
+              ]
+            },
+            "SyntaxLabel2": {
+              "Text" :"y1",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                315,
+                495
+              ]
+            },
+            "SyntaxLabel3": {
+              "Text" :"y2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                278,
+                495
+              ]
+            }
+          }
+        }
+      },
+      "Level5" : {
+        "Step1" : {
+          "Displays" : {
+            "BgImage": {
+              "Image": "data/bg_1.png",
+              "Size": [
+                250,
+                60
+              ],
+              "Position": [
+                10,
+                60
+              ],
+              "Visible": false
+            },
+            "BoxImage": {
+              "Image": "data_ch7/box.png",
+              "Size": [
+                300,
+                250
+              ],
+              "Position": [
+                50,
+                310
+              ],
+              "Visible": true
+            },
+            "MainboxImage": {
+              "Image": "data_ch7/mainbox.png",
+              "Size": [
+                350,
+                350
+              ],
+              "Position": [
+                25,
+                665
+              ],
+              "Visible": true
+            },
+            "Syntax1Image": {
+              "Image": "data_ch7/syntax1.png",
+              "Size": [
+                340,
+                40
+              ],
+              "Position": [
+                30,
+                495
+              ],
+              "Visible": true
+            },
+            "PauseBttn": {
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            },
+            "Levelsel": {
+              "Image": "data/levelsel.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "PlayImage": {
+              "Image": "data/play.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "ReplayImage": {
+              "Image": "data/rep.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            }
+          },
+          "Updatable" : {
+            "LabelValue": {
+              "Text" :"Q(",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                110,
+                130
+              ]
+            },
+            "LabelValue1": {
+              "Text" :"2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                130
+              ]
+            },
+            "LabelValue2": {
+              "Text" :",",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                160,
+                130
+              ]
+            },
+            "LabelValue3": {
+              "Text" :"8",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                170,
+                130
+              ]
+            },
+            "LabelValue4": {
+              "Text" :")",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                190,
+                130
+              ]
+            },
+            "LabelValue11": {
+              "Text" :"P(",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                210,
+                250
+              ]
+            },
+            "LabelValue12": {
+              "Text" :"7",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                250
+              ]
+            },
+            "LabelValue13": {
+              "Text" :",",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                260,
+                250
+              ]
+            },
+            "LabelValue14": {
+              "Text" :"5",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                270,
+                250
+              ]
+            },
+            "LabelValue15": {
+              "Text" :")",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                290,
+                250
+              ]
+            },
+            "SyntaxLabel": {
+              "Text" :"x2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                125,
+                495
+              ]
+            },
+            "SyntaxLabel1": {
+              "Text" :"x1",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                170,
+                495
+              ]
+            },
+            "SyntaxLabel2": {
+              "Text" :"y1",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                315,
+                495
+              ]
+            },
+            "SyntaxLabel3": {
+              "Text" :"y2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                278,
+                495
+              ]
+            }
+          }
+        }
+      },
+      "Level6": {
+        "Step1" : {
+          "Displays" : {
+            "BgImage": {
+              "Image": "data/bg_1.png",
+              "Size": [
+                250,
+                60
+              ],
+              "Position": [
+                10,
+                60
+              ],
+              "Visible": false
+            },
+            "BoxImage": {
+              "Image": "data_ch7/box.png",
+              "Size": [
+                300,
+                250
+              ],
+              "Position": [
+                50,
+                310
+              ],
+              "Visible": true
+            },
+            "MainboxImage": {
+              "Image": "data_ch7/mainbox.png",
+              "Size": [
+                350,
+                350
+              ],
+              "Position": [
+                25,
+                660
+              ],
+              "Visible": true
+            },
+            "Syntax2Image": {
+              "Image": "data_ch7/syntax2.png",
+              "Size": [
+                250,
+                100
+              ],
+              "Position": [
+                50,
+                510
+              ],
+              "Visible": true
+            },
+            "ClickImage": {
+              "Image": "data/btn.png",
+              "Size": [
+                40,
+                40
+              ],
+              "Position": [
+                42,
+                662
+              ],
+              "Visible": true
+            },
+            "PauseBttn": {
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            },
+            "Levelsel": {
+              "Image": "data/levelsel.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "PlayImage": {
+              "Image": "data/play.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "ReplayImage": {
+              "Image": "data/rep.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            }
+          },
+          "Updatable" : {
+            "LabelValue": {
+              "Text" :"Q(",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                80,
+                300
+              ]
+            },
+            "LabelValue1": {
+              "Text" :"4",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                120,
+                300
+              ]
+            },
+            "LabelValue2": {
+              "Text" :",",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                300
+              ]
+            },
+            "LabelValue3": {
+              "Text" :"-3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                150,
+                300
+              ]
+            },
+            "LabelValue4": {
+              "Text" :")",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                180,
+                300
+              ]
+            },
+            "LabelValue11": {
+              "Text" :"P(",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                220,
+                130
+              ]
+            },
+            "LabelValue12": {
+              "Text" :"8",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                260,
+                130
+              ]
+            },
+            "LabelValue13": {
+              "Text" :",",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                280,
+                130
+              ]
+            },
+            "LabelValue14": {
+              "Text" :"5",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                290,
+                130
+              ]
+            },
+            "LabelValue15": {
+              "Text" :")",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                310,
+                130
+              ]
+            },
+            "LabelValue21": {
+              "Text" :"A(",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                150,
+                220
+              ]
+            },
+            "LabelValue22": {
+              "Text" :"x3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                190,
+                220
+              ]
+            },
+            "LabelValue23": {
+              "Text" :",",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                220,
+                220
+              ]
+            },
+            "LabelValue24": {
+              "Text" :"y3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                230,
+                220
+              ]
+            },
+            "LabelValue125": {
+              "Text" :")",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                260,
+                220
+              ]
+            },
+            "LabelValuek1": {
+              "Text" :"3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                110,
+                150
+              ]
+            },
+            "LabelValuek2": {
+              "Text" :"3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                110,
+                150
+              ]
+            },
+            "LabelValuek3": {
+              "Text" :"1",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                300,
+                270
+              ]
+            },
+            "SyntaxLabelk": {
+              "Text" :"k",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                135,
+                450
+              ]
+            },
+            "SyntaxLabelx2": {
+              "Text" :"x2",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                160,
+                450
+              ]
+            },
+            "SyntaxLabelx1": {
+              "Text" :"x1",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                260,
+                450
+              ]
+            },
+            "SyntaxLabelk1": {
+              "Text" :"k",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                150,
+                540
+              ]
+            },
+            "SyntaxLabel1": {
+              "Text" :"1",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                250,
+                540
+              ]
+            }
+          }
+        },
+        "Step2" : {
+          "Displays" : {
+            "BgImage": {
+              "Image": "data/bg_1.png",
+              "Size": [
+                250,
+                60
+              ],
+              "Position": [
+                10,
+                60
+              ],
+              "Visible": false
+            },
+            "BoxImage": {
+              "Image": "data_ch7/box.png",
+              "Size": [
+                300,
+                250
+              ],
+              "Position": [
+                50,
+                310
+              ],
+              "Visible": true
+            },
+            "MainboxImage": {
+              "Image": "data_ch7/mainbox.png",
+              "Size": [
+                350,
+                350
+              ],
+              "Position": [
+                25,
+                655
+              ],
+              "Visible": true
+            },
+            "Syntax22Image": {
+              "Image": "data_ch7/syntax22.png",
+              "Size": [
+                250,
+                100
+              ],
+              "Position": [
+                50,
+                510
+              ],
+              "Visible": true
+            },
+            "NextImage": {
+              "Image": "data/btn.png",
+              "Size": [
+                40,
+                40
+              ],
+              "Position": [
+                42,
+                662
+              ],
+              "Visible": true
+            },
+            "PauseBttn": {
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            },
+            "Levelsel": {
+              "Image": "data/levelsel.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "PlayImage": {
+              "Image": "data/play.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "ReplayImage": {
+              "Image": "data/rep.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            }
+          },
+          "Updatable" : {
+            "LabelValue": {
+              "Text" :"Q(",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                80,
+                300
+              ]
+            },
+            "LabelValue1": {
+              "Text" :"4",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                120,
+                300
+              ]
+            },
+            "LabelValue2": {
+              "Text" :",",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                300
+              ]
+            },
+            "LabelValue3": {
+              "Text" :"-3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                150,
+                300
+              ]
+            },
+            "LabelValue4": {
+              "Text" :")",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                180,
+                300
+              ]
+            },
+            "LabelValue11": {
+              "Text" :"P(",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                230,
+                130
+              ]
+            },
+            "LabelValue12": {
+              "Text" :"8",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                260,
+                130
+              ]
+            },
+            "LabelValue13": {
+              "Text" :",",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                280,
+                130
+              ]
+            },
+            "LabelValue14": {
+              "Text" :"5",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                290,
+                130
+              ]
+            },
+            "LabelValue15": {
+              "Text" :")",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                310,
+                130
+              ]
+            },
+            "LabelValue21": {
+              "Text" :"A(",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                150,
+                220
+              ]
+            },
+            "LabelValue22": {
+              "Text" :"x3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                190,
+                220
+              ]
+            },
+            "LabelValue23": {
+              "Text" :",",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                220,
+                220
+              ]
+            },
+            "LabelValue24": {
+              "Text" :"y3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                230,
+                220
+              ]
+            },
+            "LabelValue25": {
+              "Text" :")",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                260,
+                220
+              ]
+            },
+            "LabelValuek1": {
+              "Text" :"3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                110,
+                150
+              ]
+            },
+            "LabelValuek3": {
+              "Text" :"1",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                100,
+                270
+              ]
+            },
+            "LabelValuek4": {
+              "Text" :"1",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                300,
+                270
+              ]
+            },
+            "SyntaxLabelk": {
+              "Text" :"k",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                135,
+                450
+              ]
+            },
+            "SyntaxLabely2": {
+              "Text" :"y2",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                160,
+                450
+              ]
+            },
+            "SyntaxLabely1": {
+              "Text" :"y1",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                270,
+                450
+              ]
+            },
+            "SyntaxLabelk1": {
+              "Text" :"k",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                150,
+                540
+              ]
+            },
+            "SyntaxLabel1": {
+              "Text" :"1",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                270,
+                540
+              ]
+            }
+
+          }
+        }
+      },
+      "Level7": {
+        "Step1" : {
+          "Displays" : {
+            "BgImage": {
+              "Image": "data/bg_1.png",
+              "Size": [
+                250,
+                60
+              ],
+              "Position": [
+                10,
+                60
+              ],
+              "Visible": false
+            },
+            "BoxImage": {
+              "Image": "data_ch7/box.png",
+              "Size": [
+                300,
+                250
+              ],
+              "Position": [
+                50,
+                310
+              ],
+              "Visible": true
+            },
+            "MainboxImage": {
+              "Image": "data_ch7/mainbox.png",
+              "Size": [
+                350,
+                350
+              ],
+              "Position": [
+                25,
+                660
+              ],
+              "Visible": true
+            },
+            "Syntax2Image": {
+              "Image": "data_ch7/syntax2.png",
+              "Size": [
+                250,
+                100
+              ],
+              "Position": [
+                50,
+                510
+              ],
+              "Visible": true
+            },
+            "ClickImage": {
+              "Image": "data/btn.png",
+              "Size": [
+                40,
+                40
+              ],
+              "Position": [
+                42,
+                662
+              ],
+              "Visible": true
+            },
+            "PauseBttn": {
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            },
+            "Levelsel": {
+              "Image": "data/levelsel.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "PlayImage": {
+              "Image": "data/play.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "ReplayImage": {
+              "Image": "data/rep.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            }
+          },
+          "Updatable" : {
+            "LabelValue": {
+              "Text" :"Q(",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                80,
+                300
+              ]
+            },
+            "LabelValue1": {
+              "Text" :"4",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                120,
+                300
+              ]
+            },
+            "LabelValue2": {
+              "Text" :",",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                300
+              ]
+            },
+            "LabelValue3": {
+              "Text" :"-3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                150,
+                300
+              ]
+            },
+            "LabelValue4": {
+              "Text" :")",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                180,
+                300
+              ]
+            },
+            "LabelValue11": {
+              "Text" :"P(",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                220,
+                130
+              ]
+            },
+            "LabelValue12": {
+              "Text" :"8",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                260,
+                130
+              ]
+            },
+            "LabelValue13": {
+              "Text" :",",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                280,
+                130
+              ]
+            },
+            "LabelValue14": {
+              "Text" :"5",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                290,
+                130
+              ]
+            },
+            "LabelValue15": {
+              "Text" :")",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                310,
+                130
+              ]
+            },
+            "LabelValue21": {
+              "Text" :"A(",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                150,
+                220
+              ]
+            },
+            "LabelValue22": {
+              "Text" :"x3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                190,
+                220
+              ]
+            },
+            "LabelValue23": {
+              "Text" :",",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                220,
+                220
+              ]
+            },
+            "LabelValue24": {
+              "Text" :"y3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                230,
+                220
+              ]
+            },
+            "LabelValue125": {
+              "Text" :")",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                260,
+                220
+              ]
+            },
+            "LabelValuek1": {
+              "Text" :"3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                110,
+                150
+              ]
+            },
+            "LabelValuek2": {
+              "Text" :"3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                110,
+                150
+              ]
+            },
+            "LabelValuek3": {
+              "Text" :"1",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                300,
+                270
+              ]
+            },
+            "SyntaxLabelk": {
+              "Text" :"k",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                135,
+                450
+              ]
+            },
+            "SyntaxLabelx2": {
+              "Text" :"x2",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                160,
+                450
+              ]
+            },
+            "SyntaxLabelx1": {
+              "Text" :"x1",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                260,
+                450
+              ]
+            },
+            "SyntaxLabelk1": {
+              "Text" :"k",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                150,
+                540
+              ]
+            },
+            "SyntaxLabel1": {
+              "Text" :"1",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                250,
+                540
+              ]
+            }
+          }
+        },
+        "Step2" : {
+          "Displays" : {
+            "BgImage": {
+              "Image": "data/bg_1.png",
+              "Size": [
+                250,
+                60
+              ],
+              "Position": [
+                10,
+                60
+              ],
+              "Visible": false
+            },
+            "BoxImage": {
+              "Image": "data_ch7/box.png",
+              "Size": [
+                300,
+                250
+              ],
+              "Position": [
+                50,
+                310
+              ],
+              "Visible": true
+            },
+            "MainboxImage": {
+              "Image": "data_ch7/mainbox.png",
+              "Size": [
+                350,
+                350
+              ],
+              "Position": [
+                25,
+                655
+              ],
+              "Visible": true
+            },
+            "Syntax22Image": {
+              "Image": "data_ch7/syntax22.png",
+              "Size": [
+                250,
+                100
+              ],
+              "Position": [
+                50,
+                510
+              ],
+              "Visible": true
+            },
+            "NextImage": {
+              "Image": "data/btn.png",
+              "Size": [
+                40,
+                40
+              ],
+              "Position": [
+                42,
+                662
+              ],
+              "Visible": true
+            },
+            "PauseBttn": {
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            },
+            "Levelsel": {
+              "Image": "data/levelsel.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "PlayImage": {
+              "Image": "data/play.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "ReplayImage": {
+              "Image": "data/rep.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            }
+          },
+          "Updatable" : {
+            "LabelValue": {
+              "Text" :"Q(",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                80,
+                300
+              ]
+            },
+            "LabelValue1": {
+              "Text" :"4",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                120,
+                300
+              ]
+            },
+            "LabelValue2": {
+              "Text" :",",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                300
+              ]
+            },
+            "LabelValue3": {
+              "Text" :"-3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                150,
+                300
+              ]
+            },
+            "LabelValue4": {
+              "Text" :")",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                180,
+                300
+              ]
+            },
+            "LabelValue11": {
+              "Text" :"P(",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                230,
+                130
+              ]
+            },
+            "LabelValue12": {
+              "Text" :"8",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                260,
+                130
+              ]
+            },
+            "LabelValue13": {
+              "Text" :",",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                280,
+                130
+              ]
+            },
+            "LabelValue14": {
+              "Text" :"5",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                290,
+                130
+              ]
+            },
+            "LabelValue15": {
+              "Text" :")",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                310,
+                130
+              ]
+            },
+            "LabelValue21": {
+              "Text" :"A(",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                150,
+                220
+              ]
+            },
+            "LabelValue22": {
+              "Text" :"x3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                190,
+                220
+              ]
+            },
+            "LabelValue23": {
+              "Text" :",",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                220,
+                220
+              ]
+            },
+            "LabelValue24": {
+              "Text" :"y3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                230,
+                220
+              ]
+            },
+            "LabelValue25": {
+              "Text" :")",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                260,
+                220
+              ]
+            },
+            "LabelValuek1": {
+              "Text" :"3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                110,
+                150
+              ]
+            },
+            "LabelValuek3": {
+              "Text" :"1",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                100,
+                270
+              ]
+            },
+            "LabelValuek4": {
+              "Text" :"1",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                300,
+                270
+              ]
+            },
+            "SyntaxLabelk": {
+              "Text" :"k",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                135,
+                450
+              ]
+            },
+            "SyntaxLabely2": {
+              "Text" :"y2",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                160,
+                450
+              ]
+            },
+            "SyntaxLabely1": {
+              "Text" :"y1",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                270,
+                450
+              ]
+            },
+            "SyntaxLabelk1": {
+              "Text" :"k",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                150,
+                540
+              ]
+            },
+            "SyntaxLabel1": {
+              "Text" :"1",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                270,
+                540
+              ]
+            }
+
+          }
+        }
+      },
+      "Level8": {
+        "Step1" : {
+          "Displays" : {
+            "BgImage": {
+              "Image": "data/bg_1.png",
+              "Size": [
+                250,
+                60
+              ],
+              "Position": [
+                10,
+                60
+              ],
+              "Visible": false
+            },
+            "BoxImage": {
+              "Image": "data_ch7/box.png",
+              "Size": [
+                300,
+                250
+              ],
+              "Position": [
+                50,
+                310
+              ],
+              "Visible": true
+            },
+            "MainboxImage": {
+              "Image": "data_ch7/mainbox.png",
+              "Size": [
+                350,
+                350
+              ],
+              "Position": [
+                25,
+                660
+              ],
+              "Visible": true
+            },
+            "Syntax2Image": {
+              "Image": "data_ch7/syntax2.png",
+              "Size": [
+                250,
+                100
+              ],
+              "Position": [
+                50,
+                510
+              ],
+              "Visible": true
+            },
+            "ClickImage": {
+              "Image": "data/btn.png",
+              "Size": [
+                40,
+                40
+              ],
+              "Position": [
+                42,
+                662
+              ],
+              "Visible": true
+            },
+            "PauseBttn": {
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            },
+            "Levelsel": {
+              "Image": "data/levelsel.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "PlayImage": {
+              "Image": "data/play.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "ReplayImage": {
+              "Image": "data/rep.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            }
+          },
+          "Updatable" : {
+            "LabelValue": {
+              "Text" :"Q(",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                80,
+                300
+              ]
+            },
+            "LabelValue1": {
+              "Text" :"4",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                120,
+                300
+              ]
+            },
+            "LabelValue2": {
+              "Text" :",",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                300
+              ]
+            },
+            "LabelValue3": {
+              "Text" :"-3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                150,
+                300
+              ]
+            },
+            "LabelValue4": {
+              "Text" :")",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                180,
+                300
+              ]
+            },
+            "LabelValue11": {
+              "Text" :"P(",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                220,
+                130
+              ]
+            },
+            "LabelValue12": {
+              "Text" :"8",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                260,
+                130
+              ]
+            },
+            "LabelValue13": {
+              "Text" :",",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                280,
+                130
+              ]
+            },
+            "LabelValue14": {
+              "Text" :"5",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                290,
+                130
+              ]
+            },
+            "LabelValue15": {
+              "Text" :")",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                310,
+                130
+              ]
+            },
+            "LabelValue21": {
+              "Text" :"A(",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                150,
+                220
+              ]
+            },
+            "LabelValue22": {
+              "Text" :"x3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                190,
+                220
+              ]
+            },
+            "LabelValue23": {
+              "Text" :",",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                220,
+                220
+              ]
+            },
+            "LabelValue24": {
+              "Text" :"y3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                230,
+                220
+              ]
+            },
+            "LabelValue125": {
+              "Text" :")",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                260,
+                220
+              ]
+            },
+            "LabelValuek1": {
+              "Text" :"3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                110,
+                150
+              ]
+            },
+            "LabelValuek2": {
+              "Text" :"3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                110,
+                150
+              ]
+            },
+            "LabelValuek3": {
+              "Text" :"1",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                300,
+                270
+              ]
+            },
+            "SyntaxLabelk": {
+              "Text" :"k",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                135,
+                450
+              ]
+            },
+            "SyntaxLabelx2": {
+              "Text" :"x2",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                160,
+                450
+              ]
+            },
+            "SyntaxLabelx1": {
+              "Text" :"x1",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                260,
+                450
+              ]
+            },
+            "SyntaxLabelk1": {
+              "Text" :"k",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                150,
+                540
+              ]
+            },
+            "SyntaxLabel1": {
+              "Text" :"1",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                250,
+                540
+              ]
+            }
+          }
+        },
+        "Step2" : {
+          "Displays" : {
+            "BgImage": {
+              "Image": "data/bg_1.png",
+              "Size": [
+                250,
+                60
+              ],
+              "Position": [
+                10,
+                60
+              ],
+              "Visible": false
+            },
+            "BoxImage": {
+              "Image": "data_ch7/box.png",
+              "Size": [
+                300,
+                250
+              ],
+              "Position": [
+                50,
+                310
+              ],
+              "Visible": true
+            },
+            "MainboxImage": {
+              "Image": "data_ch7/mainbox.png",
+              "Size": [
+                350,
+                350
+              ],
+              "Position": [
+                25,
+                655
+              ],
+              "Visible": true
+            },
+            "Syntax22Image": {
+              "Image": "data_ch7/syntax22.png",
+              "Size": [
+                250,
+                100
+              ],
+              "Position": [
+                50,
+                510
+              ],
+              "Visible": true
+            },
+            "NextImage": {
+              "Image": "data/btn.png",
+              "Size": [
+                40,
+                40
+              ],
+              "Position": [
+                42,
+                662
+              ],
+              "Visible": true
+            },
+            "PauseBttn": {
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            },
+            "Levelsel": {
+              "Image": "data/levelsel.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "PlayImage": {
+              "Image": "data/play.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "ReplayImage": {
+              "Image": "data/rep.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            }
+          },
+          "Updatable" : {
+            "LabelValue": {
+              "Text" :"Q(",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                80,
+                300
+              ]
+            },
+            "LabelValue1": {
+              "Text" :"4",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                120,
+                300
+              ]
+            },
+            "LabelValue2": {
+              "Text" :",",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                300
+              ]
+            },
+            "LabelValue3": {
+              "Text" :"-3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                150,
+                300
+              ]
+            },
+            "LabelValue4": {
+              "Text" :")",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                180,
+                300
+              ]
+            },
+            "LabelValue11": {
+              "Text" :"P(",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                230,
+                130
+              ]
+            },
+            "LabelValue12": {
+              "Text" :"8",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                260,
+                130
+              ]
+            },
+            "LabelValue13": {
+              "Text" :",",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                280,
+                130
+              ]
+            },
+            "LabelValue14": {
+              "Text" :"5",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                290,
+                130
+              ]
+            },
+            "LabelValue15": {
+              "Text" :")",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                310,
+                130
+              ]
+            },
+            "LabelValue21": {
+              "Text" :"A(",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                150,
+                220
+              ]
+            },
+            "LabelValue22": {
+              "Text" :"x3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                190,
+                220
+              ]
+            },
+            "LabelValue23": {
+              "Text" :",",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                220,
+                220
+              ]
+            },
+            "LabelValue24": {
+              "Text" :"y3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                230,
+                220
+              ]
+            },
+            "LabelValue25": {
+              "Text" :")",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                260,
+                220
+              ]
+            },
+            "LabelValuek1": {
+              "Text" :"3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                110,
+                150
+              ]
+            },
+            "LabelValuek3": {
+              "Text" :"1",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                100,
+                270
+              ]
+            },
+            "LabelValuek4": {
+              "Text" :"1",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                300,
+                270
+              ]
+            },
+            "SyntaxLabelk": {
+              "Text" :"k",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                135,
+                450
+              ]
+            },
+            "SyntaxLabely2": {
+              "Text" :"y2",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                160,
+                450
+              ]
+            },
+            "SyntaxLabely1": {
+              "Text" :"y1",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                270,
+                450
+              ]
+            },
+            "SyntaxLabelk1": {
+              "Text" :"k",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                150,
+                540
+              ]
+            },
+            "SyntaxLabel1": {
+              "Text" :"1",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                270,
+                540
+              ]
+            }
+
+          }
+        }
+      },
+      "Level9": {
+        "Step1" : {
+          "Displays" : {
+            "BgImage": {
+              "Image": "data/bg_1.png",
+              "Size": [
+                250,
+                60
+              ],
+              "Position": [
+                10,
+                60
+              ],
+              "Visible": false
+            },
+            "BoxImage": {
+              "Image": "data_ch7/box.png",
+              "Size": [
+                300,
+                250
+              ],
+              "Position": [
+                50,
+                310
+              ],
+              "Visible": true
+            },
+            "MainboxImage": {
+              "Image": "data_ch7/mainbox.png",
+              "Size": [
+                350,
+                350
+              ],
+              "Position": [
+                25,
+                660
+              ],
+              "Visible": true
+            },
+            "Syntax2Image": {
+              "Image": "data_ch7/syntax2.png",
+              "Size": [
+                250,
+                100
+              ],
+              "Position": [
+                50,
+                510
+              ],
+              "Visible": true
+            },
+            "ClickImage": {
+              "Image": "data/btn.png",
+              "Size": [
+                40,
+                40
+              ],
+              "Position": [
+                42,
+                662
+              ],
+              "Visible": true
+            },
+            "PauseBttn": {
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            },
+            "Levelsel": {
+              "Image": "data/levelsel.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "PlayImage": {
+              "Image": "data/play.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "ReplayImage": {
+              "Image": "data/rep.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            }
+          },
+          "Updatable" : {
+            "LabelValue": {
+              "Text" :"Q(",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                80,
+                300
+              ]
+            },
+            "LabelValue1": {
+              "Text" :"4",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                120,
+                300
+              ]
+            },
+            "LabelValue2": {
+              "Text" :",",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                300
+              ]
+            },
+            "LabelValue3": {
+              "Text" :"-3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                150,
+                300
+              ]
+            },
+            "LabelValue4": {
+              "Text" :")",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                180,
+                300
+              ]
+            },
+            "LabelValue11": {
+              "Text" :"P(",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                220,
+                130
+              ]
+            },
+            "LabelValue12": {
+              "Text" :"8",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                260,
+                130
+              ]
+            },
+            "LabelValue13": {
+              "Text" :",",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                280,
+                130
+              ]
+            },
+            "LabelValue14": {
+              "Text" :"5",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                290,
+                130
+              ]
+            },
+            "LabelValue15": {
+              "Text" :")",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                310,
+                130
+              ]
+            },
+            "LabelValue21": {
+              "Text" :"A(",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                150,
+                220
+              ]
+            },
+            "LabelValue22": {
+              "Text" :"x3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                190,
+                220
+              ]
+            },
+            "LabelValue23": {
+              "Text" :",",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                220,
+                220
+              ]
+            },
+            "LabelValue24": {
+              "Text" :"y3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                230,
+                220
+              ]
+            },
+            "LabelValue125": {
+              "Text" :")",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                260,
+                220
+              ]
+            },
+            "LabelValuek1": {
+              "Text" :"3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                110,
+                150
+              ]
+            },
+            "LabelValuek2": {
+              "Text" :"3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                110,
+                150
+              ]
+            },
+            "LabelValuek3": {
+              "Text" :"1",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                300,
+                270
+              ]
+            },
+            "SyntaxLabelk": {
+              "Text" :"k",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                135,
+                450
+              ]
+            },
+            "SyntaxLabelx2": {
+              "Text" :"x2",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                160,
+                450
+              ]
+            },
+            "SyntaxLabelx1": {
+              "Text" :"x1",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                260,
+                450
+              ]
+            },
+            "SyntaxLabelk1": {
+              "Text" :"k",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                150,
+                540
+              ]
+            },
+            "SyntaxLabel1": {
+              "Text" :"1",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                250,
+                540
+              ]
+            }
+          }
+        },
+        "Step2" : {
+          "Displays" : {
+            "BgImage": {
+              "Image": "data/bg_1.png",
+              "Size": [
+                250,
+                60
+              ],
+              "Position": [
+                10,
+                60
+              ],
+              "Visible": false
+            },
+            "BoxImage": {
+              "Image": "data_ch7/box.png",
+              "Size": [
+                300,
+                250
+              ],
+              "Position": [
+                50,
+                310
+              ],
+              "Visible": true
+            },
+            "MainboxImage": {
+              "Image": "data_ch7/mainbox.png",
+              "Size": [
+                350,
+                350
+              ],
+              "Position": [
+                25,
+                655
+              ],
+              "Visible": true
+            },
+            "Syntax22Image": {
+              "Image": "data_ch7/syntax22.png",
+              "Size": [
+                250,
+                100
+              ],
+              "Position": [
+                50,
+                510
+              ],
+              "Visible": true
+            },
+            "NextImage": {
+              "Image": "data/btn.png",
+              "Size": [
+                40,
+                40
+              ],
+              "Position": [
+                42,
+                662
+              ],
+              "Visible": true
+            },
+            "PauseBttn": {
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            },
+            "Levelsel": {
+              "Image": "data/levelsel.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "PlayImage": {
+              "Image": "data/play.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "ReplayImage": {
+              "Image": "data/rep.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            }
+          },
+          "Updatable" : {
+            "LabelValue": {
+              "Text" :"Q(",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                80,
+                300
+              ]
+            },
+            "LabelValue1": {
+              "Text" :"4",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                120,
+                300
+              ]
+            },
+            "LabelValue2": {
+              "Text" :",",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                300
+              ]
+            },
+            "LabelValue3": {
+              "Text" :"-3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                150,
+                300
+              ]
+            },
+            "LabelValue4": {
+              "Text" :")",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                180,
+                300
+              ]
+            },
+            "LabelValue11": {
+              "Text" :"P(",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                230,
+                130
+              ]
+            },
+            "LabelValue12": {
+              "Text" :"8",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                260,
+                130
+              ]
+            },
+            "LabelValue13": {
+              "Text" :",",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                280,
+                130
+              ]
+            },
+            "LabelValue14": {
+              "Text" :"5",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                290,
+                130
+              ]
+            },
+            "LabelValue15": {
+              "Text" :")",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                310,
+                130
+              ]
+            },
+            "LabelValue21": {
+              "Text" :"A(",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                150,
+                220
+              ]
+            },
+            "LabelValue22": {
+              "Text" :"x3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                190,
+                220
+              ]
+            },
+            "LabelValue23": {
+              "Text" :",",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                220,
+                220
+              ]
+            },
+            "LabelValue24": {
+              "Text" :"y3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                230,
+                220
+              ]
+            },
+            "LabelValue25": {
+              "Text" :")",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                260,
+                220
+              ]
+            },
+            "LabelValuek1": {
+              "Text" :"3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                110,
+                150
+              ]
+            },
+            "LabelValuek3": {
+              "Text" :"1",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                100,
+                270
+              ]
+            },
+            "LabelValuek4": {
+              "Text" :"1",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                300,
+                270
+              ]
+            },
+            "SyntaxLabelk": {
+              "Text" :"k",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                135,
+                450
+              ]
+            },
+            "SyntaxLabely2": {
+              "Text" :"y2",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                160,
+                450
+              ]
+            },
+            "SyntaxLabely1": {
+              "Text" :"y1",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                270,
+                450
+              ]
+            },
+            "SyntaxLabelk1": {
+              "Text" :"k",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                150,
+                540
+              ]
+            },
+            "SyntaxLabel1": {
+              "Text" :"1",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                270,
+                540
+              ]
+            }
+
+          }
+        }
+      },
+      "Level10": {
+        "Step1" : {
+          "Displays" : {
+            "BgImage": {
+              "Image": "data/bg_1.png",
+              "Size": [
+                250,
+                60
+              ],
+              "Position": [
+                10,
+                60
+              ],
+              "Visible": false
+            },
+            "BoxImage": {
+              "Image": "data_ch7/box.png",
+              "Size": [
+                300,
+                250
+              ],
+              "Position": [
+                50,
+                310
+              ],
+              "Visible": true
+            },
+            "MainboxImage": {
+              "Image": "data_ch7/mainbox.png",
+              "Size": [
+                350,
+                350
+              ],
+              "Position": [
+                25,
+                660
+              ],
+              "Visible": true
+            },
+            "Syntax2Image": {
+              "Image": "data_ch7/syntax2.png",
+              "Size": [
+                250,
+                100
+              ],
+              "Position": [
+                50,
+                510
+              ],
+              "Visible": true
+            },
+            "ClickImage": {
+              "Image": "data/btn.png",
+              "Size": [
+                40,
+                40
+              ],
+              "Position": [
+                42,
+                662
+              ],
+              "Visible": true
+            },
+            "PauseBttn": {
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            },
+            "Levelsel": {
+              "Image": "data/levelsel.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "PlayImage": {
+              "Image": "data/play.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "ReplayImage": {
+              "Image": "data/rep.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            }
+          },
+          "Updatable" : {
+            "LabelValue": {
+              "Text" :"Q(",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                80,
+                300
+              ]
+            },
+            "LabelValue1": {
+              "Text" :"4",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                120,
+                300
+              ]
+            },
+            "LabelValue2": {
+              "Text" :",",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                300
+              ]
+            },
+            "LabelValue3": {
+              "Text" :"-3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                150,
+                300
+              ]
+            },
+            "LabelValue4": {
+              "Text" :")",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                180,
+                300
+              ]
+            },
+            "LabelValue11": {
+              "Text" :"P(",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                220,
+                130
+              ]
+            },
+            "LabelValue12": {
+              "Text" :"8",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                260,
+                130
+              ]
+            },
+            "LabelValue13": {
+              "Text" :",",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                280,
+                130
+              ]
+            },
+            "LabelValue14": {
+              "Text" :"5",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                290,
+                130
+              ]
+            },
+            "LabelValue15": {
+              "Text" :")",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                310,
+                130
+              ]
+            },
+            "LabelValue21": {
+              "Text" :"A(",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                150,
+                220
+              ]
+            },
+            "LabelValue22": {
+              "Text" :"x3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                190,
+                220
+              ]
+            },
+            "LabelValue23": {
+              "Text" :",",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                220,
+                220
+              ]
+            },
+            "LabelValue24": {
+              "Text" :"y3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                230,
+                220
+              ]
+            },
+            "LabelValue125": {
+              "Text" :")",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                260,
+                220
+              ]
+            },
+            "LabelValuek1": {
+              "Text" :"3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                110,
+                150
+              ]
+            },
+            "LabelValuek2": {
+              "Text" :"3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                110,
+                150
+              ]
+            },
+            "LabelValuek3": {
+              "Text" :"1",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                300,
+                270
+              ]
+            },
+            "SyntaxLabelk": {
+              "Text" :"k",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                135,
+                450
+              ]
+            },
+            "SyntaxLabelx2": {
+              "Text" :"x2",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                160,
+                450
+              ]
+            },
+            "SyntaxLabelx1": {
+              "Text" :"x1",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                260,
+                450
+              ]
+            },
+            "SyntaxLabelk1": {
+              "Text" :"k",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                150,
+                540
+              ]
+            },
+            "SyntaxLabel1": {
+              "Text" :"1",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                250,
+                540
+              ]
+            }
+          }
+        },
+        "Step2" : {
+          "Displays" : {
+            "BgImage": {
+              "Image": "data/bg_1.png",
+              "Size": [
+                250,
+                60
+              ],
+              "Position": [
+                10,
+                60
+              ],
+              "Visible": false
+            },
+            "BoxImage": {
+              "Image": "data_ch7/box.png",
+              "Size": [
+                300,
+                250
+              ],
+              "Position": [
+                50,
+                310
+              ],
+              "Visible": true
+            },
+            "MainboxImage": {
+              "Image": "data_ch7/mainbox.png",
+              "Size": [
+                350,
+                350
+              ],
+              "Position": [
+                25,
+                655
+              ],
+              "Visible": true
+            },
+            "Syntax22Image": {
+              "Image": "data_ch7/syntax22.png",
+              "Size": [
+                250,
+                100
+              ],
+              "Position": [
+                50,
+                510
+              ],
+              "Visible": true
+            },
+            "NextImage": {
+              "Image": "data/btn.png",
+              "Size": [
+                40,
+                40
+              ],
+              "Position": [
+                42,
+                662
+              ],
+              "Visible": true
+            },
+            "PauseBttn": {
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            },
+            "Levelsel": {
+              "Image": "data/levelsel.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "PlayImage": {
+              "Image": "data/play.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "ReplayImage": {
+              "Image": "data/rep.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            }
+          },
+          "Updatable" : {
+            "LabelValue": {
+              "Text" :"Q(",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                80,
+                300
+              ]
+            },
+            "LabelValue1": {
+              "Text" :"4",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                120,
+                300
+              ]
+            },
+            "LabelValue2": {
+              "Text" :",",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                300
+              ]
+            },
+            "LabelValue3": {
+              "Text" :"-3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                150,
+                300
+              ]
+            },
+            "LabelValue4": {
+              "Text" :")",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                180,
+                300
+              ]
+            },
+            "LabelValue11": {
+              "Text" :"P(",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                230,
+                130
+              ]
+            },
+            "LabelValue12": {
+              "Text" :"8",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                260,
+                130
+              ]
+            },
+            "LabelValue13": {
+              "Text" :",",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                280,
+                130
+              ]
+            },
+            "LabelValue14": {
+              "Text" :"5",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                290,
+                130
+              ]
+            },
+            "LabelValue15": {
+              "Text" :")",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                310,
+                130
+              ]
+            },
+            "LabelValue21": {
+              "Text" :"A(",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                150,
+                220
+              ]
+            },
+            "LabelValue22": {
+              "Text" :"x3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                190,
+                220
+              ]
+            },
+            "LabelValue23": {
+              "Text" :",",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                220,
+                220
+              ]
+            },
+            "LabelValue24": {
+              "Text" :"y3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                230,
+                220
+              ]
+            },
+            "LabelValue25": {
+              "Text" :")",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                260,
+                220
+              ]
+            },
+            "LabelValuek1": {
+              "Text" :"3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                110,
+                150
+              ]
+            },
+            "LabelValuek3": {
+              "Text" :"1",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                100,
+                270
+              ]
+            },
+            "LabelValuek4": {
+              "Text" :"1",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                300,
+                270
+              ]
+            },
+            "SyntaxLabelk": {
+              "Text" :"k",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                135,
+                450
+              ]
+            },
+            "SyntaxLabely2": {
+              "Text" :"y2",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                160,
+                450
+              ]
+            },
+            "SyntaxLabely1": {
+              "Text" :"y1",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                270,
+                450
+              ]
+            },
+            "SyntaxLabelk1": {
+              "Text" :"k",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                150,
+                540
+              ]
+            },
+            "SyntaxLabel1": {
+              "Text" :"1",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                270,
+                540
+              ]
+            }
+
+          }
+        }
+      },
+      "Level11" : {
+        "Step1" : {
+          "Displays" : {
+            "BgImage": {
+              "Image": "data/bg_1.png",
+              "Size": [
+                250,
+                60
+              ],
+              "Position": [
+                10,
+                60
+              ],
+              "Visible": false
+            },
+            "boxImage": {
+              "Image": "data_ch7/box.png",
+              "Size": [
+                300,
+                250
+              ],
+              "Position": [
+                50,
+                310
+              ],
+              "Visible": true
+            },
+            "MainboxImage": {
+              "Image": "data_ch7/mainbox.png",
+              "Size": [
+                350,
+                350
+              ],
+              "Position": [
+                25,
+                660
+              ],
+              "Visible": true
+            },
+            "Triangal": {
+              "Image": "data_ch7/triangal.png",
+              "Size": [
+                100,
+                140
+              ],
+              "Position": [
+                200,
+                250
+              ],
+              "Visible": true
+            },
+            "Syntax3Image": {
+              "Image": "data_ch7/syntax3.png",
+              "Size": [
+                340,
+                40
+              ],
+              "Position": [
+                30,
+                580
+              ],
+              "Visible": true
+            },
+            "Syntax1Image": {
+              "Image": "data_ch7/syntax3.png",
+              "Size": [
+                340,
+                40
+              ],
+              "Position": [
+                30,
+                495
+              ],
+              "Visible": true
+            },
+            "Syntax2Image": {
+              "Image": "data_ch7/syntax3.png",
+              "Size": [
+                340,
+                40
+              ],
+              "Position": [
+                30,
+                418
+              ],
+              "Visible": true
+            },
+            "PauseBttn": {
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            },
+            "Levelsel": {
+              "Image": "data/levelsel.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "PlayImage": {
+              "Image": "data/play.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "ReplayImage": {
+              "Image": "data/rep.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            }
+          },
+          "Updatable" : {
+            "LabelValue": {
+              "Text" :"C(",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                230,
+                130
+              ]
+            },
+            "LabelValue1": {
+              "Text" :"8",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                260,
+                130
+              ]
+            },
+            "LabelValue1_1": {
+              "Text" :"8",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                260,
+                130
+              ]
+            },
+            "LabelValue2": {
+              "Text" :",",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                280,
+                130
+              ]
+            },
+            "LabelValue3": {
+              "Text" :"12",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                290,
+                130
+              ]
+            },
+            "LabelValue3_1": {
+              "Text" :"12",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                290,
+                130
+              ]
+            },
+            "LabelValue4": {
+              "Text" :")",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                325,
+                130
+              ]
+            },
+            "LabelValue11": {
+              "Text" :"A(",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                90,
+                210
+              ]
+            },
+            "LabelValue12": {
+              "Text" :"2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                120,
+                210
+              ]
+            },
+            "LabelValue12_1": {
+              "Text" :"2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                120,
+                210
+              ]
+            },
+            "LabelValue13": {
+              "Text" :",",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                220
+              ]
+            },
+            "LabelValue14": {
+              "Text" :"8",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                150,
+                210
+              ]
+            },
+            "LabelValue14_1": {
+              "Text" :"8",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                150,
+                210
+              ]
+            },
+            "LabelValue15": {
+              "Text" :")",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                185,
+                210
+              ]
+            },
+            "LabelValue21": {
+              "Text" :"B(",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                210,
+                280
+              ]
+            },
+            "LabelValue22": {
+              "Text" :"4",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                280
+              ]
+            },
+            "LabelValue22_1": {
+              "Text" :"4",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                280
+              ]
+            },
+            "LabelValue23": {
+              "Text" :",",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                260,
+                280
+              ]
+            },
+            "LabelValue24": {
+              "Text" :"2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                270,
+                280
+              ]
+            },
+            "LabelValue24_1": {
+              "Text" :"2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                270,
+                280
+              ]
+            },
+            "LabelValue25": {
+              "Text" :")",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                290,
+                280
+              ]
+            },
+            "SyntaxLabelx1": {
+              "Text" :"x1",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                320,
+                495
+              ]
+            },
+            "SyntaxLabelx11": {
+              "Text" :"x1",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                320,
+                420
+              ]
+            },
+            "SyntaxLabelx2": {
+              "Text" :"x2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                260,
+                420
+              ]
+            },
+            "SyntaxLabelx22": {
+              "Text" :"x2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                320,
+                580
+              ]
+            },
+            "SyntaxLabelx3": {
+              "Text" :"x3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                260,
+                495
+              ]
+            },
+            "SyntaxLabelx33": {
+              "Text" :"x3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                258,
+                580
+              ]
+            },
+            "SyntaxLabely1": {
+              "Text" :"y1",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                170,
+                495
+              ]
+            },
+            "SyntaxLabely11": {
+              "Text" :"y1",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                170,
+                420
+              ]
+            },
+            "SyntaxLabely2": {
+              "Text" :"y2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                100,
+                420
+              ]
+            },
+            "SyntaxLabely22": {
+              "Text" :"y2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                100,
+                580
+              ]
+            },
+            "SyntaxLabely3": {
+              "Text" :"y3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                100,
+                495
+              ]
+            },
+            "SyntaxLabely33": {
+              "Text" :"y3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                170,
+                580
+              ]
+            }
+          }
+        }
+      },
+      "Level12" : {
+        "Step1" : {
+          "Displays" : {
+            "BgImage": {
+              "Image": "data/bg_1.png",
+              "Size": [
+                250,
+                60
+              ],
+              "Position": [
+                10,
+                60
+              ],
+              "Visible": false
+            },
+            "boxImage": {
+              "Image": "data_ch7/box.png",
+              "Size": [
+                300,
+                250
+              ],
+              "Position": [
+                50,
+                310
+              ],
+              "Visible": true
+            },
+            "MainboxImage": {
+              "Image": "data_ch7/mainbox.png",
+              "Size": [
+                350,
+                350
+              ],
+              "Position": [
+                25,
+                660
+              ],
+              "Visible": true
+            },
+            "Triangal": {
+              "Image": "data_ch7/triangal.png",
+              "Size": [
+                100,
+                140
+              ],
+              "Position": [
+                200,
+                250
+              ],
+              "Visible": true
+            },
+            "Syntax3Image": {
+              "Image": "data_ch7/syntax3.png",
+              "Size": [
+                340,
+                40
+              ],
+              "Position": [
+                30,
+                580
+              ],
+              "Visible": true
+            },
+            "Syntax1Image": {
+              "Image": "data_ch7/syntax3.png",
+              "Size": [
+                340,
+                40
+              ],
+              "Position": [
+                30,
+                495
+              ],
+              "Visible": true
+            },
+            "Syntax2Image": {
+              "Image": "data_ch7/syntax3.png",
+              "Size": [
+                340,
+                40
+              ],
+              "Position": [
+                30,
+                418
+              ],
+              "Visible": true
+            },
+            "PauseBttn": {
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            },
+            "Levelsel": {
+              "Image": "data/levelsel.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "PlayImage": {
+              "Image": "data/play.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "ReplayImage": {
+              "Image": "data/rep.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            }
+          },
+          "Updatable" : {
+            "LabelValue": {
+              "Text" :"C(",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                230,
+                130
+              ]
+            },
+            "LabelValue1": {
+              "Text" :"8",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                260,
+                130
+              ]
+            },
+            "LabelValue1_1": {
+              "Text" :"8",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                260,
+                130
+              ]
+            },
+            "LabelValue2": {
+              "Text" :",",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                280,
+                130
+              ]
+            },
+            "LabelValue3": {
+              "Text" :"12",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                290,
+                130
+              ]
+            },
+            "LabelValue3_1": {
+              "Text" :"12",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                290,
+                130
+              ]
+            },
+            "LabelValue4": {
+              "Text" :")",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                325,
+                130
+              ]
+            },
+            "LabelValue11": {
+              "Text" :"A(",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                90,
+                210
+              ]
+            },
+            "LabelValue12": {
+              "Text" :"2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                120,
+                210
+              ]
+            },
+            "LabelValue12_1": {
+              "Text" :"2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                120,
+                210
+              ]
+            },
+            "LabelValue13": {
+              "Text" :",",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                220
+              ]
+            },
+            "LabelValue14": {
+              "Text" :"8",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                150,
+                210
+              ]
+            },
+            "LabelValue14_1": {
+              "Text" :"8",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                150,
+                210
+              ]
+            },
+            "LabelValue15": {
+              "Text" :")",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                185,
+                210
+              ]
+            },
+            "LabelValue21": {
+              "Text" :"B(",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                210,
+                280
+              ]
+            },
+            "LabelValue22": {
+              "Text" :"4",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                280
+              ]
+            },
+            "LabelValue22_1": {
+              "Text" :"4",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                280
+              ]
+            },
+            "LabelValue23": {
+              "Text" :",",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                260,
+                280
+              ]
+            },
+            "LabelValue24": {
+              "Text" :"2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                270,
+                280
+              ]
+            },
+            "LabelValue24_1": {
+              "Text" :"2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                270,
+                280
+              ]
+            },
+            "LabelValue25": {
+              "Text" :")",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                290,
+                280
+              ]
+            },
+            "SyntaxLabelx1": {
+              "Text" :"x1",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                320,
+                495
+              ]
+            },
+            "SyntaxLabelx11": {
+              "Text" :"x1",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                320,
+                420
+              ]
+            },
+            "SyntaxLabelx2": {
+              "Text" :"x2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                260,
+                420
+              ]
+            },
+            "SyntaxLabelx22": {
+              "Text" :"x2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                320,
+                580
+              ]
+            },
+            "SyntaxLabelx3": {
+              "Text" :"x3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                260,
+                495
+              ]
+            },
+            "SyntaxLabelx33": {
+              "Text" :"x3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                258,
+                580
+              ]
+            },
+            "SyntaxLabely1": {
+              "Text" :"y1",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                170,
+                495
+              ]
+            },
+            "SyntaxLabely11": {
+              "Text" :"y1",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                170,
+                420
+              ]
+            },
+            "SyntaxLabely2": {
+              "Text" :"y2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                100,
+                420
+              ]
+            },
+            "SyntaxLabely22": {
+              "Text" :"y2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                100,
+                580
+              ]
+            },
+            "SyntaxLabely3": {
+              "Text" :"y3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                100,
+                495
+              ]
+            },
+            "SyntaxLabely33": {
+              "Text" :"y3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                170,
+                580
+              ]
+            }
+          }
+        }
+      },
+      "Level13" : {
+        "Step1" : {
+          "Displays" : {
+            "BgImage": {
+              "Image": "data/bg_1.png",
+              "Size": [
+                250,
+                60
+              ],
+              "Position": [
+                10,
+                60
+              ],
+              "Visible": false
+            },
+            "boxImage": {
+              "Image": "data_ch7/box.png",
+              "Size": [
+                300,
+                250
+              ],
+              "Position": [
+                50,
+                310
+              ],
+              "Visible": true
+            },
+            "MainboxImage": {
+              "Image": "data_ch7/mainbox.png",
+              "Size": [
+                350,
+                350
+              ],
+              "Position": [
+                25,
+                660
+              ],
+              "Visible": true
+            },
+            "Triangal": {
+              "Image": "data_ch7/triangal.png",
+              "Size": [
+                100,
+                140
+              ],
+              "Position": [
+                200,
+                250
+              ],
+              "Visible": true
+            },
+            "Syntax3Image": {
+              "Image": "data_ch7/syntax3.png",
+              "Size": [
+                340,
+                40
+              ],
+              "Position": [
+                30,
+                580
+              ],
+              "Visible": true
+            },
+            "Syntax1Image": {
+              "Image": "data_ch7/syntax3.png",
+              "Size": [
+                340,
+                40
+              ],
+              "Position": [
+                30,
+                495
+              ],
+              "Visible": true
+            },
+            "Syntax2Image": {
+              "Image": "data_ch7/syntax3.png",
+              "Size": [
+                340,
+                40
+              ],
+              "Position": [
+                30,
+                418
+              ],
+              "Visible": true
+            },
+            "PauseBttn": {
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            },
+            "Levelsel": {
+              "Image": "data/levelsel.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "PlayImage": {
+              "Image": "data/play.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "ReplayImage": {
+              "Image": "data/rep.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            }
+          },
+          "Updatable" : {
+            "LabelValue": {
+              "Text" :"C(",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                230,
+                130
+              ]
+            },
+            "LabelValue1": {
+              "Text" :"8",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                260,
+                130
+              ]
+            },
+            "LabelValue1_1": {
+              "Text" :"8",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                260,
+                130
+              ]
+            },
+            "LabelValue2": {
+              "Text" :",",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                280,
+                130
+              ]
+            },
+            "LabelValue3": {
+              "Text" :"12",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                290,
+                130
+              ]
+            },
+            "LabelValue3_1": {
+              "Text" :"12",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                290,
+                130
+              ]
+            },
+            "LabelValue4": {
+              "Text" :")",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                325,
+                130
+              ]
+            },
+            "LabelValue11": {
+              "Text" :"A(",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                90,
+                210
+              ]
+            },
+            "LabelValue12": {
+              "Text" :"2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                120,
+                210
+              ]
+            },
+            "LabelValue12_1": {
+              "Text" :"2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                120,
+                210
+              ]
+            },
+            "LabelValue13": {
+              "Text" :",",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                220
+              ]
+            },
+            "LabelValue14": {
+              "Text" :"8",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                150,
+                210
+              ]
+            },
+            "LabelValue14_1": {
+              "Text" :"8",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                150,
+                210
+              ]
+            },
+            "LabelValue15": {
+              "Text" :")",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                185,
+                210
+              ]
+            },
+            "LabelValue21": {
+              "Text" :"B(",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                210,
+                280
+              ]
+            },
+            "LabelValue22": {
+              "Text" :"4",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                280
+              ]
+            },
+            "LabelValue22_1": {
+              "Text" :"4",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                280
+              ]
+            },
+            "LabelValue23": {
+              "Text" :",",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                260,
+                280
+              ]
+            },
+            "LabelValue24": {
+              "Text" :"2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                270,
+                280
+              ]
+            },
+            "LabelValue24_1": {
+              "Text" :"2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                270,
+                280
+              ]
+            },
+            "LabelValue25": {
+              "Text" :")",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                290,
+                280
+              ]
+            },
+            "SyntaxLabelx1": {
+              "Text" :"x1",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                320,
+                495
+              ]
+            },
+            "SyntaxLabelx11": {
+              "Text" :"x1",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                320,
+                420
+              ]
+            },
+            "SyntaxLabelx2": {
+              "Text" :"x2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                260,
+                420
+              ]
+            },
+            "SyntaxLabelx22": {
+              "Text" :"x2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                320,
+                580
+              ]
+            },
+            "SyntaxLabelx3": {
+              "Text" :"x3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                260,
+                495
+              ]
+            },
+            "SyntaxLabelx33": {
+              "Text" :"x3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                258,
+                580
+              ]
+            },
+            "SyntaxLabely1": {
+              "Text" :"y1",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                170,
+                495
+              ]
+            },
+            "SyntaxLabely11": {
+              "Text" :"y1",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                170,
+                420
+              ]
+            },
+            "SyntaxLabely2": {
+              "Text" :"y2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                100,
+                420
+              ]
+            },
+            "SyntaxLabely22": {
+              "Text" :"y2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                100,
+                580
+              ]
+            },
+            "SyntaxLabely3": {
+              "Text" :"y3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                100,
+                495
+              ]
+            },
+            "SyntaxLabely33": {
+              "Text" :"y3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                170,
+                580
+              ]
+            }
+          }
+        }
+      },
+      "Level14" : {
+        "Step1" : {
+          "Displays" : {
+            "BgImage": {
+              "Image": "data/bg_1.png",
+              "Size": [
+                250,
+                60
+              ],
+              "Position": [
+                10,
+                60
+              ],
+              "Visible": false
+            },
+            "boxImage": {
+              "Image": "data_ch7/box.png",
+              "Size": [
+                300,
+                250
+              ],
+              "Position": [
+                50,
+                310
+              ],
+              "Visible": true
+            },
+            "MainboxImage": {
+              "Image": "data_ch7/mainbox.png",
+              "Size": [
+                350,
+                350
+              ],
+              "Position": [
+                25,
+                660
+              ],
+              "Visible": true
+            },
+            "Triangal": {
+              "Image": "data_ch7/triangal.png",
+              "Size": [
+                100,
+                140
+              ],
+              "Position": [
+                200,
+                250
+              ],
+              "Visible": true
+            },
+            "Syntax3Image": {
+              "Image": "data_ch7/syntax3.png",
+              "Size": [
+                340,
+                40
+              ],
+              "Position": [
+                30,
+                580
+              ],
+              "Visible": true
+            },
+            "Syntax1Image": {
+              "Image": "data_ch7/syntax3.png",
+              "Size": [
+                340,
+                40
+              ],
+              "Position": [
+                30,
+                495
+              ],
+              "Visible": true
+            },
+            "Syntax2Image": {
+              "Image": "data_ch7/syntax3.png",
+              "Size": [
+                340,
+                40
+              ],
+              "Position": [
+                30,
+                418
+              ],
+              "Visible": true
+            },
+            "PauseBttn": {
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            },
+            "Levelsel": {
+              "Image": "data/levelsel.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "PlayImage": {
+              "Image": "data/play.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "ReplayImage": {
+              "Image": "data/rep.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            }
+          },
+          "Updatable" : {
+            "LabelValue": {
+              "Text" :"C(",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                230,
+                130
+              ]
+            },
+            "LabelValue1": {
+              "Text" :"8",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                260,
+                130
+              ]
+            },
+            "LabelValue1_1": {
+              "Text" :"8",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                260,
+                130
+              ]
+            },
+            "LabelValue2": {
+              "Text" :",",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                280,
+                130
+              ]
+            },
+            "LabelValue3": {
+              "Text" :"12",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                290,
+                130
+              ]
+            },
+            "LabelValue3_1": {
+              "Text" :"12",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                290,
+                130
+              ]
+            },
+            "LabelValue4": {
+              "Text" :")",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                325,
+                130
+              ]
+            },
+            "LabelValue11": {
+              "Text" :"A(",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                90,
+                210
+              ]
+            },
+            "LabelValue12": {
+              "Text" :"2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                120,
+                210
+              ]
+            },
+            "LabelValue12_1": {
+              "Text" :"2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                120,
+                210
+              ]
+            },
+            "LabelValue13": {
+              "Text" :",",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                220
+              ]
+            },
+            "LabelValue14": {
+              "Text" :"8",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                150,
+                210
+              ]
+            },
+            "LabelValue14_1": {
+              "Text" :"8",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                150,
+                210
+              ]
+            },
+            "LabelValue15": {
+              "Text" :")",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                185,
+                210
+              ]
+            },
+            "LabelValue21": {
+              "Text" :"B(",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                210,
+                280
+              ]
+            },
+            "LabelValue22": {
+              "Text" :"4",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                280
+              ]
+            },
+            "LabelValue22_1": {
+              "Text" :"4",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                280
+              ]
+            },
+            "LabelValue23": {
+              "Text" :",",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                260,
+                280
+              ]
+            },
+            "LabelValue24": {
+              "Text" :"2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                270,
+                280
+              ]
+            },
+            "LabelValue24_1": {
+              "Text" :"2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                270,
+                280
+              ]
+            },
+            "LabelValue25": {
+              "Text" :")",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                290,
+                280
+              ]
+            },
+            "SyntaxLabelx1": {
+              "Text" :"x1",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                320,
+                495
+              ]
+            },
+            "SyntaxLabelx11": {
+              "Text" :"x1",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                320,
+                420
+              ]
+            },
+            "SyntaxLabelx2": {
+              "Text" :"x2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                260,
+                420
+              ]
+            },
+            "SyntaxLabelx22": {
+              "Text" :"x2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                320,
+                580
+              ]
+            },
+            "SyntaxLabelx3": {
+              "Text" :"x3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                260,
+                495
+              ]
+            },
+            "SyntaxLabelx33": {
+              "Text" :"x3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                258,
+                580
+              ]
+            },
+            "SyntaxLabely1": {
+              "Text" :"y1",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                170,
+                495
+              ]
+            },
+            "SyntaxLabely11": {
+              "Text" :"y1",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                170,
+                420
+              ]
+            },
+            "SyntaxLabely2": {
+              "Text" :"y2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                100,
+                420
+              ]
+            },
+            "SyntaxLabely22": {
+              "Text" :"y2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                100,
+                580
+              ]
+            },
+            "SyntaxLabely3": {
+              "Text" :"y3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                100,
+                495
+              ]
+            },
+            "SyntaxLabely33": {
+              "Text" :"y3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                170,
+                580
+              ]
+            }
+          }
+        }
+      },
+      "Level15" : {
+        "Step1" : {
+          "Displays" : {
+            "BgImage": {
+              "Image": "data/bg_1.png",
+              "Size": [
+                250,
+                60
+              ],
+              "Position": [
+                10,
+                60
+              ],
+              "Visible": false
+            },
+            "boxImage": {
+              "Image": "data_ch7/box.png",
+              "Size": [
+                300,
+                250
+              ],
+              "Position": [
+                50,
+                310
+              ],
+              "Visible": true
+            },
+            "MainboxImage": {
+              "Image": "data_ch7/mainbox.png",
+              "Size": [
+                350,
+                350
+              ],
+              "Position": [
+                25,
+                660
+              ],
+              "Visible": true
+            },
+            "Triangal": {
+              "Image": "data_ch7/triangal.png",
+              "Size": [
+                100,
+                140
+              ],
+              "Position": [
+                200,
+                250
+              ],
+              "Visible": true
+            },
+            "Syntax3Image": {
+              "Image": "data_ch7/syntax3.png",
+              "Size": [
+                340,
+                40
+              ],
+              "Position": [
+                30,
+                580
+              ],
+              "Visible": true
+            },
+            "Syntax1Image": {
+              "Image": "data_ch7/syntax3.png",
+              "Size": [
+                340,
+                40
+              ],
+              "Position": [
+                30,
+                495
+              ],
+              "Visible": true
+            },
+            "Syntax2Image": {
+              "Image": "data_ch7/syntax3.png",
+              "Size": [
+                340,
+                40
+              ],
+              "Position": [
+                30,
+                418
+              ],
+              "Visible": true
+            },
+            "PauseBttn": {
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            },
+            "Levelsel": {
+              "Image": "data/levelsel.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "PlayImage": {
+              "Image": "data/play.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "ReplayImage": {
+              "Image": "data/rep.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            }
+          },
+          "Updatable" : {
+            "LabelValue": {
+              "Text" :"C(",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                230,
+                130
+              ]
+            },
+            "LabelValue1": {
+              "Text" :"8",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                260,
+                130
+              ]
+            },
+            "LabelValue1_1": {
+              "Text" :"8",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                260,
+                130
+              ]
+            },
+            "LabelValue2": {
+              "Text" :",",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                280,
+                130
+              ]
+            },
+            "LabelValue3": {
+              "Text" :"12",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                290,
+                130
+              ]
+            },
+            "LabelValue3_1": {
+              "Text" :"12",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                290,
+                130
+              ]
+            },
+            "LabelValue4": {
+              "Text" :")",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                325,
+                130
+              ]
+            },
+            "LabelValue11": {
+              "Text" :"A(",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                90,
+                210
+              ]
+            },
+            "LabelValue12": {
+              "Text" :"2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                120,
+                210
+              ]
+            },
+            "LabelValue12_1": {
+              "Text" :"2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                120,
+                210
+              ]
+            },
+            "LabelValue13": {
+              "Text" :",",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                220
+              ]
+            },
+            "LabelValue14": {
+              "Text" :"8",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                150,
+                210
+              ]
+            },
+            "LabelValue14_1": {
+              "Text" :"8",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                150,
+                210
+              ]
+            },
+            "LabelValue15": {
+              "Text" :")",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                185,
+                210
+              ]
+            },
+            "LabelValue21": {
+              "Text" :"B(",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                210,
+                280
+              ]
+            },
+            "LabelValue22": {
+              "Text" :"4",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                280
+              ]
+            },
+            "LabelValue22_1": {
+              "Text" :"4",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                280
+              ]
+            },
+            "LabelValue23": {
+              "Text" :",",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                260,
+                280
+              ]
+            },
+            "LabelValue24": {
+              "Text" :"2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                270,
+                280
+              ]
+            },
+            "LabelValue24_1": {
+              "Text" :"2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                270,
+                280
+              ]
+            },
+            "LabelValue25": {
+              "Text" :")",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                290,
+                280
+              ]
+            },
+            "SyntaxLabelx1": {
+              "Text" :"x1",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                320,
+                495
+              ]
+            },
+            "SyntaxLabelx11": {
+              "Text" :"x1",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                320,
+                420
+              ]
+            },
+            "SyntaxLabelx2": {
+              "Text" :"x2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                260,
+                420
+              ]
+            },
+            "SyntaxLabelx22": {
+              "Text" :"x2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                320,
+                580
+              ]
+            },
+            "SyntaxLabelx3": {
+              "Text" :"x3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                260,
+                495
+              ]
+            },
+            "SyntaxLabelx33": {
+              "Text" :"x3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                258,
+                580
+              ]
+            },
+            "SyntaxLabely1": {
+              "Text" :"y1",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                170,
+                495
+              ]
+            },
+            "SyntaxLabely11": {
+              "Text" :"y1",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                170,
+                420
+              ]
+            },
+            "SyntaxLabely2": {
+              "Text" :"y2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                100,
+                420
+              ]
+            },
+            "SyntaxLabely22": {
+              "Text" :"y2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                100,
+                580
+              ]
+            },
+            "SyntaxLabely3": {
+              "Text" :"y3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                100,
+                495
+              ]
+            },
+            "SyntaxLabely33": {
+              "Text" :"y3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                170,
+                580
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+
+]

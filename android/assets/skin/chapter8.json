@@ -1,0 +1,4577 @@
+[
+  {
+    "Chapter8" : {
+      "Level1" : {
+        "Step1" : {
+          "Displays" : {
+            "BgImage": {
+              "Image": "data/bg_1.png",
+              "Size": [
+                250,
+                60
+              ],
+              "Position": [
+                10,
+                60
+              ],
+              "Visible": false
+            },
+            "Step1Image": {
+              "Image": "data/Step1.png",
+              "Size": [
+                200,
+                50
+              ],
+              "Position": [
+                10,
+                70
+              ],
+              "Visible": true
+            },
+            "SineAImage": {
+              "Image": "data_ch8/sineA.png",
+              "Size": [
+                180,
+                100
+              ],
+              "Position": [
+                10,
+                180
+              ],
+              "Visible": true
+            },
+            "CosAImage": {
+              "Image": "data_ch8/cosA.png",
+              "Size": [
+                180,
+                100
+              ],
+              "Position": [
+                200,
+                180
+              ],
+              "Visible": true
+            },
+            "TanImage": {
+              "Image": "data_ch8/tan.png",
+              "Size": [
+                180,
+                100
+              ],
+              "Position": [
+                100,
+                290
+              ],
+              "Visible": true
+            },
+            "Title2Image": {
+              "Image": "data_ch8/title2.png",
+              "Size": [
+                350,
+                220
+              ],
+              "Position": [
+                20,
+                520
+              ],
+              "Visible": true
+            },
+            "TriangleImage": {
+              "Image": "data_ch8/triangal.png",
+              "Size": [
+                200,
+                200
+              ],
+              "Position": [
+                100,
+                510
+              ],
+              "Visible": true
+            },
+            "Value1Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                10,
+                595
+              ],
+              "Visible": true
+            },
+            "Value2Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                120,
+                595
+              ],
+              "Visible": true
+            },
+            "Value3Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                220,
+                595
+              ],
+              "Visible": true
+            },
+            "Value4Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                10,
+                660
+              ],
+              "Visible": true
+            },
+            "Value5Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                120,
+                660
+              ],
+              "Visible": true
+            },
+            "Value6Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                220,
+                660
+              ],
+              "Visible": true
+            },
+            "LineImage": {
+              "Image": "data_ch8/line.png",
+              "Size": [
+                60,
+                5
+              ],
+              "Position": [
+                120,
+                135
+              ],
+              "Visible": false
+            },
+            "Line2Image": {
+              "Image": "data_ch8/line.png",
+              "Size": [
+                60,
+                5
+              ],
+              "Position": [
+                80,
+                135
+              ],
+              "Visible": false
+            },
+            "Line3Image": {
+              "Image": "data_ch8/line.png",
+              "Size": [
+                50,
+                5
+              ],
+              "Position": [
+                230,
+                240
+              ],
+              "Visible": false
+            },
+            "NextImage": {
+              "Image": "data/next.png",
+              "Size": [
+                40,
+                40
+              ],
+              "Position": [
+                330,
+                665
+              ],
+              "Visible": true
+            },
+            "PauseBttn": {
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            },
+            "Levelselect": {
+              "Image": "data/levelsel.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "PlayImage": {
+              "Image": "data/play.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "ReplayImage": {
+              "Image": "data/rep.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            }
+          },
+          "Updatable" : {
+            "LabelValue": {
+              "Text" :"CB",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                30,
+                585
+              ]
+            },
+            "LabelValue1_0": {
+              "Text" :"AC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                585
+              ]
+            },
+            "LabelValue1": {
+              "Text" :"AC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                585
+              ]
+            },
+            "LabelValue1_1": {
+              "Text" :"AC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                585
+              ]
+            },
+            "LabelValue2": {
+              "Text" :"BA",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                585
+              ]
+            },
+            "LabelValue3_0": {
+              "Text" :"AB",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                30,
+                650
+              ]
+            },
+            "LabelValue3": {
+              "Text" :"AB",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                30,
+                650
+              ]
+            },
+            "LabelValue3_1": {
+              "Text" :"AB",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                30,
+                650
+              ]
+            },
+            "LabelValue4": {
+              "Text" :"CA",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                650
+              ]
+            },
+            "LabelValue5_0": {
+              "Text" :"BC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                650
+              ]
+            },
+            "LabelValue5": {
+              "Text" :"BC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                650
+              ]
+            },
+            "LabelValue5_1": {
+              "Text" :"BC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                650
+              ]
+            }
+          }
+        },
+        "Step2" : {
+          "Displays" : {
+            "BgImage": {
+              "Image": "data/bg_1.png",
+              "Size": [
+                250,
+                60
+              ],
+              "Position": [
+                10,
+                60
+              ],
+              "Visible": false
+            },
+            "Step2Image": {
+              "Image": "data/Step2.png",
+              "Size": [
+                200,
+                50
+              ],
+              "Position": [
+                10,
+                70
+              ],
+              "Visible": true
+            },
+            "SineImage": {
+              "Image": "data_ch8/cosecant.png",
+              "Size": [
+                180,
+                100
+              ],
+              "Position": [
+                10,
+                180
+              ],
+              "Visible": true
+            },
+            "CosImage": {
+              "Image": "data_ch8/secant.png",
+              "Size": [
+                180,
+                100
+              ],
+              "Position": [
+                200,
+                180
+              ],
+              "Visible": true
+            },
+            "TanImage": {
+              "Image": "data_ch8/cotenge.png",
+              "Size": [
+                180,
+                100
+              ],
+              "Position": [
+                100,
+                290
+              ],
+              "Visible": true
+            },
+            "Title2Image": {
+              "Image": "data_ch8/title2.png",
+              "Size": [
+                350,
+                220
+              ],
+              "Position": [
+                20,
+                520
+              ],
+              "Visible": true
+            },
+            "TriangleImage": {
+              "Image": "data_ch8/triangal.png",
+              "Size": [
+                200,
+                200
+              ],
+              "Position": [
+                100,
+                510
+              ],
+              "Visible": true
+            },
+            "Value1Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                10,
+                595
+              ],
+              "Visible": true
+            },
+            "Value2Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                120,
+                595
+              ],
+              "Visible": true
+            },
+            "Value3Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                220,
+                595
+              ],
+              "Visible": true
+            },
+            "Value4Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                10,
+                660
+              ],
+              "Visible": true
+            },
+            "Value5Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                120,
+                660
+              ],
+              "Visible": true
+            },
+            "Value6Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                220,
+                660
+              ],
+              "Visible": true
+            },
+            "Line1Image": {
+              "Image": "data_ch8/line.png",
+              "Size": [
+                40,
+                5
+              ],
+              "Position": [
+                150,
+                132
+              ],
+              "Visible": false
+            },
+            "Line2Image": {
+              "Image": "data_ch8/line.png",
+              "Size": [
+                60,
+                5
+              ],
+              "Position": [
+                80,
+                133
+              ],
+              "Visible": false
+            },
+            "Line3Image": {
+              "Image": "data_ch8/line.png",
+              "Size": [
+                40,
+                5
+              ],
+              "Position": [
+                240,
+                243
+              ],
+              "Visible": false
+            },
+            "NextImage": {
+              "Image": "data/next.png",
+              "Size": [
+                40,
+                40
+              ],
+              "Position": [
+                330,
+                665
+              ],
+              "Visible": true
+            },
+            "PauseBttn": {
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            },
+            "Levelselect": {
+              "Image": "data/levelsel.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "PlayImage": {
+              "Image": "data/play.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "ReplayImage": {
+              "Image": "data/rep.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            }
+          },
+          "Updatable" : {
+            "LabelValue": {
+              "Text" :"CB",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                30,
+                585
+              ]
+            },
+            "LabelValue1_0": {
+              "Text" :"AC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                585
+              ]
+            },
+            "LabelValue1": {
+              "Text" :"AC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                585
+              ]
+            },
+            "LabelValue1_1": {
+              "Text" :"AC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                585
+              ]
+            },
+            "LabelValue2": {
+              "Text" :"BA",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                585
+              ]
+            },
+            "LabelValue3_0": {
+              "Text" :"AB",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                30,
+                650
+              ]
+            },
+            "LabelValue3": {
+              "Text" :"AB",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                30,
+                650
+              ]
+            },
+            "LabelValue4": {
+              "Text" :"CA",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                650
+              ]
+            },
+            "LabelValue5_0": {
+              "Text" :"BC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                650
+              ]
+            },
+            "LabelValue5": {
+              "Text" :"BC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                650
+              ]
+            },
+            "LabelValue5_1": {
+              "Text" :"BC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                650
+              ]
+            },
+            "LabelValue5_2": {
+              "Text" :"BC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                650
+              ]
+            }
+          }
+        }
+      },
+      "Level2" : {
+        "Step1" : {
+          "Displays" : {
+            "BgImage": {
+              "Image": "data/bg_1.png",
+              "Size": [
+                250,
+                60
+              ],
+              "Position": [
+                10,
+                60
+              ],
+              "Visible": false
+            },
+            "Step1Image": {
+              "Image": "data/Step1.png",
+              "Size": [
+                200,
+                50
+              ],
+              "Position": [
+                10,
+                70
+              ],
+              "Visible": true
+            },
+            "SineAImage": {
+              "Image": "data_ch8/sineA.png",
+              "Size": [
+                180,
+                100
+              ],
+              "Position": [
+                10,
+                180
+              ],
+              "Visible": true
+            },
+            "CosAImage": {
+              "Image": "data_ch8/cosA.png",
+              "Size": [
+                180,
+                100
+              ],
+              "Position": [
+                200,
+                180
+              ],
+              "Visible": true
+            },
+            "TanImage": {
+              "Image": "data_ch8/tan.png",
+              "Size": [
+                180,
+                100
+              ],
+              "Position": [
+                100,
+                290
+              ],
+              "Visible": true
+            },
+            "Title2Image": {
+              "Image": "data_ch8/title2.png",
+              "Size": [
+                350,
+                220
+              ],
+              "Position": [
+                20,
+                520
+              ],
+              "Visible": true
+            },
+            "TriangleImage": {
+              "Image": "data_ch8/triangal.png",
+              "Size": [
+                200,
+                200
+              ],
+              "Position": [
+                100,
+                510
+              ],
+              "Visible": true
+            },
+            "Value1Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                10,
+                595
+              ],
+              "Visible": true
+            },
+            "Value2Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                120,
+                595
+              ],
+              "Visible": true
+            },
+            "Value3Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                220,
+                595
+              ],
+              "Visible": true
+            },
+            "Value4Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                10,
+                660
+              ],
+              "Visible": true
+            },
+            "Value5Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                120,
+                660
+              ],
+              "Visible": true
+            },
+            "Value6Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                220,
+                660
+              ],
+              "Visible": true
+            },
+            "LineImage": {
+              "Image": "data_ch8/line.png",
+              "Size": [
+                60,
+                5
+              ],
+              "Position": [
+                120,
+                135
+              ],
+              "Visible": false
+            },
+            "Line2Image": {
+              "Image": "data_ch8/line.png",
+              "Size": [
+                60,
+                5
+              ],
+              "Position": [
+                80,
+                135
+              ],
+              "Visible": false
+            },
+            "Line3Image": {
+              "Image": "data_ch8/line.png",
+              "Size": [
+                50,
+                5
+              ],
+              "Position": [
+                230,
+                240
+              ],
+              "Visible": false
+            },
+            "NextImage": {
+              "Image": "data/next.png",
+              "Size": [
+                40,
+                40
+              ],
+              "Position": [
+                330,
+                665
+              ],
+              "Visible": true
+            },
+            "PauseBttn": {
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            },
+            "Levelselect": {
+              "Image": "data/levelsel.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "PlayImage": {
+              "Image": "data/play.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "ReplayImage": {
+              "Image": "data/rep.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            }
+          },
+          "Updatable" : {
+            "LabelValue": {
+              "Text" :"CB",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                30,
+                585
+              ]
+            },
+            "LabelValue1_0": {
+              "Text" :"AC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                585
+              ]
+            },
+            "LabelValue1": {
+              "Text" :"AC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                585
+              ]
+            },
+            "LabelValue1_1": {
+              "Text" :"AC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                585
+              ]
+            },
+            "LabelValue2": {
+              "Text" :"BA",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                585
+              ]
+            },
+            "LabelValue3_0": {
+              "Text" :"AB",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                30,
+                650
+              ]
+            },
+            "LabelValue3": {
+              "Text" :"AB",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                30,
+                650
+              ]
+            },
+            "LabelValue3_1": {
+              "Text" :"AB",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                30,
+                650
+              ]
+            },
+            "LabelValue4": {
+              "Text" :"CA",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                650
+              ]
+            },
+            "LabelValue5_0": {
+              "Text" :"BC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                650
+              ]
+            },
+            "LabelValue5": {
+              "Text" :"BC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                650
+              ]
+            },
+            "LabelValue5_1": {
+              "Text" :"BC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                650
+              ]
+            }
+          }
+        },
+        "Step2" : {
+          "Displays" : {
+            "BgImage": {
+              "Image": "data/bg_1.png",
+              "Size": [
+                250,
+                60
+              ],
+              "Position": [
+                10,
+                60
+              ],
+              "Visible": false
+            },
+            "Step2Image": {
+              "Image": "data/Step2.png",
+              "Size": [
+                200,
+                50
+              ],
+              "Position": [
+                10,
+                70
+              ],
+              "Visible": true
+            },
+            "SineImage": {
+              "Image": "data_ch8/cosecant.png",
+              "Size": [
+                180,
+                100
+              ],
+              "Position": [
+                10,
+                180
+              ],
+              "Visible": true
+            },
+            "CosImage": {
+              "Image": "data_ch8/secant.png",
+              "Size": [
+                180,
+                100
+              ],
+              "Position": [
+                200,
+                180
+              ],
+              "Visible": true
+            },
+            "TanImage": {
+              "Image": "data_ch8/cotenge.png",
+              "Size": [
+                180,
+                100
+              ],
+              "Position": [
+                100,
+                290
+              ],
+              "Visible": true
+            },
+            "Title2Image": {
+              "Image": "data_ch8/title2.png",
+              "Size": [
+                350,
+                220
+              ],
+              "Position": [
+                20,
+                520
+              ],
+              "Visible": true
+            },
+            "TriangleImage": {
+              "Image": "data_ch8/triangal.png",
+              "Size": [
+                200,
+                200
+              ],
+              "Position": [
+                100,
+                510
+              ],
+              "Visible": true
+            },
+            "Value1Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                10,
+                595
+              ],
+              "Visible": true
+            },
+            "Value2Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                120,
+                595
+              ],
+              "Visible": true
+            },
+            "Value3Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                220,
+                595
+              ],
+              "Visible": true
+            },
+            "Value4Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                10,
+                660
+              ],
+              "Visible": true
+            },
+            "Value5Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                120,
+                660
+              ],
+              "Visible": true
+            },
+            "Value6Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                220,
+                660
+              ],
+              "Visible": true
+            },
+            "Line1Image": {
+              "Image": "data_ch8/line.png",
+              "Size": [
+                40,
+                5
+              ],
+              "Position": [
+                150,
+                132
+              ],
+              "Visible": false
+            },
+            "Line2Image": {
+              "Image": "data_ch8/line.png",
+              "Size": [
+                60,
+                5
+              ],
+              "Position": [
+                80,
+                133
+              ],
+              "Visible": false
+            },
+            "Line3Image": {
+              "Image": "data_ch8/line.png",
+              "Size": [
+                40,
+                5
+              ],
+              "Position": [
+                240,
+                243
+              ],
+              "Visible": false
+            },
+            "NextImage": {
+              "Image": "data/next.png",
+              "Size": [
+                40,
+                40
+              ],
+              "Position": [
+                330,
+                665
+              ],
+              "Visible": true
+            },
+            "PauseBttn": {
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            },
+            "Levelselect": {
+              "Image": "data/levelsel.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "PlayImage": {
+              "Image": "data/play.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "ReplayImage": {
+              "Image": "data/rep.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            }
+          },
+          "Updatable" : {
+            "LabelValue": {
+              "Text" :"CB",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                30,
+                585
+              ]
+            },
+            "LabelValue1_0": {
+              "Text" :"AC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                585
+              ]
+            },
+            "LabelValue1": {
+              "Text" :"AC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                585
+              ]
+            },
+            "LabelValue1_1": {
+              "Text" :"AC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                585
+              ]
+            },
+            "LabelValue2": {
+              "Text" :"BA",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                585
+              ]
+            },
+            "LabelValue3_0": {
+              "Text" :"AB",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                30,
+                650
+              ]
+            },
+            "LabelValue3": {
+              "Text" :"AB",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                30,
+                650
+              ]
+            },
+            "LabelValue4": {
+              "Text" :"CA",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                650
+              ]
+            },
+            "LabelValue5_0": {
+              "Text" :"BC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                650
+              ]
+            },
+            "LabelValue5": {
+              "Text" :"BC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                650
+              ]
+            },
+            "LabelValue5_1": {
+              "Text" :"BC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                650
+              ]
+            },
+            "LabelValue5_2": {
+              "Text" :"BC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                650
+              ]
+            }
+          }
+        }
+      },
+      "Level3" : {
+        "Step1" : {
+          "Displays" : {
+            "BgImage": {
+              "Image": "data/bg_1.png",
+              "Size": [
+                250,
+                60
+              ],
+              "Position": [
+                10,
+                60
+              ],
+              "Visible": false
+            },
+            "Step1Image": {
+              "Image": "data/Step1.png",
+              "Size": [
+                200,
+                50
+              ],
+              "Position": [
+                10,
+                70
+              ],
+              "Visible": true
+            },
+            "SineAImage": {
+              "Image": "data_ch8/sineA.png",
+              "Size": [
+                180,
+                100
+              ],
+              "Position": [
+                10,
+                180
+              ],
+              "Visible": true
+            },
+            "CosAImage": {
+              "Image": "data_ch8/cosA.png",
+              "Size": [
+                180,
+                100
+              ],
+              "Position": [
+                200,
+                180
+              ],
+              "Visible": true
+            },
+            "TanImage": {
+              "Image": "data_ch8/tan.png",
+              "Size": [
+                180,
+                100
+              ],
+              "Position": [
+                100,
+                290
+              ],
+              "Visible": true
+            },
+            "Title2Image": {
+              "Image": "data_ch8/title2.png",
+              "Size": [
+                350,
+                220
+              ],
+              "Position": [
+                20,
+                520
+              ],
+              "Visible": true
+            },
+            "TriangleImage": {
+              "Image": "data_ch8/triangal.png",
+              "Size": [
+                200,
+                200
+              ],
+              "Position": [
+                100,
+                510
+              ],
+              "Visible": true
+            },
+            "Value1Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                10,
+                595
+              ],
+              "Visible": true
+            },
+            "Value2Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                120,
+                595
+              ],
+              "Visible": true
+            },
+            "Value3Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                220,
+                595
+              ],
+              "Visible": true
+            },
+            "Value4Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                10,
+                660
+              ],
+              "Visible": true
+            },
+            "Value5Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                120,
+                660
+              ],
+              "Visible": true
+            },
+            "Value6Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                220,
+                660
+              ],
+              "Visible": true
+            },
+            "LineImage": {
+              "Image": "data_ch8/line.png",
+              "Size": [
+                60,
+                5
+              ],
+              "Position": [
+                120,
+                135
+              ],
+              "Visible": false
+            },
+            "Line2Image": {
+              "Image": "data_ch8/line.png",
+              "Size": [
+                60,
+                5
+              ],
+              "Position": [
+                80,
+                135
+              ],
+              "Visible": false
+            },
+            "Line3Image": {
+              "Image": "data_ch8/line.png",
+              "Size": [
+                50,
+                5
+              ],
+              "Position": [
+                230,
+                240
+              ],
+              "Visible": false
+            },
+            "NextImage": {
+              "Image": "data/next.png",
+              "Size": [
+                40,
+                40
+              ],
+              "Position": [
+                330,
+                665
+              ],
+              "Visible": true
+            },
+            "PauseBttn": {
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            },
+            "Levelselect": {
+              "Image": "data/levelsel.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "PlayImage": {
+              "Image": "data/play.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "ReplayImage": {
+              "Image": "data/rep.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            }
+          },
+          "Updatable" : {
+            "LabelValue": {
+              "Text" :"CB",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                30,
+                585
+              ]
+            },
+            "LabelValue1_0": {
+              "Text" :"AC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                585
+              ]
+            },
+            "LabelValue1": {
+              "Text" :"AC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                585
+              ]
+            },
+            "LabelValue1_1": {
+              "Text" :"AC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                585
+              ]
+            },
+            "LabelValue2": {
+              "Text" :"BA",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                585
+              ]
+            },
+            "LabelValue3_0": {
+              "Text" :"AB",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                30,
+                650
+              ]
+            },
+            "LabelValue3": {
+              "Text" :"AB",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                30,
+                650
+              ]
+            },
+            "LabelValue3_1": {
+              "Text" :"AB",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                30,
+                650
+              ]
+            },
+            "LabelValue4": {
+              "Text" :"CA",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                650
+              ]
+            },
+            "LabelValue5_0": {
+              "Text" :"BC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                650
+              ]
+            },
+            "LabelValue5": {
+              "Text" :"BC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                650
+              ]
+            },
+            "LabelValue5_1": {
+              "Text" :"BC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                650
+              ]
+            }
+          }
+        },
+        "Step2" : {
+          "Displays" : {
+            "BgImage": {
+              "Image": "data/bg_1.png",
+              "Size": [
+                250,
+                60
+              ],
+              "Position": [
+                10,
+                60
+              ],
+              "Visible": false
+            },
+            "Step2Image": {
+              "Image": "data/Step2.png",
+              "Size": [
+                200,
+                50
+              ],
+              "Position": [
+                10,
+                70
+              ],
+              "Visible": true
+            },
+            "SineImage": {
+              "Image": "data_ch8/cosecant.png",
+              "Size": [
+                180,
+                100
+              ],
+              "Position": [
+                10,
+                180
+              ],
+              "Visible": true
+            },
+            "CosImage": {
+              "Image": "data_ch8/secant.png",
+              "Size": [
+                180,
+                100
+              ],
+              "Position": [
+                200,
+                180
+              ],
+              "Visible": true
+            },
+            "TanImage": {
+              "Image": "data_ch8/cotenge.png",
+              "Size": [
+                180,
+                100
+              ],
+              "Position": [
+                100,
+                290
+              ],
+              "Visible": true
+            },
+            "Title2Image": {
+              "Image": "data_ch8/title2.png",
+              "Size": [
+                350,
+                220
+              ],
+              "Position": [
+                20,
+                520
+              ],
+              "Visible": true
+            },
+            "TriangleImage": {
+              "Image": "data_ch8/triangal.png",
+              "Size": [
+                200,
+                200
+              ],
+              "Position": [
+                100,
+                510
+              ],
+              "Visible": true
+            },
+            "Value1Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                10,
+                595
+              ],
+              "Visible": true
+            },
+            "Value2Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                120,
+                595
+              ],
+              "Visible": true
+            },
+            "Value3Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                220,
+                595
+              ],
+              "Visible": true
+            },
+            "Value4Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                10,
+                660
+              ],
+              "Visible": true
+            },
+            "Value5Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                120,
+                660
+              ],
+              "Visible": true
+            },
+            "Value6Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                220,
+                660
+              ],
+              "Visible": true
+            },
+            "Line1Image": {
+              "Image": "data_ch8/line.png",
+              "Size": [
+                40,
+                5
+              ],
+              "Position": [
+                150,
+                132
+              ],
+              "Visible": false
+            },
+            "Line2Image": {
+              "Image": "data_ch8/line.png",
+              "Size": [
+                60,
+                5
+              ],
+              "Position": [
+                80,
+                133
+              ],
+              "Visible": false
+            },
+            "Line3Image": {
+              "Image": "data_ch8/line.png",
+              "Size": [
+                40,
+                5
+              ],
+              "Position": [
+                240,
+                243
+              ],
+              "Visible": false
+            },
+            "NextImage": {
+              "Image": "data/next.png",
+              "Size": [
+                40,
+                40
+              ],
+              "Position": [
+                330,
+                665
+              ],
+              "Visible": true
+            },
+            "PauseBttn": {
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            },
+            "Levelselect": {
+              "Image": "data/levelsel.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "PlayImage": {
+              "Image": "data/play.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "ReplayImage": {
+              "Image": "data/rep.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            }
+          },
+          "Updatable" : {
+            "LabelValue": {
+              "Text" :"CB",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                30,
+                585
+              ]
+            },
+            "LabelValue1_0": {
+              "Text" :"AC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                585
+              ]
+            },
+            "LabelValue1": {
+              "Text" :"AC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                585
+              ]
+            },
+            "LabelValue1_1": {
+              "Text" :"AC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                585
+              ]
+            },
+            "LabelValue2": {
+              "Text" :"BA",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                585
+              ]
+            },
+            "LabelValue3_0": {
+              "Text" :"AB",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                30,
+                650
+              ]
+            },
+            "LabelValue3": {
+              "Text" :"AB",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                30,
+                650
+              ]
+            },
+            "LabelValue4": {
+              "Text" :"CA",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                650
+              ]
+            },
+            "LabelValue5_0": {
+              "Text" :"BC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                650
+              ]
+            },
+            "LabelValue5": {
+              "Text" :"BC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                650
+              ]
+            },
+            "LabelValue5_1": {
+              "Text" :"BC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                650
+              ]
+            },
+            "LabelValue5_2": {
+              "Text" :"BC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                650
+              ]
+            }
+          }
+        }
+      },
+      "Level4" : {
+        "Step1" : {
+          "Displays" : {
+            "BgImage": {
+              "Image": "data/bg_1.png",
+              "Size": [
+                250,
+                60
+              ],
+              "Position": [
+                10,
+                60
+              ],
+              "Visible": false
+            },
+            "Step1Image": {
+              "Image": "data/Step1.png",
+              "Size": [
+                200,
+                50
+              ],
+              "Position": [
+                10,
+                70
+              ],
+              "Visible": true
+            },
+            "SineAImage": {
+              "Image": "data_ch8/sineA.png",
+              "Size": [
+                180,
+                100
+              ],
+              "Position": [
+                10,
+                180
+              ],
+              "Visible": true
+            },
+            "CosAImage": {
+              "Image": "data_ch8/cosA.png",
+              "Size": [
+                180,
+                100
+              ],
+              "Position": [
+                200,
+                180
+              ],
+              "Visible": true
+            },
+            "TanImage": {
+              "Image": "data_ch8/tan.png",
+              "Size": [
+                180,
+                100
+              ],
+              "Position": [
+                100,
+                290
+              ],
+              "Visible": true
+            },
+            "Title2Image": {
+              "Image": "data_ch8/title2.png",
+              "Size": [
+                350,
+                220
+              ],
+              "Position": [
+                20,
+                520
+              ],
+              "Visible": true
+            },
+            "TriangleImage": {
+              "Image": "data_ch8/triangal.png",
+              "Size": [
+                200,
+                200
+              ],
+              "Position": [
+                100,
+                510
+              ],
+              "Visible": true
+            },
+            "Value1Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                10,
+                595
+              ],
+              "Visible": true
+            },
+            "Value2Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                120,
+                595
+              ],
+              "Visible": true
+            },
+            "Value3Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                220,
+                595
+              ],
+              "Visible": true
+            },
+            "Value4Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                10,
+                660
+              ],
+              "Visible": true
+            },
+            "Value5Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                120,
+                660
+              ],
+              "Visible": true
+            },
+            "Value6Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                220,
+                660
+              ],
+              "Visible": true
+            },
+            "LineImage": {
+              "Image": "data_ch8/line.png",
+              "Size": [
+                60,
+                5
+              ],
+              "Position": [
+                120,
+                135
+              ],
+              "Visible": false
+            },
+            "Line2Image": {
+              "Image": "data_ch8/line.png",
+              "Size": [
+                60,
+                5
+              ],
+              "Position": [
+                80,
+                135
+              ],
+              "Visible": false
+            },
+            "Line3Image": {
+              "Image": "data_ch8/line.png",
+              "Size": [
+                50,
+                5
+              ],
+              "Position": [
+                230,
+                240
+              ],
+              "Visible": false
+            },
+            "NextImage": {
+              "Image": "data/next.png",
+              "Size": [
+                40,
+                40
+              ],
+              "Position": [
+                330,
+                665
+              ],
+              "Visible": true
+            },
+            "PauseBttn": {
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            },
+            "Levelselect": {
+              "Image": "data/levelsel.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "PlayImage": {
+              "Image": "data/play.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "ReplayImage": {
+              "Image": "data/rep.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            }
+          },
+          "Updatable" : {
+            "LabelValue": {
+              "Text" :"CB",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                30,
+                585
+              ]
+            },
+            "LabelValue1_0": {
+              "Text" :"AC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                585
+              ]
+            },
+            "LabelValue1": {
+              "Text" :"AC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                585
+              ]
+            },
+            "LabelValue1_1": {
+              "Text" :"AC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                585
+              ]
+            },
+            "LabelValue2": {
+              "Text" :"BA",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                585
+              ]
+            },
+            "LabelValue3_0": {
+              "Text" :"AB",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                30,
+                650
+              ]
+            },
+            "LabelValue3": {
+              "Text" :"AB",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                30,
+                650
+              ]
+            },
+            "LabelValue3_1": {
+              "Text" :"AB",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                30,
+                650
+              ]
+            },
+            "LabelValue4": {
+              "Text" :"CA",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                650
+              ]
+            },
+            "LabelValue5_0": {
+              "Text" :"BC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                650
+              ]
+            },
+            "LabelValue5": {
+              "Text" :"BC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                650
+              ]
+            },
+            "LabelValue5_1": {
+              "Text" :"BC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                650
+              ]
+            }
+          }
+        },
+        "Step2" : {
+          "Displays" : {
+            "BgImage": {
+              "Image": "data/bg_1.png",
+              "Size": [
+                250,
+                60
+              ],
+              "Position": [
+                10,
+                60
+              ],
+              "Visible": false
+            },
+            "Step2Image": {
+              "Image": "data/Step2.png",
+              "Size": [
+                200,
+                50
+              ],
+              "Position": [
+                10,
+                70
+              ],
+              "Visible": true
+            },
+            "SineImage": {
+              "Image": "data_ch8/cosecant.png",
+              "Size": [
+                180,
+                100
+              ],
+              "Position": [
+                10,
+                180
+              ],
+              "Visible": true
+            },
+            "CosImage": {
+              "Image": "data_ch8/secant.png",
+              "Size": [
+                180,
+                100
+              ],
+              "Position": [
+                200,
+                180
+              ],
+              "Visible": true
+            },
+            "TanImage": {
+              "Image": "data_ch8/cotenge.png",
+              "Size": [
+                180,
+                100
+              ],
+              "Position": [
+                100,
+                290
+              ],
+              "Visible": true
+            },
+            "Title2Image": {
+              "Image": "data_ch8/title2.png",
+              "Size": [
+                350,
+                220
+              ],
+              "Position": [
+                20,
+                520
+              ],
+              "Visible": true
+            },
+            "TriangleImage": {
+              "Image": "data_ch8/triangal.png",
+              "Size": [
+                200,
+                200
+              ],
+              "Position": [
+                100,
+                510
+              ],
+              "Visible": true
+            },
+            "Value1Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                10,
+                595
+              ],
+              "Visible": true
+            },
+            "Value2Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                120,
+                595
+              ],
+              "Visible": true
+            },
+            "Value3Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                220,
+                595
+              ],
+              "Visible": true
+            },
+            "Value4Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                10,
+                660
+              ],
+              "Visible": true
+            },
+            "Value5Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                120,
+                660
+              ],
+              "Visible": true
+            },
+            "Value6Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                220,
+                660
+              ],
+              "Visible": true
+            },
+            "Line1Image": {
+              "Image": "data_ch8/line.png",
+              "Size": [
+                40,
+                5
+              ],
+              "Position": [
+                150,
+                132
+              ],
+              "Visible": false
+            },
+            "Line2Image": {
+              "Image": "data_ch8/line.png",
+              "Size": [
+                60,
+                5
+              ],
+              "Position": [
+                80,
+                133
+              ],
+              "Visible": false
+            },
+            "Line3Image": {
+              "Image": "data_ch8/line.png",
+              "Size": [
+                40,
+                5
+              ],
+              "Position": [
+                240,
+                243
+              ],
+              "Visible": false
+            },
+            "NextImage": {
+              "Image": "data/next.png",
+              "Size": [
+                40,
+                40
+              ],
+              "Position": [
+                330,
+                665
+              ],
+              "Visible": true
+            },
+            "PauseBttn": {
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            },
+            "Levelselect": {
+              "Image": "data/levelsel.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "PlayImage": {
+              "Image": "data/play.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "ReplayImage": {
+              "Image": "data/rep.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            }
+          },
+          "Updatable" : {
+            "LabelValue": {
+              "Text" :"CB",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                30,
+                585
+              ]
+            },
+            "LabelValue1_0": {
+              "Text" :"AC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                585
+              ]
+            },
+            "LabelValue1": {
+              "Text" :"AC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                585
+              ]
+            },
+            "LabelValue1_1": {
+              "Text" :"AC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                585
+              ]
+            },
+            "LabelValue2": {
+              "Text" :"BA",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                585
+              ]
+            },
+            "LabelValue3_0": {
+              "Text" :"AB",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                30,
+                650
+              ]
+            },
+            "LabelValue3": {
+              "Text" :"AB",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                30,
+                650
+              ]
+            },
+            "LabelValue4": {
+              "Text" :"CA",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                650
+              ]
+            },
+            "LabelValue5_0": {
+              "Text" :"BC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                650
+              ]
+            },
+            "LabelValue5": {
+              "Text" :"BC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                650
+              ]
+            },
+            "LabelValue5_1": {
+              "Text" :"BC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                650
+              ]
+            },
+            "LabelValue5_2": {
+              "Text" :"BC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                650
+              ]
+            }
+          }
+        }
+      },
+      "Level5" : {
+        "Step1" : {
+          "Displays" : {
+            "BgImage": {
+              "Image": "data/bg_1.png",
+              "Size": [
+                250,
+                60
+              ],
+              "Position": [
+                10,
+                60
+              ],
+              "Visible": false
+            },
+            "Step1Image": {
+              "Image": "data/Step1.png",
+              "Size": [
+                200,
+                50
+              ],
+              "Position": [
+                10,
+                70
+              ],
+              "Visible": true
+            },
+            "SineAImage": {
+              "Image": "data_ch8/sineA.png",
+              "Size": [
+                180,
+                100
+              ],
+              "Position": [
+                10,
+                180
+              ],
+              "Visible": true
+            },
+            "CosAImage": {
+              "Image": "data_ch8/cosA.png",
+              "Size": [
+                180,
+                100
+              ],
+              "Position": [
+                200,
+                180
+              ],
+              "Visible": true
+            },
+            "TanImage": {
+              "Image": "data_ch8/tan.png",
+              "Size": [
+                180,
+                100
+              ],
+              "Position": [
+                100,
+                290
+              ],
+              "Visible": true
+            },
+            "Title2Image": {
+              "Image": "data_ch8/title2.png",
+              "Size": [
+                350,
+                220
+              ],
+              "Position": [
+                20,
+                520
+              ],
+              "Visible": true
+            },
+            "TriangleImage": {
+              "Image": "data_ch8/triangal.png",
+              "Size": [
+                200,
+                200
+              ],
+              "Position": [
+                100,
+                510
+              ],
+              "Visible": true
+            },
+            "Value1Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                10,
+                595
+              ],
+              "Visible": true
+            },
+            "Value2Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                120,
+                595
+              ],
+              "Visible": true
+            },
+            "Value3Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                220,
+                595
+              ],
+              "Visible": true
+            },
+            "Value4Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                10,
+                660
+              ],
+              "Visible": true
+            },
+            "Value5Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                120,
+                660
+              ],
+              "Visible": true
+            },
+            "Value6Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                220,
+                660
+              ],
+              "Visible": true
+            },
+            "LineImage": {
+              "Image": "data_ch8/line.png",
+              "Size": [
+                60,
+                5
+              ],
+              "Position": [
+                120,
+                135
+              ],
+              "Visible": false
+            },
+            "Line2Image": {
+              "Image": "data_ch8/line.png",
+              "Size": [
+                60,
+                5
+              ],
+              "Position": [
+                80,
+                135
+              ],
+              "Visible": false
+            },
+            "Line3Image": {
+              "Image": "data_ch8/line.png",
+              "Size": [
+                50,
+                5
+              ],
+              "Position": [
+                230,
+                240
+              ],
+              "Visible": false
+            },
+            "NextImage": {
+              "Image": "data/next.png",
+              "Size": [
+                40,
+                40
+              ],
+              "Position": [
+                330,
+                665
+              ],
+              "Visible": true
+            },
+            "PauseBttn": {
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            },
+            "Levelselect": {
+              "Image": "data/levelsel.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "PlayImage": {
+              "Image": "data/play.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "ReplayImage": {
+              "Image": "data/rep.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            }
+          },
+          "Updatable" : {
+            "LabelValue": {
+              "Text" :"CB",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                30,
+                585
+              ]
+            },
+            "LabelValue1_0": {
+              "Text" :"AC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                585
+              ]
+            },
+            "LabelValue1": {
+              "Text" :"AC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                585
+              ]
+            },
+            "LabelValue1_1": {
+              "Text" :"AC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                585
+              ]
+            },
+            "LabelValue2": {
+              "Text" :"BA",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                585
+              ]
+            },
+            "LabelValue3_0": {
+              "Text" :"AB",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                30,
+                650
+              ]
+            },
+            "LabelValue3": {
+              "Text" :"AB",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                30,
+                650
+              ]
+            },
+            "LabelValue3_1": {
+              "Text" :"AB",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                30,
+                650
+              ]
+            },
+            "LabelValue4": {
+              "Text" :"CA",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                650
+              ]
+            },
+            "LabelValue5_0": {
+              "Text" :"BC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                650
+              ]
+            },
+            "LabelValue5": {
+              "Text" :"BC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                650
+              ]
+            },
+            "LabelValue5_1": {
+              "Text" :"BC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                650
+              ]
+            }
+          }
+        },
+        "Step2" : {
+          "Displays" : {
+            "BgImage": {
+              "Image": "data/bg_1.png",
+              "Size": [
+                250,
+                60
+              ],
+              "Position": [
+                10,
+                60
+              ],
+              "Visible": false
+            },
+            "Step2Image": {
+              "Image": "data/Step2.png",
+              "Size": [
+                200,
+                50
+              ],
+              "Position": [
+                10,
+                70
+              ],
+              "Visible": true
+            },
+            "SineImage": {
+              "Image": "data_ch8/cosecant.png",
+              "Size": [
+                180,
+                100
+              ],
+              "Position": [
+                10,
+                180
+              ],
+              "Visible": true
+            },
+            "CosImage": {
+              "Image": "data_ch8/secant.png",
+              "Size": [
+                180,
+                100
+              ],
+              "Position": [
+                200,
+                180
+              ],
+              "Visible": true
+            },
+            "TanImage": {
+              "Image": "data_ch8/cotenge.png",
+              "Size": [
+                180,
+                100
+              ],
+              "Position": [
+                100,
+                290
+              ],
+              "Visible": true
+            },
+            "Title2Image": {
+              "Image": "data_ch8/title2.png",
+              "Size": [
+                350,
+                220
+              ],
+              "Position": [
+                20,
+                520
+              ],
+              "Visible": true
+            },
+            "TriangleImage": {
+              "Image": "data_ch8/triangal.png",
+              "Size": [
+                200,
+                200
+              ],
+              "Position": [
+                100,
+                510
+              ],
+              "Visible": true
+            },
+            "Value1Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                10,
+                595
+              ],
+              "Visible": true
+            },
+            "Value2Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                120,
+                595
+              ],
+              "Visible": true
+            },
+            "Value3Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                220,
+                595
+              ],
+              "Visible": true
+            },
+            "Value4Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                10,
+                660
+              ],
+              "Visible": true
+            },
+            "Value5Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                120,
+                660
+              ],
+              "Visible": true
+            },
+            "Value6Image": {
+              "Image": "data/shap.png",
+              "Size": [
+                80,
+                50
+              ],
+              "Position": [
+                220,
+                660
+              ],
+              "Visible": true
+            },
+            "Line1Image": {
+              "Image": "data_ch8/line.png",
+              "Size": [
+                40,
+                5
+              ],
+              "Position": [
+                150,
+                132
+              ],
+              "Visible": false
+            },
+            "Line2Image": {
+              "Image": "data_ch8/line.png",
+              "Size": [
+                60,
+                5
+              ],
+              "Position": [
+                80,
+                133
+              ],
+              "Visible": false
+            },
+            "Line3Image": {
+              "Image": "data_ch8/line.png",
+              "Size": [
+                40,
+                5
+              ],
+              "Position": [
+                240,
+                243
+              ],
+              "Visible": false
+            },
+            "NextImage": {
+              "Image": "data/next.png",
+              "Size": [
+                40,
+                40
+              ],
+              "Position": [
+                330,
+                665
+              ],
+              "Visible": true
+            },
+            "PauseBttn": {
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            },
+            "Levelselect": {
+              "Image": "data/levelsel.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "PlayImage": {
+              "Image": "data/play.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "ReplayImage": {
+              "Image": "data/rep.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            }
+          },
+          "Updatable" : {
+            "LabelValue": {
+              "Text" :"CB",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                30,
+                585
+              ]
+            },
+            "LabelValue1_0": {
+              "Text" :"AC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                585
+              ]
+            },
+            "LabelValue1": {
+              "Text" :"AC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                585
+              ]
+            },
+            "LabelValue1_1": {
+              "Text" :"AC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                585
+              ]
+            },
+            "LabelValue2": {
+              "Text" :"BA",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                585
+              ]
+            },
+            "LabelValue3_0": {
+              "Text" :"AB",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                30,
+                650
+              ]
+            },
+            "LabelValue3": {
+              "Text" :"AB",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                30,
+                650
+              ]
+            },
+            "LabelValue4": {
+              "Text" :"CA",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                650
+              ]
+            },
+            "LabelValue5_0": {
+              "Text" :"BC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                650
+              ]
+            },
+            "LabelValue5": {
+              "Text" :"BC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                650
+              ]
+            },
+            "LabelValue5_1": {
+              "Text" :"BC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                650
+              ]
+            },
+            "LabelValue5_2": {
+              "Text" :"BC",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                240,
+                650
+              ]
+            }
+          }
+        }
+      },
+      "Level6" : {
+        "Step1" : {
+          "Displays" : {
+            "BgImage": {
+              "Image": "data/bg_1.png",
+              "Size": [
+                250,
+                60
+              ],
+              "Position": [
+                10,
+                60
+              ],
+              "Visible": false
+            },
+            "PauseBttn": {
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            },
+            "Levelsel": {
+              "Image": "data/levelsel.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "PlayImage": {
+              "Image": "data/play.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "ReplayImage": {
+              "Image": "data/rep.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            }
+          }
+        }
+      },
+      "Level7" : {
+        "Step1" : {
+          "Displays" : {
+            "BgImage": {
+              "Image": "data/bg_1.png",
+              "Size": [
+                250,
+                60
+              ],
+              "Position": [
+                10,
+                60
+              ],
+              "Visible": false
+            },
+            "PauseBttn": {
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            },
+            "Levelsel": {
+              "Image": "data/levelsel.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "PlayImage": {
+              "Image": "data/play.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "ReplayImage": {
+              "Image": "data/rep.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            }
+          }
+        }
+      },
+      "Level8" : {
+        "Step1" : {
+          "Displays" : {
+            "BgImage": {
+              "Image": "data/bg_1.png",
+              "Size": [
+                250,
+                60
+              ],
+              "Position": [
+                10,
+                60
+              ],
+              "Visible": false
+            },
+            "PauseBttn": {
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            },
+            "Levelsel": {
+              "Image": "data/levelsel.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "PlayImage": {
+              "Image": "data/play.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "ReplayImage": {
+              "Image": "data/rep.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            }
+          }
+        }
+      },
+      "Level9" : {
+        "Step1" : {
+          "Displays" : {
+            "BgImage": {
+              "Image": "data/bg_1.png",
+              "Size": [
+                250,
+                60
+              ],
+              "Position": [
+                10,
+                60
+              ],
+              "Visible": false
+            },
+            "PauseBttn": {
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            },
+            "Levelsel": {
+              "Image": "data/levelsel.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "PlayImage": {
+              "Image": "data/play.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "ReplayImage": {
+              "Image": "data/rep.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            }
+          }
+        }
+      },
+      "Level10" : {
+        "Step1" : {
+          "Displays" : {
+            "BgImage": {
+              "Image": "data/bg_1.png",
+              "Size": [
+                250,
+                60
+              ],
+              "Position": [
+                10,
+                60
+              ],
+              "Visible": false
+            },
+            "PauseBttn": {
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            },
+            "Levelsel": {
+              "Image": "data/levelsel.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "PlayImage": {
+              "Image": "data/play.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "ReplayImage": {
+              "Image": "data/rep.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            }
+          }
+        }
+      },
+      "Level11" : {
+        "Step1" : {
+          "Displays" : {
+            "BgImage": {
+              "Image": "data/bg_1.png",
+              "Size": [
+                250,
+                60
+              ],
+              "Position": [
+                10,
+                60
+              ],
+              "Visible": false
+            },
+            "PauseBttn": {
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            },
+            "Levelsel": {
+              "Image": "data/levelsel.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "PlayImage": {
+              "Image": "data/play.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "ReplayImage": {
+              "Image": "data/rep.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            }
+          }
+        }
+      },
+      "Level12" : {
+        "Step1" : {
+          "Displays" : {
+            "BgImage": {
+              "Image": "data/bg_1.png",
+              "Size": [
+                250,
+                60
+              ],
+              "Position": [
+                10,
+                60
+              ],
+              "Visible": false
+            },
+            "PauseBttn": {
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            },
+            "Levelsel": {
+              "Image": "data/levelsel.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "PlayImage": {
+              "Image": "data/play.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "ReplayImage": {
+              "Image": "data/rep.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            }
+          }
+        }
+      },
+      "Level13" : {
+        "Step1" : {
+          "Displays" : {
+            "BgImage": {
+              "Image": "data/bg_1.png",
+              "Size": [
+                250,
+                60
+              ],
+              "Position": [
+                10,
+                60
+              ],
+              "Visible": false
+            },
+            "PauseBttn": {
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            },
+            "Levelsel": {
+              "Image": "data/levelsel.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "PlayImage": {
+              "Image": "data/play.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "ReplayImage": {
+              "Image": "data/rep.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            }
+          }
+        }
+      },
+      "Level14" : {
+        "Step1" : {
+          "Displays" : {
+            "BgImage": {
+              "Image": "data/bg_1.png",
+              "Size": [
+                250,
+                60
+              ],
+              "Position": [
+                10,
+                60
+              ],
+              "Visible": false
+            },
+            "PauseBttn": {
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            },
+            "Levelsel": {
+              "Image": "data/levelsel.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "PlayImage": {
+              "Image": "data/play.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "ReplayImage": {
+              "Image": "data/rep.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            }
+          }
+        }
+      },
+      "Level15" : {
+        "Step1" : {
+          "Displays" : {
+            "BgImage": {
+              "Image": "data/bg_1.png",
+              "Size": [
+                250,
+                60
+              ],
+              "Position": [
+                10,
+                60
+              ],
+              "Visible": false
+            },
+            "PauseBttn": {
+              "Image": "data/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                350,
+                50
+              ],
+              "Visible": true
+            },
+            "Levelsel": {
+              "Image": "data/levelsel.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "PlayImage": {
+              "Image": "data/play.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            },
+            "ReplayImage": {
+              "Image": "data/rep.png",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                50
+              ],
+              "Visible": false
+            }
+          }
+        }
+      }
+    }
+  }
+
+]
