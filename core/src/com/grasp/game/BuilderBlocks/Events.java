@@ -9,6 +9,9 @@ public enum Events {
   BALL_DRAG_EVENT,
   REMAINDER_BALL_DRAG,
   SCROLL_NUMBER_SELECT,
+  DRAG_LABEL,
+  DRAG_SHAPS,
+  DOUBLE_CLICK,
   DEFAULT_EVENT;
 
   private final String[] strlist = {

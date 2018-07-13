@@ -1,6 +1,8 @@
 package com.grasp.game.Levels;
 
 import com.badlogic.gdx.Gdx;
+import com.grasp.game.Factory.GameStates;
+import com.grasp.game.Global.GlobalsCommonCount;
 import com.grasp.game.Util.JSONUtils;
 
 import java.io.BufferedReader;
@@ -22,18 +24,137 @@ public class ReadConfiguration {
     public static List layoutArray;
     Random RAND = new Random();
 
+    static InputStream fin;
+    static BufferedReader br;
+    static StringBuilder buffer;
+    static String line;
+
     public static void readLayoutArray() {
         try {
-            InputStream fin = Gdx.files.internal("skin/test.json").read();
-            BufferedReader br = new BufferedReader(new InputStreamReader(fin));
 
-            StringBuilder buffer = new StringBuilder();
-            String line;
-            while ((line = br.readLine()) != null) {
-                buffer.append(line);
+            switch (GameStates.chapterNumber){
+
+                case CHAPTER_1:
+                     fin = Gdx.files.internal("skin/chapter1.json").read();
+                     br = new BufferedReader(new InputStreamReader(fin));
+
+                     buffer = new StringBuilder();
+                    while ((line = br.readLine()) != null) {
+                        buffer.append(line);
+                    }
+                    fin.close();
+                    layoutArray = JSONUtils.listFromJSONString(buffer.toString());
+                    break;
+
+                case CHAPTER_2:
+                     fin = Gdx.files.internal("skin/chapter2.json").read();
+                     br = new BufferedReader(new InputStreamReader(fin));
+
+                     buffer = new StringBuilder();
+
+                    while ((line = br.readLine()) != null) {
+                        buffer.append(line);
+                    }
+                    fin.close();
+                    layoutArray = JSONUtils.listFromJSONString(buffer.toString());
+                    break;
+
+                case CHAPTER_3:
+                    fin = Gdx.files.internal("skin/chapter3.json").read();
+
+                    br = new BufferedReader(new InputStreamReader(fin));
+
+                    buffer = new StringBuilder();
+
+                    while ((line = br.readLine()) != null) {
+                        buffer.append(line);
+                    }
+                    fin.close();
+                    layoutArray = JSONUtils.listFromJSONString(buffer.toString());
+
+                    break;
+
+                case CHAPTER_4:
+                    fin = Gdx.files.internal("skin/chapter4.json").read();
+
+                    br = new BufferedReader(new InputStreamReader(fin));
+
+                    buffer = new StringBuilder();
+
+                    while ((line = br.readLine()) != null) {
+                        buffer.append(line);
+                    }
+                    fin.close();
+                    layoutArray = JSONUtils.listFromJSONString(buffer.toString());
+
+                    break;
+
+                case CHAPTER_5:
+                    fin = Gdx.files.internal("skin/chapter5.json").read();
+
+                    br = new BufferedReader(new InputStreamReader(fin));
+
+                    buffer = new StringBuilder();
+
+                    while ((line = br.readLine()) != null) {
+                        buffer.append(line);
+                    }
+                    fin.close();
+                    layoutArray = JSONUtils.listFromJSONString(buffer.toString());
+
+                    break;
+
+                case CHAPTER_6:
+                    fin = Gdx.files.internal("skin/chapter6.json").read();
+
+                    br = new BufferedReader(new InputStreamReader(fin));
+
+                    buffer = new StringBuilder();
+
+                    while ((line = br.readLine()) != null) {
+                        buffer.append(line);
+                    }
+                    fin.close();
+                    layoutArray = JSONUtils.listFromJSONString(buffer.toString());
+
+                    break;
+
+                case CHAPTER_7:
+                    fin = Gdx.files.internal("skin/chapter7.json").read();
+
+                    br = new BufferedReader(new InputStreamReader(fin));
+
+                    buffer = new StringBuilder();
+
+                    while ((line = br.readLine()) != null) {
+                        buffer.append(line);
+                    }
+                    fin.close();
+                    layoutArray = JSONUtils.listFromJSONString(buffer.toString());
+
+                    break;
+
+                case CHAPTER_8:
+                    fin = Gdx.files.internal("skin/chapter8.json").read();
+
+                    br = new BufferedReader(new InputStreamReader(fin));
+
+                    buffer = new StringBuilder();
+
+                    while ((line = br.readLine()) != null) {
+                        buffer.append(line);
+                    }
+                    fin.close();
+                    layoutArray = JSONUtils.listFromJSONString(buffer.toString());
+
+                    break;
+
+                    default:
+                        break;
+
             }
-            fin.close();
-            layoutArray = JSONUtils.listFromJSONString(buffer.toString());
+
+
         } catch (Exception ex) {
             ex.printStackTrace();
         }

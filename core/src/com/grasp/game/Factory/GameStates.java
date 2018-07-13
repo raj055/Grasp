@@ -35,7 +35,6 @@ public class GameStates {
 
     //The first chapter number is
     screenStates = ScreenStates.MENUSCREEN;
-    GetScreen getScreenParameters;
 
     //assign the game for screen updation
     this.game = game;

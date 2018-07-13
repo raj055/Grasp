@@ -182,7 +182,7 @@ public class Chapter3 extends ChapterScreen implements Screen {
     }
   };
 
-  void defineLevel1Components() {
+  void defineLevel1To5Components() {
     numLocalch3 = new NumberCh3();
     textveriabalch3 = new TextveriabalCh3();
 
@@ -210,7 +210,7 @@ public class Chapter3 extends ChapterScreen implements Screen {
     }
 
   }
-  void defineLevel2Components() {
+  void defineLevel6To10Components() {
 
     if(displayImages == null)
       return;
@@ -288,7 +288,7 @@ public class Chapter3 extends ChapterScreen implements Screen {
       }
     }
   }
-  void defineLevel3Components() {
+  void defineLevel11To15Components() {
     if(displayImages == null)
       return;
     int totalObjects = displayImages.size();
@@ -385,12 +385,6 @@ public class Chapter3 extends ChapterScreen implements Screen {
       }
     }
   }
-  void defineLevel4Components() { }
-  void defineLevel11Components() { }
-  void defineLevel12Components() { }
-  void defineLevel13Components() { }
-  void defineLevel14Components() { }
-  void defineLevel15Components() { }
 
   interface LevelDefinition {
     void initialise();
@@ -398,21 +392,21 @@ public class Chapter3 extends ChapterScreen implements Screen {
 
   private LevelDefinition[] levelInitialisations = (LevelDefinition[]) new LevelDefinition[] {
           new LevelDefinition() {
-            public void initialise() { defineLevel1Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel1Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel1Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel1Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel1Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel2Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel2Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel2Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel2Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel2Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel3Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel3Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel3Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel3Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel3Components(); } },
+            public void initialise() { defineLevel1To5Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel1To5Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel1To5Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel1To5Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel1To5Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel6To10Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel6To10Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel6To10Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel6To10Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel6To10Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel11To15Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel11To15Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel11To15Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel11To15Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel11To15Components(); } },
 
   };
 

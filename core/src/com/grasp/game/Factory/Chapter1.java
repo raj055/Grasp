@@ -4,7 +4,6 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
-import com.badlogic.gdx.scenes.scene2d.ui.Dialog;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
@@ -13,21 +12,19 @@ import com.badlogic.gdx.utils.StringBuilder;
 import com.grasp.game.BuilderBlocks.ChapterVariables;
 import com.grasp.game.BuilderBlocks.Events;
 import com.grasp.game.BuilderBlocks.ProgressData;
-import com.grasp.game.Component.BallDisplay;
-import com.grasp.game.Component.Number;
 import com.grasp.game.Enum.ScreenStates;
 import com.grasp.game.Global.GlobalsCommonCount;
-import com.grasp.game.MyGame;
+import com.grasp.game.RealNumbers.BallDisplay;
 import com.grasp.game.RealNumbers.BallDragListener;
 import com.grasp.game.RealNumbers.DragBallIndicators;
 import com.grasp.game.RealNumbers.RemainderDragListener;
+import com.grasp.game.RealNumbers.ScrollingNumber;
 import com.grasp.game.RealNumbers.VisibleComponents;
 import com.grasp.game.Timer.Timer;
 
 import java.util.ArrayList;
 
 import static com.grasp.game.Global.GlobalsCommonCount.ValueA;
-
 
 /**
  * Created by HP on 12-01-2018.
@@ -36,34 +33,18 @@ import static com.grasp.game.Global.GlobalsCommonCount.ValueA;
 public class Chapter1 extends ChapterScreen implements Screen {
 
   //Level 1 variables
-  private int b = 0;
-  private int r = 0;
   private Timer time;
-  private int score = 0;
-  private int remPosX= 20;
   private GlobalsCommonCount glv;
-  private Dialog dialog;
 
   //Get the components of level 1
   private Image progbar1;
-
-
-
-  private Label label_b   = null;
-  private Label label_r   = null;
-  private Label label_score = null;
   private Label submitButton = null;
-  int scoreValue = 0;
-  int bValue = 0;
-  float aValue = 1;
   ArrayList<Image> displayBalls = null;
   ArrayList<Image> remainderBall = null;
 
   //Get the components of level 3
   Label labelX;
-  Number numLocal;
   BallDisplay ballDisplay;
-  int stepNumber = 0;
 
   //Array List for the drag listeners.
   ArrayList<DragListener> listeners;
@@ -72,6 +53,9 @@ public class Chapter1 extends ChapterScreen implements Screen {
   //Ball Drag Listener
   BallDragListener ballDragListener;
   RemainderDragListener remBallDragListener;
+
+  //Scrolling Number
+  ScrollingNumber numLocal;
 
   //Indicators
   DragBallIndicators dragBallIndicators;
@@ -86,9 +70,12 @@ public class Chapter1 extends ChapterScreen implements Screen {
 
     glv = GlobalsCommonCount.getInstance();
 
+    ballDisplay = new BallDisplay();
+
     //Define all Listeners and Updation Objects
     ballDragListener = new BallDragListener(Events.BALL_DRAG_EVENT);
     remBallDragListener = new RemainderDragListener(Events.REMAINDER_BALL_DRAG);
+    numLocal = new ScrollingNumber(Events.SCROLL_NUMBER_SELECT);
 
     getLevelName();
     initialiseDragListeners(currentLevelNumber);
@@ -162,27 +149,6 @@ public class Chapter1 extends ChapterScreen implements Screen {
       }
     }
 
-    @Override
-    public void dragStop(InputEvent event, float x, float y, int pointer) {
-//      Image dregball = (Image)event.getListenerActor();
-//
-//      Image dispBallImg = displayBallList.get(b++);
-//      dispBallImg.setVisible(true);
-//      int xPos = 150;
-//      int totalBalls = 0;
-//      for(Image disBall : displayBalls) {
-//        score++;
-//        disBall.setPosition(xPos, MyGame.HEIGHT - 100);
-//        xPos += 50;
-//      }
-//      float progBarSize = score * (300/aValue);
-//
-//      progbar1.setSize(30, progBarSize);
-//      progbar1.setVisible(true);
-//      label_b.setText(b + " ");
-//
-//      label_score.setText(score + "");
-    }
   };
 
   // Drag Remainder Ball
@@ -194,23 +160,6 @@ public class Chapter1 extends ChapterScreen implements Screen {
       dragball.moveBy(x, y);
     }
 
-    @Override
-    public void dragStop(InputEvent event, float x, float y, int pointer) {
-//      Image draggedBall = (Image)event.getListenerActor();
-//      r++;
-//      score++;
-//      if (draggedBall != null) {
-//        draggedBall.setSize(40,40);
-//        draggedBall.setPosition(remPosX,170);
-//        remPosX += 40;
-//        float progBarSize = score * (300/aValue);
-//        progbar1.setSize(30, progBarSize);
-//
-//        progbar1.setVisible(true);
-//        label_r.setText(r +" ");
-//        label_score.setText(score + " ");
-//      }
-    }
   };
 
   // Submit Button ClickListener
@@ -221,21 +170,10 @@ public class Chapter1 extends ChapterScreen implements Screen {
       GameStates.screenStates = ScreenStates.LEVELSCREEN;
       time.dispose();
 
-      /**********************
-       stageTranslate += 400;
-       stepNumber++;
-       if(stageTranslate >= 1200) {
-       stageTranslate = 0;
-       stepNumber = 0;
-       }
-       defineLevel1Components();
-       stage.getCamera().translate(stageTranslate,0,0);
-       stage.getCamera().update();
-       ************************/
     }
   };
 
-  void defineLevel1Components() {
+  void defineLevel1To10Components() {
 
     //check if the updatables are present
     if(updatables == null)
@@ -257,7 +195,6 @@ public class Chapter1 extends ChapterScreen implements Screen {
       updateLabelsList.add(prgDataLabel);
 
       //Update Value of A
-
       chapterVariables.chapter1Variables.ValueOfA = ValueA[currentLevelNumber];
       Gdx.app.debug("Current Level Number", String.valueOf(currentLevelNumber));
       Gdx.app.debug("Value of A", String.valueOf(chapterVariables.chapter1Variables.ValueOfA));
@@ -301,166 +238,7 @@ public class Chapter1 extends ChapterScreen implements Screen {
     attachDraggables();
   }
 
-
-  void defineLevel6Components() {
-    int totalObjects = displayImages.size();
-    for (Image updatable : displayImages)
-    {
-      String str = updatable.getName();
-      if (str.contains("PragBar1")) {
-        progbar1 = updatable;
-      }
-    }
-  }
-  void defineLevel7Components() {
-    int totalObjects = displayImages.size();
-    for (Image updatable : displayImages)
-    {
-      String str = updatable.getName();
-      if (str.contains("PragBar1")) {
-        progbar1 = updatable;
-      }
-    }
-  }
-  void defineLevel8Components() {
-    int totalObjects = displayImages.size();
-    for (Image updatable : displayImages)
-    {
-      String str = updatable.getName();
-      if (str.contains("PragBar1")) {
-        progbar1 = updatable;
-      }
-    }
-  }
-  void defineLevel9Components() {
-    //check if the updatables are present
-    if(updatables == null)
-      return;
-
-    //totalObjects
-    int totalObjects = updatables.size();
-    for (Label updatable : updatables)
-    {
-      String str = updatable.getName();
-      if (str.contains("Score2")) {
-        label_b = updatable;
-      }
-      else if (str.contains("ScoreValue")) {
-        label_score = updatable;
-      }
-      else if (str.contains("Score4")) {
-        label_r = updatable;
-      }
-      else if (str.contains("LabelA")){
-        StringBuilder strA = updatable.getText();
-
-        aValue = ValueA[currentLevelNumber];
-      }
-      else if (str.contains("SubmitButtn")) {
-        submitButton = updatable;
-        submitButton.addListener(submitBttnClickListener);
-      }
-    }
-
-    if(displayImages == null)
-      return;
-
-    displayBalls = new ArrayList<Image>();
-    displayBallList = new ArrayList<Image>();
-    remainderBall = new ArrayList<Image>();
-    totalObjects = displayImages.size();
-    for (Image updatable : displayImages)
-    {
-      String str = updatable.getName();
-      if (str.contains("progBar1"))
-        progbar1 = updatable;
-      else if (str.contains("displayBall")) {
-//        displayball = updatable;
-        displayBallList.add(updatable);
-      }
-    }
-
-    totalObjects = displayImages.size();
-    for (Image updatable : displayImages)
-    {
-      String str = updatable.getName();
-      if (str.contains("PragBar1")) {
-        progbar1 = updatable;
-      }
-    }
-
-    totalObjects = draggable.size();
-    for (Image updatable : draggable) {
-      String str = updatable.getName();
-      if (str.contains("DragBall")) {
-        displayBalls.add(updatable);
-      }
-      else if (str.contains("RemBall"))
-        remainderBall.add(updatable);
-    }
-    attachDraggables();
-  }
-  void defineLevel10Components() {
-    //check if the updatables are present
-    if(updatables == null)
-      return;
-
-    //totalObjects
-    int totalObjects = updatables.size();
-    for (Label updatable : updatables)
-    {
-      String str = updatable.getName();
-      if (str.contains("Score2")) {
-        label_b = updatable;
-      }
-      else if (str.contains("ScoreValue")) {
-        label_score = updatable;
-      }
-      else if (str.contains("Score4")) {
-        label_r = updatable;
-      }
-      else if (str.contains("LabelA")){
-        StringBuilder strA = updatable.getText();
-
-        aValue = ValueA[currentLevelNumber];
-      }
-      else if (str.contains("SubmitButtn")) {
-        submitButton = updatable;
-        submitButton.addListener(submitBttnClickListener);
-      }
-    }
-
-    if(displayImages == null)
-      return;
-
-    displayBalls = new ArrayList<Image>();
-    displayBallList = new ArrayList<Image>();
-    remainderBall = new ArrayList<Image>();
-    totalObjects = displayImages.size();
-    for (Image updatable : displayImages)
-    {
-      String str = updatable.getName();
-      if (str.contains("progBar1"))
-        progbar1 = updatable;
-      else if (str.contains("displayBall")) {
-//        displayball = updatable;
-        displayBallList.add(updatable);
-      }
-    }
-    totalObjects = draggable.size();
-    for (Image updatable : draggable) {
-      String str = updatable.getName();
-      if (str.contains("DragBall")) {
-        displayBalls.add(updatable);
-      }
-      else if (str.contains("RemBall"))
-        remainderBall.add(updatable);
-    }
-    attachDraggables();
-  }
-  void defineLevel11Components() {
-    ballDisplay = new BallDisplay();
-    numLocal = new Number();
+  void defineLevel11to15Components() {
 
     //check if the updatables are present
     if(updatables == null)
@@ -498,202 +276,6 @@ public class Chapter1 extends ChapterScreen implements Screen {
       stage.addActor(numberI);
     }
   }
-  void defineLevel12Components() {
-    ballDisplay = new BallDisplay();
-    numLocal = new Number();
-
-    //check if the updatables are present
-    if(updatables == null)
-      return;
-
-    //totalObjects
-    int totalObjects = updatables.size();
-    for (Label updatable : updatables)
-    {
-      String str = updatable.getName();
-
-      if (str.contains("LabelB"))
-        labelX = updatable;
-    }
-
-    for (int i = 0; i < BallDisplay.columns; i++){
-
-      for (int j = 0; j < BallDisplay.rows; j++) {
-
-        stage.addActor(ballDisplay.balls[i][j]);
-
-        ballDisplay.balls[i][j].setVisible(false);
-
-      }
-    }
-
-    for(Image numberI : numLocal.numbers)
-    {
-      stage.addActor(numberI);
-    }
-  }
-  void defineLevel13Components() {
-    ballDisplay = new BallDisplay();
-    numLocal = new Number();
-
-    //check if the updatables are present
-    if(updatables == null)
-      return;
-
-    //totalObjects
-    int totalObjects = updatables.size();
-    for (Label updatable : updatables)
-    {
-      String str = updatable.getName();
-
-      if (str.contains("LabelB"))
-        labelX = updatable;
-    }
-
-    for (int i = 0; i < BallDisplay.columns; i++){
-
-      for (int j = 0; j < BallDisplay.rows; j++) {
-
-        stage.addActor(ballDisplay.balls[i][j]);
-
-        ballDisplay.balls[i][j].setVisible(false);
-
-      }
-    }
-
-    for(Image numberI : numLocal.numbers)
-    {
-      stage.addActor(numberI);
-    }
-  }
-  void defineLevel14Components() {
-    ballDisplay = new BallDisplay();
-    numLocal = new Number();
-
-    //check if the updatables are present
-    if(updatables == null)
-      return;
-
-    //totalObjects
-    int totalObjects = updatables.size();
-    for (Label updatable : updatables)
-    {
-      String str = updatable.getName();
-
-      if (str.contains("LabelB"))
-        labelX = updatable;
-    }
-
-    for (int i = 0; i < BallDisplay.columns; i++){
-
-      for (int j = 0; j < BallDisplay.rows; j++) {
-
-        stage.addActor(ballDisplay.balls[i][j]);
-
-        ballDisplay.balls[i][j].setVisible(false);
-
-      }
-    }
-
-    for(Image numberI : numLocal.numbers)
-    {
-      stage.addActor(numberI);
-    }
-  }
-  void defineLevel15Components() {
-    ballDisplay = new BallDisplay();
-    numLocal = new Number();
-
-    //check if the updatables are present
-    if(updatables == null)
-      return;
-
-    //totalObjects
-    int totalObjects = updatables.size();
-    for (Label updatable : updatables)
-    {
-      String str = updatable.getName();
-
-      if (str.contains("LabelB"))
-        labelX = updatable;
-    }
-
-    for (int i = 0; i < BallDisplay.columns; i++){
-
-      for (int j = 0; j < BallDisplay.rows; j++) {
-
-        stage.addActor(ballDisplay.balls[i][j]);
-
-        ballDisplay.balls[i][j].setVisible(false);
-
-      }
-    }
-
-    for(Image numberI : numLocal.numbers)
-    {
-      stage.addActor(numberI);
-    }
-  }
-
-  void getUpdatableImagePtr(){}
-
-  ArrayList<Label> getUpdatableUpdatableLabelPtr(){
-    ArrayList<Label> arryLb;
-    switch (stepNumber){
-      case 0:
-        arryLb = updatables;
-        break;
-      case 1:
-        arryLb = updatablesNext;
-        break;
-      case 2:
-        arryLb = updatablesLast;
-        break;
-      default:
-        arryLb = updatables;
-        break;
-    }
-    return
-            arryLb;
-  }
-  ArrayList<Image>  getUpdatableDisplayImagePtr(){
-    ArrayList<Image> arryLb;
-    switch (stepNumber){
-      case 0:
-        arryLb = displayImages;
-        break;
-      case 1:
-        arryLb = displayImagesNext;
-        break;
-      case 2:
-        arryLb = displayImagesLast;
-        break;
-      default:
-        arryLb = displayImages;
-        break;
-    }
-    return
-            arryLb;
-  }
-  ArrayList<Image>  getUpdatableDraggableImagePtr(){
-    ArrayList<Image> arryLb;
-    switch (stepNumber){
-      case 0:
-        arryLb = draggable;
-        break;
-      case 1:
-        arryLb = draggableNext;
-        break;
-      case 2:
-        arryLb = draggableLast;
-        break;
-      default:
-        arryLb = draggable;
-        break;
-    }
-    return
-            arryLb;
-  }
 
   interface LevelDefinition {
     void initialise();
@@ -701,21 +283,21 @@ public class Chapter1 extends ChapterScreen implements Screen {
 
   private LevelDefinition[] levelInitialisations = new LevelDefinition[] {
           new LevelDefinition() {
-            public void initialise() { defineLevel1Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel1Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel1Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel1Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel1Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel1Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel1Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel1Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel1Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel1Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel11Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel11Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel11Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel11Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel11Components(); } },
+            public void initialise() { defineLevel1To10Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel1To10Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel1To10Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel1To10Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel1To10Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel1To10Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel1To10Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel1To10Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel1To10Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel1To10Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel11to15Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel11to15Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel11to15Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel11to15Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel11to15Components(); } },
 
   };
 
@@ -757,15 +339,6 @@ public class Chapter1 extends ChapterScreen implements Screen {
     listeners.add(indexOfListener++, drgListener);
     listeners.add(indexOfListener++, remainderDragListener);
   }
-  private void addLevel2DraggableListeners(){
-
-  }
-  private void addLevel3DraggableListeners(){
-
-  }
-  private void addLevel4DraggableListeners(){
-
-  }
 
   interface RenderLevel {
     void renderL(float delta);
@@ -789,10 +362,6 @@ public class Chapter1 extends ChapterScreen implements Screen {
           new RenderLevel() { public void renderL(float delta) { renderLevel3(delta); } },
           new RenderLevel() { public void renderL(float delta) { renderLevel3(delta); } }
   };
-
-  public void renderLevels(int index) {
-//    renderLists[index].renderL( );
-  }
 
   private void renderLevel1(float delta){
     update(delta);
@@ -866,6 +435,4 @@ public class Chapter1 extends ChapterScreen implements Screen {
     stage.draw();
     time.stage.draw();
   }
-
-
 }

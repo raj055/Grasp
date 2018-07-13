@@ -45,10 +45,10 @@ public class GameOverScreen implements Screen {
   public void show () {
     Gdx.input.setInputProcessor(stage);
 
-    Skin skin = new Skin(Gdx.files.internal("uiskin.json"));
-    dialog = new Dialog("Time's Up...", skin);
-    dialog.setSize(250, 250);
-    dialog.setPosition(Gdx.graphics.getWidth() / 2 - 100, Gdx.graphics.getHeight() / 2 - 100);
+//    Skin skin = new Skin(Gdx.files.internal("uiskin.json"));
+//    dialog = new Dialog("Time's Up...", skin);
+//    dialog.setSize(250, 250);
+//    dialog.setPosition(Gdx.graphics.getWidth() / 2 - 100, Gdx.graphics.getHeight() / 2 - 100);
 
     Image level = new Image(new Texture("data/levelsel.png"));
     level.setSize(20, 20);
@@ -60,10 +60,10 @@ public class GameOverScreen implements Screen {
     });
 
 
-    dialog.getContentTable().defaults().pad(10);
-    dialog.getContentTable().add(level);
-
-    stage.addActor(dialog);
+//    dialog.getContentTable().defaults().pad(10);
+//    dialog.getContentTable().add(level);
+//
+//    stage.addActor(dialog);
 
   }
 

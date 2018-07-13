@@ -270,6 +270,65 @@
             }
           },
           "Updatable": {
+            "Score2": {
+              "Text" :"0",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                100
+              ]
+            },
+            "Score4": {
+              "Text" :"0",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                90,
+                100
+              ]
+            },
+            "TargetScore": {
+              "Text" :"12",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                360,
+                260
+              ]
+            },
+            "ScoreValue": {
+              "Text" :"0",
+              "Size": [
+                60,
+                60
+              ],
+              "Position": [
+                350,
+                700
+              ]
+            }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Text" :"Submit",
+              "Size": [
+                160,
+                60
+              ],
+              "Position": [
+                40,
+                700
+              ]
+            }
+          },
+          "TextLabel":{
             "LabelA": {
               "Text" :"A = 12",
               "Size": [
@@ -303,17 +362,6 @@
                 100
               ]
             },
-            "Score2": {
-              "Text" :"0",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                100
-              ]
-            },
             "Score3": {
               "Text" :"+",
               "Size": [
@@ -322,17 +370,6 @@
               ],
               "Position": [
                 70,
-                100
-              ]
-            },
-            "Score4": {
-              "Text" :"0",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                90,
                 100
               ]
             },
@@ -347,17 +384,6 @@
                 200
               ]
             },
-            "TargetScore": {
-              "Text" :"12",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                360,
-                260
-              ]
-            },
             "YourScore": {
               "Text" :"Your score : ",
               "Size": [
@@ -367,28 +393,6 @@
               "Position": [
                 190,
                 690
-              ]
-            },
-            "ScoreValue": {
-              "Text" :"0",
-              "Size": [
-                60,
-                60
-              ],
-              "Position": [
-                350,
-                700
-              ]
-            },
-            "SubmitButtn": {
-              "Text" :"Submit",
-              "Size": [
-                160,
-                60
-              ],
-              "Position": [
-                40,
-                700
               ]
             }
           }
@@ -663,6 +667,65 @@
             }
           },
           "Updatable": {
+            "Score2": {
+              "Text" :"0",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                100
+              ]
+            },
+            "Score4": {
+              "Text" :"0",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                90,
+                100
+              ]
+            },
+            "TargetScore": {
+              "Text" :"17",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                360,
+                260
+              ]
+            },
+            "ScoreValue": {
+              "Text" :"0",
+              "Size": [
+                60,
+                60
+              ],
+              "Position": [
+                350,
+                700
+              ]
+            }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Text" :"Submit",
+              "Size": [
+                160,
+                60
+              ],
+              "Position": [
+                40,
+                700
+              ]
+            }
+          },
+          "TextLabel":{
             "LabelA": {
               "Text" :"A = 17",
               "Size": [
@@ -696,17 +759,6 @@
                 100
               ]
             },
-            "Score2": {
-              "Text" :" 0",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                100
-              ]
-            },
             "Score3": {
               "Text" :"+",
               "Size": [
@@ -715,17 +767,6 @@
               ],
               "Position": [
                 70,
-                100
-              ]
-            },
-            "Score4": {
-              "Text" :"0",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                90,
                 100
               ]
             },
@@ -740,17 +781,6 @@
                 200
               ]
             },
-            "TargetScore": {
-              "Text" :"17",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                360,
-                260
-              ]
-            },
             "YourScore": {
               "Text" :"Your score : ",
               "Size": [
@@ -760,28 +790,6 @@
               "Position": [
                 190,
                 690
-              ]
-            },
-            "ScoreValue": {
-              "Text" :"0",
-              "Size": [
-                60,
-                60
-              ],
-              "Position": [
-                350,
-                700
-              ]
-            },
-            "SubmitButtn": {
-              "Text" :"Submit",
-              "Size": [
-                160,
-                60
-              ],
-              "Position": [
-                40,
-                700
               ]
             }
           }
@@ -1056,6 +1064,65 @@
             }
           },
           "Updatable": {
+            "Score2": {
+              "Text" :"0",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                100
+              ]
+            },
+            "Score4": {
+              "Text" :"0",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                90,
+                100
+              ]
+            },
+            "TargetScore": {
+              "Text" :"20",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                360,
+                260
+              ]
+            },
+            "ScoreValue": {
+              "Text" :"0",
+              "Size": [
+                60,
+                60
+              ],
+              "Position": [
+                350,
+                700
+              ]
+            }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Text" :"Submit",
+              "Size": [
+                160,
+                60
+              ],
+              "Position": [
+                40,
+                700
+              ]
+            }
+          },
+          "TextLabel":{
             "LabelA": {
               "Text" :"A = 20",
               "Size": [
@@ -1089,17 +1156,6 @@
                 100
               ]
             },
-            "Score2": {
-              "Text" :" 0",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                100
-              ]
-            },
             "Score3": {
               "Text" :"+",
               "Size": [
@@ -1108,17 +1164,6 @@
               ],
               "Position": [
                 70,
-                100
-              ]
-            },
-            "Score4": {
-              "Text" :"0",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                90,
                 100
               ]
             },
@@ -1133,17 +1178,6 @@
                 200
               ]
             },
-            "TargetScore": {
-              "Text" :"20",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                360,
-                260
-              ]
-            },
             "YourScore": {
               "Text" :"Your score : ",
               "Size": [
@@ -1153,28 +1187,6 @@
               "Position": [
                 190,
                 690
-              ]
-            },
-            "ScoreValue": {
-              "Text" :"0",
-              "Size": [
-                60,
-                60
-              ],
-              "Position": [
-                350,
-                700
-              ]
-            },
-            "SubmitButtn": {
-              "Text" :"Submit",
-              "Size": [
-                160,
-                60
-              ],
-              "Position": [
-                40,
-                700
               ]
             }
           }
@@ -1450,6 +1462,65 @@
 
           },
           "Updatable": {
+            "Score2": {
+              "Text" :"0",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                100
+              ]
+            },
+            "Score4": {
+              "Text" :"0",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                90,
+                100
+              ]
+            },
+            "TargetScore": {
+              "Text" :"10",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                360,
+                260
+              ]
+            },
+            "ScoreValue": {
+              "Text" :"0",
+              "Size": [
+                60,
+                60
+              ],
+              "Position": [
+                350,
+                700
+              ]
+            }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Text" :"Submit",
+              "Size": [
+                160,
+                60
+              ],
+              "Position": [
+                40,
+                700
+              ]
+            }
+          },
+          "TextLabel":{
             "LabelA": {
               "Text" :"A = 10",
               "Size": [
@@ -1483,17 +1554,6 @@
                 100
               ]
             },
-            "Score2": {
-              "Text" :" 0",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                100
-              ]
-            },
             "Score3": {
               "Text" :"+",
               "Size": [
@@ -1502,17 +1562,6 @@
               ],
               "Position": [
                 70,
-                100
-              ]
-            },
-            "Score4": {
-              "Text" :"0",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                90,
                 100
               ]
             },
@@ -1527,17 +1576,6 @@
                 200
               ]
             },
-            "TargetScore": {
-              "Text" :"10",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                360,
-                260
-              ]
-            },
             "YourScore": {
               "Text" :"Your score : ",
               "Size": [
@@ -1547,28 +1585,6 @@
               "Position": [
                 190,
                 690
-              ]
-            },
-            "ScoreValue": {
-              "Text" :"0",
-              "Size": [
-                60,
-                60
-              ],
-              "Position": [
-                350,
-                700
-              ]
-            },
-            "SubmitButtn": {
-              "Text" :"Submit",
-              "Size": [
-                160,
-                60
-              ],
-              "Position": [
-                40,
-                700
               ]
             }
           }
@@ -1844,6 +1860,65 @@
 
           },
           "Updatable": {
+            "Score2": {
+              "Text" :"0",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                100
+              ]
+            },
+            "Score4": {
+              "Text" :"0",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                90,
+                100
+              ]
+            },
+            "TargetScore": {
+              "Text" :"19",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                360,
+                260
+              ]
+            },
+            "ScoreValue": {
+              "Text" :"0",
+              "Size": [
+                60,
+                60
+              ],
+              "Position": [
+                350,
+                700
+              ]
+            }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Text" :"Submit",
+              "Size": [
+                160,
+                60
+              ],
+              "Position": [
+                40,
+                700
+              ]
+            }
+          },
+          "TextLabel":{
             "LabelA": {
               "Text" :"A = 19",
               "Size": [
@@ -1877,17 +1952,6 @@
                 100
               ]
             },
-            "Score2": {
-              "Text" :" 0",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                100
-              ]
-            },
             "Score3": {
               "Text" :"+",
               "Size": [
@@ -1896,17 +1960,6 @@
               ],
               "Position": [
                 70,
-                100
-              ]
-            },
-            "Score4": {
-              "Text" :"0",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                90,
                 100
               ]
             },
@@ -1921,17 +1974,6 @@
                 200
               ]
             },
-            "TargetScore": {
-              "Text" :"19",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                360,
-                260
-              ]
-            },
             "YourScore": {
               "Text" :"Your score : ",
               "Size": [
@@ -1941,28 +1983,6 @@
               "Position": [
                 190,
                 690
-              ]
-            },
-            "ScoreValue": {
-              "Text" :"0",
-              "Size": [
-                60,
-                60
-              ],
-              "Position": [
-                350,
-                700
-              ]
-            },
-            "SubmitButtn": {
-              "Text" :"Submit",
-              "Size": [
-                160,
-                60
-              ],
-              "Position": [
-                40,
-                700
               ]
             }
           }
@@ -2238,6 +2258,65 @@
 
           },
           "Updatable": {
+            "Score2": {
+              "Text" :"0",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                100
+              ]
+            },
+            "Score4": {
+              "Text" :"0",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                90,
+                100
+              ]
+            },
+            "TargetScore": {
+              "Text" :"81",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                360,
+                260
+              ]
+            },
+            "ScoreValue": {
+              "Text" :"0",
+              "Size": [
+                60,
+                60
+              ],
+              "Position": [
+                350,
+                700
+              ]
+            }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Text" :"Submit",
+              "Size": [
+                160,
+                60
+              ],
+              "Position": [
+                40,
+                700
+              ]
+            }
+          },
+          "TextLabel":{
             "LabelA": {
               "Text" :"A = 81",
               "Size": [
@@ -2271,17 +2350,6 @@
                 100
               ]
             },
-            "Score2": {
-              "Text" :" 0",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                100
-              ]
-            },
             "Score3": {
               "Text" :"+",
               "Size": [
@@ -2290,17 +2358,6 @@
               ],
               "Position": [
                 70,
-                100
-              ]
-            },
-            "Score4": {
-              "Text" :"0",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                90,
                 100
               ]
             },
@@ -2315,17 +2372,6 @@
                 200
               ]
             },
-            "TargetScore": {
-              "Text" :"81",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                360,
-                260
-              ]
-            },
             "YourScore": {
               "Text" :"Your score : ",
               "Size": [
@@ -2335,28 +2381,6 @@
               "Position": [
                 190,
                 690
-              ]
-            },
-            "ScoreValue": {
-              "Text" :"0",
-              "Size": [
-                60,
-                60
-              ],
-              "Position": [
-                350,
-                700
-              ]
-            },
-            "SubmitButtn": {
-              "Text" :"Submit",
-              "Size": [
-                160,
-                60
-              ],
-              "Position": [
-                40,
-                700
               ]
             }
           }
@@ -3017,8 +3041,67 @@
             }
           },
           "Updatable": {
+            "Score2": {
+              "Text" :"0",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                100
+              ]
+            },
+            "Score4": {
+              "Text" :"0",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                90,
+                100
+              ]
+            },
+            "TargetScore": {
+              "Text" :"455",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                360,
+                260
+              ]
+            },
+            "ScoreValue": {
+              "Text" :"0",
+              "Size": [
+                60,
+                60
+              ],
+              "Position": [
+                350,
+                700
+              ]
+            }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Text" :"Submit",
+              "Size": [
+                160,
+                60
+              ],
+              "Position": [
+                40,
+                700
+              ]
+            }
+          },
+          "TextLabel":{
             "LabelA": {
-              "Text": "A = 455",
+              "Text" :"A = 455",
               "Size": [
                 20,
                 20
@@ -3029,7 +3112,7 @@
               ]
             },
             "LabelB": {
-              "Text": "B = 42",
+              "Text" :"B = 42",
               "Size": [
                 20,
                 20
@@ -3040,29 +3123,18 @@
               ]
             },
             "Score1": {
-              "Text": "B *",
+              "Text" :"B *",
               "Size": [
                 20,
                 20
               ],
               "Position": [
                 20,
-                100
-              ]
-            },
-            "Score2": {
-              "Text": " 0",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
                 100
               ]
             },
             "Score3": {
-              "Text": "+",
+              "Text" :"+",
               "Size": [
                 20,
                 20
@@ -3072,19 +3144,8 @@
                 100
               ]
             },
-            "Score4": {
-              "Text": "0",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                90,
-                100
-              ]
-            },
             "Target": {
-              "Text": "Target",
+              "Text" :"Target",
               "Size": [
                 20,
                 20
@@ -3094,19 +3155,8 @@
                 200
               ]
             },
-            "TargetScore": {
-              "Text": "455",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                360,
-                260
-              ]
-            },
             "YourScore": {
-              "Text": "Your score : ",
+              "Text" :"Your score : ",
               "Size": [
                 100,
                 30
@@ -3114,28 +3164,6 @@
               "Position": [
                 190,
                 690
-              ]
-            },
-            "ScoreValue": {
-              "Text": "0",
-              "Size": [
-                60,
-                60
-              ],
-              "Position": [
-                350,
-                700
-              ]
-            },
-            "SubmitButtn": {
-              "Text": "Submit",
-              "Size": [
-                160,
-                60
-              ],
-              "Position": [
-                40,
-                700
               ]
             }
           }
@@ -4944,8 +4972,67 @@
             }
           },
           "Updatable": {
+            "Score2": {
+              "Text" :"0",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                100
+              ]
+            },
+            "Score4": {
+              "Text" :"0",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                90,
+                100
+              ]
+            },
+            "TargetScore": {
+              "Text" :"12",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                360,
+                260
+              ]
+            },
+            "ScoreValue": {
+              "Text" :"0",
+              "Size": [
+                60,
+                60
+              ],
+              "Position": [
+                350,
+                700
+              ]
+            }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Text" :"Submit",
+              "Size": [
+                160,
+                60
+              ],
+              "Position": [
+                40,
+                700
+              ]
+            }
+          },
+          "TextLabel":{
             "LabelA": {
-              "Text": "A = 19",
+              "Text" :"A = 455",
               "Size": [
                 20,
                 20
@@ -4956,7 +5043,7 @@
               ]
             },
             "LabelB": {
-              "Text": "B = 4",
+              "Text" :"B = 42",
               "Size": [
                 20,
                 20
@@ -4967,29 +5054,18 @@
               ]
             },
             "Score1": {
-              "Text": "B *",
+              "Text" :"B *",
               "Size": [
                 20,
                 20
               ],
               "Position": [
                 20,
-                100
-              ]
-            },
-            "Score2": {
-              "Text": " 0",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
                 100
               ]
             },
             "Score3": {
-              "Text": "+",
+              "Text" :"+",
               "Size": [
                 20,
                 20
@@ -4999,19 +5075,8 @@
                 100
               ]
             },
-            "Score4": {
-              "Text": "0",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                90,
-                100
-              ]
-            },
             "Target": {
-              "Text": "Target",
+              "Text" :"Target",
               "Size": [
                 20,
                 20
@@ -5021,19 +5086,8 @@
                 200
               ]
             },
-            "TargetScore": {
-              "Text": "19",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                360,
-                260
-              ]
-            },
             "YourScore": {
-              "Text": "Your score : ",
+              "Text" :"Your score : ",
               "Size": [
                 100,
                 30
@@ -5041,28 +5095,6 @@
               "Position": [
                 190,
                 690
-              ]
-            },
-            "ScoreValue": {
-              "Text": "0",
-              "Size": [
-                60,
-                60
-              ],
-              "Position": [
-                350,
-                700
-              ]
-            },
-            "SubmitButtn": {
-              "Text": "Submit",
-              "Size": [
-                160,
-                60
-              ],
-              "Position": [
-                40,
-                700
               ]
             }
           }
@@ -5329,8 +5361,67 @@
             }
           },
           "Updatable": {
+            "Score2": {
+              "Text" :"0",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                100
+              ]
+            },
+            "Score4": {
+              "Text" :"0",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                90,
+                100
+              ]
+            },
+            "TargetScore": {
+              "Text" :"12",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                360,
+                260
+              ]
+            },
+            "ScoreValue": {
+              "Text" :"0",
+              "Size": [
+                60,
+                60
+              ],
+              "Position": [
+                350,
+                700
+              ]
+            }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Text" :"Submit",
+              "Size": [
+                160,
+                60
+              ],
+              "Position": [
+                40,
+                700
+              ]
+            }
+          },
+          "TextLabel":{
             "LabelA": {
-              "Text": "A = 19",
+              "Text" :"A = 455",
               "Size": [
                 20,
                 20
@@ -5341,7 +5432,7 @@
               ]
             },
             "LabelB": {
-              "Text": "B = 4",
+              "Text" :"B = 42",
               "Size": [
                 20,
                 20
@@ -5352,29 +5443,18 @@
               ]
             },
             "Score1": {
-              "Text": "B *",
+              "Text" :"B *",
               "Size": [
                 20,
                 20
               ],
               "Position": [
                 20,
-                100
-              ]
-            },
-            "Score2": {
-              "Text": " 0",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
                 100
               ]
             },
             "Score3": {
-              "Text": "+",
+              "Text" :"+",
               "Size": [
                 20,
                 20
@@ -5384,19 +5464,8 @@
                 100
               ]
             },
-            "Score4": {
-              "Text": "0",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                90,
-                100
-              ]
-            },
             "Target": {
-              "Text": "Target",
+              "Text" :"Target",
               "Size": [
                 20,
                 20
@@ -5406,19 +5475,8 @@
                 200
               ]
             },
-            "TargetScore": {
-              "Text": "19",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                360,
-                260
-              ]
-            },
             "YourScore": {
-              "Text": "Your score : ",
+              "Text" :"Your score : ",
               "Size": [
                 100,
                 30
@@ -5426,28 +5484,6 @@
               "Position": [
                 190,
                 690
-              ]
-            },
-            "ScoreValue": {
-              "Text": "0",
-              "Size": [
-                60,
-                60
-              ],
-              "Position": [
-                350,
-                700
-              ]
-            },
-            "SubmitButtn": {
-              "Text": "Submit",
-              "Size": [
-                160,
-                60
-              ],
-              "Position": [
-                40,
-                700
               ]
             }
           }
@@ -5716,8 +5752,67 @@
             }
           },
           "Updatable": {
+            "Score2": {
+              "Text" :"0",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                50,
+                100
+              ]
+            },
+            "Score4": {
+              "Text" :"0",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                90,
+                100
+              ]
+            },
+            "TargetScore": {
+              "Text" :"12",
+              "Size": [
+                20,
+                20
+              ],
+              "Position": [
+                360,
+                260
+              ]
+            },
+            "ScoreValue": {
+              "Text" :"0",
+              "Size": [
+                60,
+                60
+              ],
+              "Position": [
+                350,
+                700
+              ]
+            }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Text" :"Submit",
+              "Size": [
+                160,
+                60
+              ],
+              "Position": [
+                40,
+                700
+              ]
+            }
+          },
+          "TextLabel":{
             "LabelA": {
-              "Text": "A = 19",
+              "Text" :"A = 455",
               "Size": [
                 20,
                 20
@@ -5728,7 +5823,7 @@
               ]
             },
             "LabelB": {
-              "Text": "B = 4",
+              "Text" :"B = 42",
               "Size": [
                 20,
                 20
@@ -5739,29 +5834,18 @@
               ]
             },
             "Score1": {
-              "Text": "B *",
+              "Text" :"B *",
               "Size": [
                 20,
                 20
               ],
               "Position": [
                 20,
-                100
-              ]
-            },
-            "Score2": {
-              "Text": " 0",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
                 100
               ]
             },
             "Score3": {
-              "Text": "+",
+              "Text" :"+",
               "Size": [
                 20,
                 20
@@ -5771,19 +5855,8 @@
                 100
               ]
             },
-            "Score4": {
-              "Text": "0",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                90,
-                100
-              ]
-            },
             "Target": {
-              "Text": "Target",
+              "Text" :"Target",
               "Size": [
                 20,
                 20
@@ -5793,19 +5866,8 @@
                 200
               ]
             },
-            "TargetScore": {
-              "Text": "19",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                360,
-                260
-              ]
-            },
             "YourScore": {
-              "Text": "Your score : ",
+              "Text" :"Your score : ",
               "Size": [
                 100,
                 30
@@ -5813,28 +5875,6 @@
               "Position": [
                 190,
                 690
-              ]
-            },
-            "ScoreValue": {
-              "Text": "0",
-              "Size": [
-                60,
-                60
-              ],
-              "Position": [
-                350,
-                700
-              ]
-            },
-            "SubmitButtn": {
-              "Text": "Submit",
-              "Size": [
-                160,
-                60
-              ],
-              "Position": [
-                40,
-                700
               ]
             }
           }

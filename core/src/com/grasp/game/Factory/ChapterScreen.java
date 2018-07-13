@@ -424,10 +424,10 @@ public abstract class ChapterScreen {
   ClickListener clkPause =  new ClickListener() {
     @Override
     public void clicked(InputEvent event, float x, float y) {
-      Skin skin = new Skin(Gdx.files.internal("uiskin.json"));
-      dialog = new Dialog("Pause",skin);
-      dialog.setSize(200,200);
-      dialog.setPosition(Gdx.graphics.getWidth()/2-100, Gdx.graphics.getHeight()/2-100);
+//      Skin skin = new Skin(Gdx.files.internal("uiskin.json"));
+//      dialog = new Dialog("Pause",skin);
+//      dialog.setSize(200,200);
+//      dialog.setPosition(Gdx.graphics.getWidth()/2-100, Gdx.graphics.getHeight()/2-100);
 
       Image level = new Image(new Texture("data/levelsel.png"));
       level.setSize(20,20);
@@ -456,12 +456,12 @@ public abstract class ChapterScreen {
         }
       });
 
-      dialog.getContentTable().defaults().pad(10);
-      dialog.getContentTable().add(level);
-      dialog.getContentTable().add(play);
-      dialog.getContentTable().add(replay);
-
-      stage.addActor(dialog);
+//      dialog.getContentTable().defaults().pad(10);
+//      dialog.getContentTable().add(level);
+//      dialog.getContentTable().add(play);
+//      dialog.getContentTable().add(replay);
+//
+//      stage.addActor(dialog);
 
       gblVar.clear();
     }

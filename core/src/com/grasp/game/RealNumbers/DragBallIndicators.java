@@ -23,7 +23,7 @@ public class DragBallIndicators extends SumIndicator implements Subscriber {
     Score2,
     Score4,
     TargetScore,
-    ScoreValue;
+    ScoreValue
   }
   //Get the Chapter1 Variables.
   ChapterVariables chapterVariables = ChapterVariables.getInstance();

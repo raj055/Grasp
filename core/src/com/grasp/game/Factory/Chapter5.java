@@ -7,10 +7,11 @@ import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.utils.DragListener;
-import com.grasp.game.Component.Number;
+import com.grasp.game.BuilderBlocks.Events;
 import com.grasp.game.Enum.ClickPluse;
 import com.grasp.game.Enum.ScreenStates;
 import com.grasp.game.Global.GlobalsCommonCount;
+import com.grasp.game.RealNumbers.ScrollingNumber;
 import com.grasp.game.Timer.Timer;
 
 import java.util.ArrayList;
@@ -48,7 +49,7 @@ public class Chapter5 extends ChapterScreen implements Screen {
 
   private GlobalsCommonCount glv;
 
-  Number numLocal;
+  ScrollingNumber numLocal;
 
   //Array List for the drag listeners.
   ArrayList<DragListener> listeners;
@@ -114,7 +115,7 @@ public class Chapter5 extends ChapterScreen implements Screen {
     }
   };
 
-  void defineLevel1Components() {
+  void defineLevel1To5Components() {
     //check if the displayImages are present
     if(displayImages == null)
       return;
@@ -191,8 +192,8 @@ public class Chapter5 extends ChapterScreen implements Screen {
       }
     }
   }
-  void defineLevel2Components() {
-    numLocal = new Number();
+  void defineLevel6To10Components() {
+    numLocal = new ScrollingNumber(Events.SCROLL_NUMBER_SELECT);
 
     for(Image numberI : numLocal.numbers)
     {
@@ -217,8 +218,8 @@ public class Chapter5 extends ChapterScreen implements Screen {
     }
 
   }
-  void defineLevel3Components() {
-    numLocal = new Number();
+  void defineLevel11To15Components() {
+    numLocal = new ScrollingNumber(Events.SCROLL_NUMBER_SELECT);
 
     for(Image numberI : numLocal.numbers)
     {
@@ -246,12 +247,6 @@ public class Chapter5 extends ChapterScreen implements Screen {
     }
 
   }
-  void defineLevel4Components() { }
-  void defineLevel11Components() { }
-  void defineLevel12Components() { }
-  void defineLevel13Components() { }
-  void defineLevel14Components() { }
-  void defineLevel15Components() { }
 
   interface LevelDefinition {
     void initialise();
@@ -259,21 +254,21 @@ public class Chapter5 extends ChapterScreen implements Screen {
 
   private LevelDefinition[] levelInitialisations = (LevelDefinition[]) new LevelDefinition[] {
           new LevelDefinition() {
-            public void initialise() { defineLevel1Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel1Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel1Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel1Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel1Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel2Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel2Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel2Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel2Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel2Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel3Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel3Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel3Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel3Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel3Components(); } },
+            public void initialise() { defineLevel1To5Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel1To5Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel1To5Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel1To5Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel1To5Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel6To10Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel6To10Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel6To10Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel6To10Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel6To10Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel11To15Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel11To15Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel11To15Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel11To15Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel11To15Components(); } },
 
   };
 

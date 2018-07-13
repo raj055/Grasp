@@ -1,5 +1,8 @@
 package com.grasp.game.BuilderBlocks;
 
+import com.badlogic.gdx.scenes.scene2d.ui.Image;
+import com.badlogic.gdx.scenes.scene2d.ui.Label;
+
 /**
  * Use the following classes as structure.
  *
@@ -50,11 +53,6 @@ public class ChapterVariables {
   }
   public class Chapter2Variables{
 
-    //Chapter 2 Variables
-    public int ValueOfB = 0;
-    public int ValueOfScore = 0;
-    public int TargetValue = 0;
-    public int ValueOfA = 0;
   }
   public class Chapter3Variables{
     //Chapter 3 Variables

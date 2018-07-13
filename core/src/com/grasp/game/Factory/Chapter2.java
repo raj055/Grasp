@@ -8,14 +8,14 @@ import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.scenes.scene2d.utils.DragListener;
-import com.grasp.game.Component.BallDisplay;
+import com.grasp.game.BuilderBlocks.Events;
 import com.grasp.game.Component.Nagetiv_Num;
-import com.grasp.game.Component.Number;
 import com.grasp.game.Component.TextVeriabal;
 import com.grasp.game.Enum.ScreenStates;
-import com.grasp.game.Enum.Steps;
 import com.grasp.game.Global.GlobalsCommonCount;
 import com.grasp.game.Global.Objects;
+import com.grasp.game.RealNumbers.BallDisplay;
+import com.grasp.game.RealNumbers.ScrollingNumber;
 import com.grasp.game.Timer.Timer;
 
 import java.util.ArrayList;
@@ -84,7 +84,7 @@ public class Chapter2 extends ChapterScreen implements Screen {
 
   TextVeriabal textVeriabal;
 
-  Number numLocal;
+  ScrollingNumber numLocal;
 
   BallDisplay ballDisplay;
 
@@ -193,7 +193,7 @@ public class Chapter2 extends ChapterScreen implements Screen {
       stageTranslate = 400;
       stepNo++;
 
-      defineLevel1Components();
+      defineLevel1to5Components();
       stage.getCamera().translate(stageTranslate,0,0);
       stage.getCamera().update();
 
@@ -203,7 +203,7 @@ public class Chapter2 extends ChapterScreen implements Screen {
   //Level's
 
   // Level's Component
-  void defineLevel1Components() {
+  void defineLevel1to5Components() {
 
     ArrayList<Label> updatableImage;
     ArrayList<Image> displayImage;
@@ -226,6 +226,9 @@ public class Chapter2 extends ChapterScreen implements Screen {
     }
 */
 
+    if(displayImage == null)
+      return;
+
    //totalObjects
       int totalObjects = displayImage.size();
       for (Image updatable : displayImage) {
@@ -243,6 +246,9 @@ public class Chapter2 extends ChapterScreen implements Screen {
         }
       }
 
+    if(draggableImage == null)
+      return;
+
       //totalObjects
       totalObjects = draggableImage.size();
       for (Image updatable : draggableImage) {
@@ -256,9 +262,9 @@ public class Chapter2 extends ChapterScreen implements Screen {
         }
       }
   }
-  void defineLevel2Components() {
+  void defineLevel6to10Components() {
 
-    numLocal = new Number();
+    numLocal = new ScrollingNumber(Events.SCROLL_NUMBER_SELECT);
 
     ballDisplay = new BallDisplay();
 
@@ -307,7 +313,7 @@ public class Chapter2 extends ChapterScreen implements Screen {
       stage.addActor(numberI);
     }
   }
-  void defineLevel3Components() {
+  void defineLevel11to15Components() {
     textVeriabal = new TextVeriabal();
 
     for(Image numberI : textVeriabal.numbers)
@@ -387,21 +393,21 @@ public class Chapter2 extends ChapterScreen implements Screen {
 
   private LevelDefinition[] levelInitialisations = (LevelDefinition[]) new LevelDefinition[] {
           new LevelDefinition() {
-            public void initialise() { defineLevel1Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel1Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel1Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel1Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel1Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel2Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel2Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel2Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel2Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel2Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel3Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel3Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel3Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel3Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel3Components(); } },
+            public void initialise() { defineLevel1to5Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel1to5Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel1to5Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel1to5Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel1to5Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel6to10Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel6to10Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel6to10Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel6to10Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel6to10Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel11to15Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel11to15Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel11to15Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel11to15Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel11to15Components(); } },
 
   };
 
@@ -417,6 +423,15 @@ public class Chapter2 extends ChapterScreen implements Screen {
   private DragListnerList[] dragListnerLists = (DragListnerList[]) new DragListnerList[] {
           new  DragListnerList() {
             public void allotDragListener() { addLevel1DraggableListeners(); } },
+          new DragListnerList() { public void allotDragListener() { addLevel1DraggableListeners(); } },
+          new DragListnerList() { public void allotDragListener() { addLevel1DraggableListeners(); } },
+          new DragListnerList() { public void allotDragListener() { addLevel1DraggableListeners(); } },
+          new DragListnerList() { public void allotDragListener() { addLevel1DraggableListeners(); } },
+          new DragListnerList() { public void allotDragListener() { addLevel1DraggableListeners(); } },
+          new DragListnerList() { public void allotDragListener() { addLevel1DraggableListeners(); } },
+          new DragListnerList() { public void allotDragListener() { addLevel1DraggableListeners(); } },
+          new DragListnerList() { public void allotDragListener() { addLevel1DraggableListeners(); } },
+          new DragListnerList() { public void allotDragListener() { addLevel1DraggableListeners(); } },
           new DragListnerList() { public void allotDragListener() { addLevel1DraggableListeners(); } },
           new DragListnerList() { public void allotDragListener() { addLevel1DraggableListeners(); } },
           new DragListnerList() { public void allotDragListener() { addLevel1DraggableListeners(); } },

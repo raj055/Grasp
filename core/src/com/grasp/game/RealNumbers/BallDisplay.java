@@ -1,4 +1,4 @@
-package com.grasp.game.Component;
+package com.grasp.game.RealNumbers;
 
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
