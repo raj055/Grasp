@@ -225,10 +225,32 @@ public abstract class ChapterScreen {
       }
       getUpdatable(updatableInfo, updatableObjects);
     }
-    if (displaysTotal.containsKey("Scrollable")) {
-      Map labelInfo = (Map) displaysTotal.get("Scrollable");
-      updateScrolling(displaysTotal);
+
+    if (displaysTotal.containsKey("Scrolling")) {
+      Map labelInfo = (Map) displaysTotal.get("Scrolling");
+      ArrayList<Image> scrollableObject;
+      switch (stepNumber)
+      {
+        case 0:
+          scrollingPara = new ArrayList<Image>(labelInfo.size());
+          scrollableObject = scrollingPara;
+          break;
+        case 1:
+          scrollingParaNext = new ArrayList<Image>(labelInfo.size());
+          scrollableObject = scrollingParaNext;
+          break;
+        case 2:
+          scrollingParaLast = new ArrayList<Image>(labelInfo.size());
+          scrollableObject = scrollingParaLast;
+          break;
+        default:
+          scrollingPara = new ArrayList<Image>(labelInfo.size());
+          scrollableObject = scrollingPara;
+          break;
+      }
+      updateScrolling(labelInfo, scrollableObject);
     }
+
     if(displaysTotal.containsKey("TextLabel")){
       Map textLabels = (Map) displaysTotal.get("TextLabel");
       updateTextuals(stepNumber, textLabels);
@@ -259,6 +281,7 @@ public abstract class ChapterScreen {
     }
     getUpdatable(textuals, textualObjects);
   }
+
   public String getChapterName(){
     String chapterName = new String();
     if(GameStates.chapterNumber == CHAPTER_1) {
@@ -376,7 +399,6 @@ public abstract class ChapterScreen {
     Set set = displayMap.entrySet();
     Iterator iterator = set.iterator();
 
-
     while (iterator.hasNext()) {
       //Get the current entry.
       Map.Entry mentry = (Map.Entry) iterator.next();
@@ -387,7 +409,6 @@ public abstract class ChapterScreen {
       ArrayList<Integer> sizesW = (ArrayList) str.get("Size");
       ArrayList<Integer> positionL = (ArrayList) str.get("Position");
       Boolean enableVis = (Boolean)  str.get("Visible");
-
       //Initialise the Local Image
       Image img = new Image(new Texture(imgPath));
 
@@ -420,52 +441,6 @@ public abstract class ChapterScreen {
         pbar.addListener(clkPause);
     }
   }
-
-  ClickListener clkPause =  new ClickListener() {
-    @Override
-    public void clicked(InputEvent event, float x, float y) {
-//      Skin skin = new Skin(Gdx.files.internal("uiskin.json"));
-//      dialog = new Dialog("Pause",skin);
-//      dialog.setSize(200,200);
-//      dialog.setPosition(Gdx.graphics.getWidth()/2-100, Gdx.graphics.getHeight()/2-100);
-
-      Image level = new Image(new Texture("data/levelsel.png"));
-      level.setSize(20,20);
-      level.addListener(new ClickListener(){
-        @Override
-        public void clicked(InputEvent event, float x, float y) {
-          GameStates.screenStates = ScreenStates.LEVELSCREEN;
-        }
-      });
-
-      Image play = new Image(new Texture("data/play.png"));
-      play.setSize(20,20);
-      play.addListener(new ClickListener(){
-        @Override
-        public void clicked(InputEvent event, float x, float y) {
-          dialog.remove();
-        }
-      });
-
-      Image replay = new Image(new Texture("data/rep.png"));
-      replay.setSize(20,20);
-      replay.addListener(new ClickListener(){
-        @Override
-        public void clicked(InputEvent event, float x, float y) {
-          GameStates.screenStates = ScreenStates.STEPS;
-        }
-      });
-
-//      dialog.getContentTable().defaults().pad(10);
-//      dialog.getContentTable().add(level);
-//      dialog.getContentTable().add(play);
-//      dialog.getContentTable().add(replay);
-//
-//      stage.addActor(dialog);
-
-      gblVar.clear();
-    }
-  };
 
   protected void updateDraggableArea(Map draggableMap, ArrayList draggable){
 
@@ -532,60 +507,44 @@ public abstract class ChapterScreen {
     }
   }
 
-  protected void updateScrolling(Map scrollingData){
+  protected void updateScrolling(Map scrollingData, ArrayList<Image> scrollableObject){
 
     if(scrollingData == null)
       return;
-    int totalDraggables = scrollingData.size();
-
-    if(scrollingData.containsKey("Images")) {
-      Map imageList = (Map) scrollingData.get("Images");
-    }
+    int totalscrolled = scrollingData.size();
 
     Set set = scrollingData.entrySet();
     Iterator iterator = set.iterator();
 
-    //initialise the array list for the labels.
-    draggable = new ArrayList<Image>(totalDraggables);
-    draggableNames = new ArrayList<String>(totalDraggables);
+    while (iterator.hasNext()) {
+      //Get the current entry.
+      Map.Entry mentry = (Map.Entry) iterator.next();
+      Map str = (Map) mentry.getValue();
 
-    //Get the current entry.
-    Map.Entry mentry = (Map.Entry) iterator.next();
-    Map str = (Map) mentry.getValue();
+      //Initialise and obtain the image path, size and boolean visible
+      String imgPath = (String) str.get("Image");
+      ArrayList<Integer> sizesW = (ArrayList) str.get("Size");
+      Boolean enableVis = (Boolean)  str.get("Visible");
 
-    //Initialise and obtain the image path, size and boolean visible
-    String imgPath = (String) str.get("Images");
-    ArrayList<Integer> sizesW = (ArrayList) str.get("Size");
-    Integer posXDiff = (Integer) str.get("PosXDiff");
-    Integer posYConst = (Integer) str.get("posYConst");
+      //Initialise the Local Image
+      Image img = new Image(new Texture(imgPath));
 
-    //Initialise the Local Image
-    Image img = new Image(new Texture(imgPath));
+      //Get and set the size of the given parameter
+      Integer[] size;
+      size = new Integer[2];
+      size[0] = sizesW.get(0);
+      size[1] = sizesW.get(1);
 
-    //Get and set the size of the given parameter
-    Integer[] size;
-    size = new Integer[2];
-    size[0] = sizesW.get(0);
-    size[1] = sizesW.get(1);
+      //Set the size, position and visibility
+      img.setSize(size[0], size[1]);
+      img.setVisible(enableVis);
 
-    //Get the position of the given parameter.
-    Integer[] position;
-    position = new Integer[2];
-    position[0] = posXDiff;
-    position[1] = posYConst;
+      img.setName((String) mentry.getKey());
 
-    //Add the draglisteners' names
-    draggableNames.add((String)str.get("DragListener"));
-
-    //Set the size, position and visibility
-    img.setSize(size[0],size[1]);
-    img.setPosition(position[0], MyGame.HEIGHT - position[1]);
-
-    img.setName((String)mentry.getKey());
-
-    //Add the parameter to the list of displayImages and stage
-    draggable.add(img);
-    stage.addActor(img);
+      //Add the parameter to the list of displayImages and stage
+      scrollableObject.add(img);
+      stage.addActor(img);
+    }
   }
 
   protected void getUpdatable(Map updatableInfo, ArrayList updatables){
@@ -642,4 +601,50 @@ public abstract class ChapterScreen {
       stage.addActor(img);
     }
   }
+
+  ClickListener clkPause =  new ClickListener() {
+    @Override
+    public void clicked(InputEvent event, float x, float y) {
+//      Skin skin = new Skin(Gdx.files.internal("uiskin.json"));
+//      dialog = new Dialog("Pause",skin);
+//      dialog.setSize(200,200);
+//      dialog.setPosition(Gdx.graphics.getWidth()/2-100, Gdx.graphics.getHeight()/2-100);
+
+      Image level = new Image(new Texture("data/levelsel.png"));
+      level.setSize(20,20);
+      level.addListener(new ClickListener(){
+        @Override
+        public void clicked(InputEvent event, float x, float y) {
+          GameStates.screenStates = ScreenStates.LEVELSCREEN;
+        }
+      });
+
+      Image play = new Image(new Texture("data/play.png"));
+      play.setSize(20,20);
+      play.addListener(new ClickListener(){
+        @Override
+        public void clicked(InputEvent event, float x, float y) {
+          dialog.remove();
+        }
+      });
+
+      Image replay = new Image(new Texture("data/rep.png"));
+      replay.setSize(20,20);
+      replay.addListener(new ClickListener(){
+        @Override
+        public void clicked(InputEvent event, float x, float y) {
+          GameStates.screenStates = ScreenStates.STEPS;
+        }
+      });
+
+//      dialog.getContentTable().defaults().pad(10);
+//      dialog.getContentTable().add(level);
+//      dialog.getContentTable().add(play);
+//      dialog.getContentTable().add(replay);
+//
+//      stage.addActor(dialog);
+
+      gblVar.clear();
+    }
+  };
 }

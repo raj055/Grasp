@@ -1,4 +1,4 @@
-package com.grasp.game.RealNumbers;
+package com.grasp.game.BuilderBlocks;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Texture;
@@ -9,33 +9,39 @@ import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.Disposable;
 import com.grasp.game.BuilderBlocks.Events;
+import com.grasp.game.BuilderBlocks.OnClickCallBack;
+import com.grasp.game.BuilderBlocks.OnDragCallBack;
+import com.grasp.game.Factory.ChapterScreen;
 import com.grasp.game.Global.GlobalsCommonCount;
+
+import java.util.ArrayList;
 
 public class ScrollingNumber implements Disposable {
 
-    private static final int NUMBERCOUNT = 10;
-
-    public Array<Image> numbers;
+    public ArrayList<Image> numbers = null;
 
     private GlobalsCommonCount gblVar;
 
-
-    public ScrollingNumber(Events scrollNumberSelect){
+    public ScrollingNumber(){
 
         gblVar = GlobalsCommonCount.getInstance();
 
-        numbers = new Array<Image>();
+        numbers = new ArrayList<Image>();
+
+    }
+
+    public void scrolling(ArrayList<Image> imagescrolling){
 
         int posX = 10;
         int posY;
-        for(int numCount = 0; numCount < NUMBERCOUNT; numCount++)
+        int totalNumbers = imagescrolling.size();
+        for(int numCount = 0; numCount < totalNumbers; numCount++)
         {
-            final Image img = new Image(new Texture(gblVar.NumberLevel1[numCount]));
+            final Image img = (imagescrolling.get(numCount));
 
             final int count = numCount;
 
             posY = 700 + gblVar.posYNum[numCount];
-            img.setSize(30,40);
             img.setPosition(posX,posY);
             posX += 40;
 
@@ -52,7 +58,6 @@ public class ScrollingNumber implements Disposable {
 
             numbers.add(img);
         }
-
     }
 
     public void update(float deltaTime){

@@ -57,12 +57,12 @@ public class BallDragListener extends OnDragCallBack {
       displayBalls.addAll(dispBalls);
     }
   }
+
   void setShowBalls(ArrayList<Image> showBalls){
     if(showBalls != null) {
       showBalls.addAll(showBalls);
     }
   }
-
 
   ArrayList<Image> getDisplayBalls(){
     return displayBalls;
@@ -70,15 +70,13 @@ public class BallDragListener extends OnDragCallBack {
 
   void updateGlobalVariables(){
 
-
     int xPos = 150;
-    int totalBalls = 0;
+//    int totalBalls = 0;
     for(Image disBall : displayBalls) {
       chapterVariables.chapter1Variables.ValueOfScore++;
       disBall.setPosition(xPos, MyGame.HEIGHT - 100);
       xPos += 50;
     }
     chapterVariables.chapter1Variables.ValueOfQ++;
-
   }
 }

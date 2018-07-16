@@ -2293,6 +2293,98 @@
                 355
               ]
             }
+          },
+          "Scrolling":{
+            "number0": {
+              "Image": "Numbers/number0.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 0,
+              "Visible": true
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 1,
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 2,
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 3,
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 4,
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 5,
+              "Visible": true
+            },
+            "number6": {
+              "Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 6,
+              "Visible": true
+            },
+            "number7": {
+              "Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 7,
+              "Visible": true
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 8,
+              "Visible": true
+            },
+            "number9": {
+              "Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 9,
+              "Visible": true
+            }
           }
         },
         "Step2": {
@@ -2533,6 +2625,98 @@
                 290,
                 360
               ]
+            }
+          },
+          "Scrolling":{
+            "number0": {
+              "Image": "Numbers/number0.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 0,
+              "Visible": true
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 1,
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 2,
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 3,
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 4,
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 5,
+              "Visible": true
+            },
+            "number6": {
+              "Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 6,
+              "Visible": true
+            },
+            "number7": {
+              "Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 7,
+              "Visible": true
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 8,
+              "Visible": true
+            },
+            "number9": {
+              "Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 9,
+              "Visible": true
             }
           }
         },
@@ -2914,6 +3098,98 @@
                 300,
                 540
               ]
+            }
+          },
+          "Scrolling":{
+            "number0": {
+              "Image": "Numbers/number0.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 0,
+              "Visible": true
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 1,
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 2,
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 3,
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 4,
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 5,
+              "Visible": true
+            },
+            "number6": {
+              "Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 6,
+              "Visible": true
+            },
+            "number7": {
+              "Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 7,
+              "Visible": true
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 8,
+              "Visible": true
+            },
+            "number9": {
+              "Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 9,
+              "Visible": true
             }
           }
         }
@@ -3158,6 +3434,98 @@
                 355
               ]
             }
+          },
+          "Scrolling":{
+            "number0": {
+              "Image": "Numbers/number0.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 0,
+              "Visible": true
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 1,
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 2,
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 3,
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 4,
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 5,
+              "Visible": true
+            },
+            "number6": {
+              "Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 6,
+              "Visible": true
+            },
+            "number7": {
+              "Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 7,
+              "Visible": true
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 8,
+              "Visible": true
+            },
+            "number9": {
+              "Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 9,
+              "Visible": true
+            }
           }
         },
         "Step2": {
@@ -3398,6 +3766,98 @@
                 290,
                 360
               ]
+            }
+          },
+          "Scrolling":{
+            "number0": {
+              "Image": "Numbers/number0.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 0,
+              "Visible": true
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 1,
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 2,
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 3,
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 4,
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 5,
+              "Visible": true
+            },
+            "number6": {
+              "Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 6,
+              "Visible": true
+            },
+            "number7": {
+              "Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 7,
+              "Visible": true
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 8,
+              "Visible": true
+            },
+            "number9": {
+              "Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 9,
+              "Visible": true
             }
           }
         },
@@ -3779,6 +4239,98 @@
                 300,
                 540
               ]
+            }
+          },
+          "Scrolling":{
+            "number0": {
+              "Image": "Numbers/number0.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 0,
+              "Visible": true
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 1,
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 2,
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 3,
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 4,
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 5,
+              "Visible": true
+            },
+            "number6": {
+              "Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 6,
+              "Visible": true
+            },
+            "number7": {
+              "Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 7,
+              "Visible": true
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 8,
+              "Visible": true
+            },
+            "number9": {
+              "Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 9,
+              "Visible": true
             }
           }
         }
@@ -4023,6 +4575,98 @@
                 355
               ]
             }
+          },
+          "Scrolling":{
+            "number0": {
+              "Image": "Numbers/number0.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 0,
+              "Visible": true
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 1,
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 2,
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 3,
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 4,
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 5,
+              "Visible": true
+            },
+            "number6": {
+              "Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 6,
+              "Visible": true
+            },
+            "number7": {
+              "Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 7,
+              "Visible": true
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 8,
+              "Visible": true
+            },
+            "number9": {
+              "Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 9,
+              "Visible": true
+            }
           }
         },
         "Step2": {
@@ -4263,6 +4907,98 @@
                 290,
                 360
               ]
+            }
+          },
+          "Scrolling":{
+            "number0": {
+              "Image": "Numbers/number0.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 0,
+              "Visible": true
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 1,
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 2,
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 3,
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 4,
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 5,
+              "Visible": true
+            },
+            "number6": {
+              "Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 6,
+              "Visible": true
+            },
+            "number7": {
+              "Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 7,
+              "Visible": true
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 8,
+              "Visible": true
+            },
+            "number9": {
+              "Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 9,
+              "Visible": true
             }
           }
         },
@@ -4644,6 +5380,98 @@
                 300,
                 540
               ]
+            }
+          },
+          "Scrolling":{
+            "number0": {
+              "Image": "Numbers/number0.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 0,
+              "Visible": true
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 1,
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 2,
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 3,
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 4,
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 5,
+              "Visible": true
+            },
+            "number6": {
+              "Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 6,
+              "Visible": true
+            },
+            "number7": {
+              "Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 7,
+              "Visible": true
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 8,
+              "Visible": true
+            },
+            "number9": {
+              "Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 9,
+              "Visible": true
             }
           }
         }
@@ -4888,6 +5716,98 @@
                 355
               ]
             }
+          },
+          "Scrolling":{
+            "number0": {
+              "Image": "Numbers/number0.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 0,
+              "Visible": true
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 1,
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 2,
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 3,
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 4,
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 5,
+              "Visible": true
+            },
+            "number6": {
+              "Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 6,
+              "Visible": true
+            },
+            "number7": {
+              "Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 7,
+              "Visible": true
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 8,
+              "Visible": true
+            },
+            "number9": {
+              "Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 9,
+              "Visible": true
+            }
           }
         },
         "Step2": {
@@ -5128,6 +6048,98 @@
                 290,
                 360
               ]
+            }
+          },
+          "Scrolling":{
+            "number0": {
+              "Image": "Numbers/number0.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 0,
+              "Visible": true
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 1,
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 2,
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 3,
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 4,
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 5,
+              "Visible": true
+            },
+            "number6": {
+              "Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 6,
+              "Visible": true
+            },
+            "number7": {
+              "Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 7,
+              "Visible": true
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 8,
+              "Visible": true
+            },
+            "number9": {
+              "Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 9,
+              "Visible": true
             }
           }
         },
@@ -5509,6 +6521,98 @@
                 300,
                 540
               ]
+            }
+          },
+          "Scrolling":{
+            "number0": {
+              "Image": "Numbers/number0.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 0,
+              "Visible": true
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 1,
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 2,
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 3,
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 4,
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 5,
+              "Visible": true
+            },
+            "number6": {
+              "Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 6,
+              "Visible": true
+            },
+            "number7": {
+              "Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 7,
+              "Visible": true
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 8,
+              "Visible": true
+            },
+            "number9": {
+              "Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 9,
+              "Visible": true
             }
           }
         }
@@ -5753,6 +6857,98 @@
                 355
               ]
             }
+          },
+          "Scrolling":{
+            "number0": {
+              "Image": "Numbers/number0.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 0,
+              "Visible": true
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 1,
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 2,
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 3,
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 4,
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 5,
+              "Visible": true
+            },
+            "number6": {
+              "Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 6,
+              "Visible": true
+            },
+            "number7": {
+              "Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 7,
+              "Visible": true
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 8,
+              "Visible": true
+            },
+            "number9": {
+              "Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 9,
+              "Visible": true
+            }
           }
         },
         "Step2": {
@@ -5993,6 +7189,98 @@
                 290,
                 360
               ]
+            }
+          },
+          "Scrolling":{
+            "number0": {
+              "Image": "Numbers/number0.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 0,
+              "Visible": true
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 1,
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 2,
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 3,
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 4,
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 5,
+              "Visible": true
+            },
+            "number6": {
+              "Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 6,
+              "Visible": true
+            },
+            "number7": {
+              "Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 7,
+              "Visible": true
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 8,
+              "Visible": true
+            },
+            "number9": {
+              "Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 9,
+              "Visible": true
             }
           }
         },
@@ -6375,6 +7663,98 @@
                 540
               ]
             }
+          },
+          "Scrolling":{
+            "number0": {
+              "Image": "Numbers/number0.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 0,
+              "Visible": true
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 1,
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 2,
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 3,
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 4,
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 5,
+              "Visible": true
+            },
+            "number6": {
+              "Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 6,
+              "Visible": true
+            },
+            "number7": {
+              "Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 7,
+              "Visible": true
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 8,
+              "Visible": true
+            },
+            "number9": {
+              "Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 9,
+              "Visible": true
+            }
           }
         }
       },
@@ -6610,6 +7990,80 @@
                 165
               ]
             }
+          },
+          "Scrolling":{
+            "number1": {
+              "Image": "Values/1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 1,
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Values/2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 2,
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Values/3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 3,
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Values/4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 4,
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Values/5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 5,
+              "Visible": true
+            },
+            "numberX2": {
+              "Image": "Values/x2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : "x2",
+              "Visible": true
+            },
+            "numberX3": {
+              "Image": "Values/x3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : "x3",
+              "Visible": true
+            },
+            "numberXX": {
+              "Image": "Values/xx.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : "xx",
+              "Visible": true
+            }
           }
         },
         "Step2": {
@@ -6746,7 +8200,7 @@
               ],
               "Visible": false
             },
-            "ImgSyntex1": {
+            "ImgeSyntex1": {
               "Image": "data_ch2/4.png",
               "Size": [
                 200,
@@ -6877,6 +8331,135 @@
                 180,
                 165
               ]
+            }
+          },
+          "Scrolling":{
+            "number0": {
+              /* "Image": "Numbers/number0.png",
+               "Size": [
+                 30,
+                 40
+               ],
+               "Value" : 0,
+               "Visible": true*/
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 1,
+              "Visible": true
+            },
+            "number2": {
+              /*"Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 2,
+              "Visible": true*/
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 3,
+              "Visible": true
+            },
+            "number4": {
+              /*"Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 4,
+              "Visible": true*/
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 5,
+              "Visible": true
+            },
+            "number6": {
+              /*"Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+               "Value" : 6,
+              "Visible": true*/
+            },
+            "number7": {
+              /*"Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+               "Value" : 7,
+              "Visible": true*/
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 8,
+              "Visible": true
+            },
+            "number9": {
+              /*"Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+               "Value" : 9,
+              "Visible": true
+            }*/
+            },
+            "number-2": {
+              "Image": "Numb/-2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : -2,
+              "Visible": true
+            },
+            "number-3": {
+              "Image": "Numb/-3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : -3,
+              "Visible": true
+            },
+            "number-6": {
+              "Image": "Numb/-6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : -6,
+              "Visible": true
+            },
+            "number-7": {
+              "Image": "Numb/-7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : -7,
+              "Visible": true
             }
           }
         },
@@ -7099,6 +8682,88 @@
                 175
               ]
             }
+          },
+          "Scrolling":{
+            "number0": {
+              "Image": "Numbers/number0.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number6": {
+              "Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number7": {
+              "Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number9": {
+              "Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            }
           }
         },
         "Step4": {
@@ -7304,6 +8969,88 @@
                 200,
                 500
               ]
+            }
+          },
+          "Scrolling":{
+            "number0": {
+              "Image": "Numbers/number0.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number6": {
+              "Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number7": {
+              "Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number9": {
+              "Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
             }
           }
         }
@@ -7540,6 +9287,80 @@
                 165
               ]
             }
+          },
+          "Scrolling":{
+            "number1": {
+              "Image": "Values/1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 1,
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Values/2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 2,
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Values/3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 3,
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Values/4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 4,
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Values/5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 5,
+              "Visible": true
+            },
+            "numberX2": {
+              "Image": "Values/x2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : "x2",
+              "Visible": true
+            },
+            "numberX3": {
+              "Image": "Values/x3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : "x3",
+              "Visible": true
+            },
+            "numberXX": {
+              "Image": "Values/xx.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : "xx",
+              "Visible": true
+            }
           }
         },
         "Step2": {
@@ -7808,6 +9629,135 @@
                 165
               ]
             }
+          },
+          "Scrolling":{
+            "number0": {
+              /* "Image": "Numbers/number0.png",
+               "Size": [
+                 30,
+                 40
+               ],
+               "Value" : 0,
+               "Visible": true*/
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 1,
+              "Visible": true
+            },
+            "number2": {
+              /*"Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 2,
+              "Visible": true*/
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 3,
+              "Visible": true
+            },
+            "number4": {
+              /*"Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 4,
+              "Visible": true*/
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 5,
+              "Visible": true
+            },
+            "number6": {
+              /*"Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+               "Value" : 6,
+              "Visible": true*/
+            },
+            "number7": {
+              /*"Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+               "Value" : 7,
+              "Visible": true*/
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 8,
+              "Visible": true
+            },
+            "number9": {
+              /*"Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+               "Value" : 9,
+              "Visible": true
+            }*/
+            },
+            "number-2": {
+              "Image": "Numb/-2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : -2,
+              "Visible": true
+            },
+            "number-3": {
+              "Image": "Numb/-3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : -3,
+              "Visible": true
+            },
+            "number-6": {
+              "Image": "Numb/-6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : -6,
+              "Visible": true
+            },
+            "number-7": {
+              "Image": "Numb/-7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : -7,
+              "Visible": true
+            }
           }
         },
         "Step3": {
@@ -8029,6 +9979,88 @@
                 175
               ]
             }
+          },
+          "Scrolling":{
+            "number0": {
+              "Image": "Numbers/number0.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number6": {
+              "Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number7": {
+              "Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number9": {
+              "Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            }
           }
         },
         "Step4": {
@@ -8234,6 +10266,88 @@
                 200,
                 500
               ]
+            }
+          },
+          "Scrolling":{
+            "number0": {
+              "Image": "Numbers/number0.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number6": {
+              "Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number7": {
+              "Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number9": {
+              "Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
             }
           }
         }
@@ -8470,6 +10584,80 @@
                 165
               ]
             }
+          },
+          "Scrolling":{
+            "number1": {
+              "Image": "Values/1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 1,
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Values/2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 2,
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Values/3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 3,
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Values/4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 4,
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Values/5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 5,
+              "Visible": true
+            },
+            "numberX2": {
+              "Image": "Values/x2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : "x2",
+              "Visible": true
+            },
+            "numberX3": {
+              "Image": "Values/x3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : "x3",
+              "Visible": true
+            },
+            "numberXX": {
+              "Image": "Values/xx.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : "xx",
+              "Visible": true
+            }
           }
         },
         "Step2": {
@@ -8738,6 +10926,135 @@
                 165
               ]
             }
+          },
+          "Scrolling":{
+            "number0": {
+              /* "Image": "Numbers/number0.png",
+               "Size": [
+                 30,
+                 40
+               ],
+               "Value" : 0,
+               "Visible": true*/
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 1,
+              "Visible": true
+            },
+            "number2": {
+              /*"Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 2,
+              "Visible": true*/
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 3,
+              "Visible": true
+            },
+            "number4": {
+              /*"Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 4,
+              "Visible": true*/
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 5,
+              "Visible": true
+            },
+            "number6": {
+              /*"Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+               "Value" : 6,
+              "Visible": true*/
+            },
+            "number7": {
+              /*"Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+               "Value" : 7,
+              "Visible": true*/
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 8,
+              "Visible": true
+            },
+            "number9": {
+              /*"Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+               "Value" : 9,
+              "Visible": true
+            }*/
+            },
+            "number-2": {
+              "Image": "Numb/-2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : -2,
+              "Visible": true
+            },
+            "number-3": {
+              "Image": "Numb/-3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : -3,
+              "Visible": true
+            },
+            "number-6": {
+              "Image": "Numb/-6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : -6,
+              "Visible": true
+            },
+            "number-7": {
+              "Image": "Numb/-7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : -7,
+              "Visible": true
+            }
           }
         },
         "Step3": {
@@ -8959,6 +11276,88 @@
                 175
               ]
             }
+          },
+          "Scrolling":{
+            "number0": {
+              "Image": "Numbers/number0.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number6": {
+              "Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number7": {
+              "Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number9": {
+              "Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            }
           }
         },
         "Step4": {
@@ -9164,6 +11563,88 @@
                 200,
                 500
               ]
+            }
+          },
+          "Scrolling":{
+            "number0": {
+              "Image": "Numbers/number0.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number6": {
+              "Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number7": {
+              "Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number9": {
+              "Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
             }
           }
         }
@@ -9400,6 +11881,80 @@
                 165
               ]
             }
+          },
+          "Scrolling":{
+            "number1": {
+              "Image": "Values/1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 1,
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Values/2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 2,
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Values/3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 3,
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Values/4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 4,
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Values/5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 5,
+              "Visible": true
+            },
+            "numberX2": {
+              "Image": "Values/x2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : "x2",
+              "Visible": true
+            },
+            "numberX3": {
+              "Image": "Values/x3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : "x3",
+              "Visible": true
+            },
+            "numberXX": {
+              "Image": "Values/xx.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : "xx",
+              "Visible": true
+            }
           }
         },
         "Step2": {
@@ -9668,6 +12223,135 @@
                 165
               ]
             }
+          },
+          "Scrolling":{
+            "number0": {
+              /* "Image": "Numbers/number0.png",
+               "Size": [
+                 30,
+                 40
+               ],
+               "Value" : 0,
+               "Visible": true*/
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 1,
+              "Visible": true
+            },
+            "number2": {
+              /*"Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 2,
+              "Visible": true*/
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 3,
+              "Visible": true
+            },
+            "number4": {
+              /*"Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 4,
+              "Visible": true*/
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 5,
+              "Visible": true
+            },
+            "number6": {
+              /*"Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+               "Value" : 6,
+              "Visible": true*/
+            },
+            "number7": {
+              /*"Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+               "Value" : 7,
+              "Visible": true*/
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 8,
+              "Visible": true
+            },
+            "number9": {
+              /*"Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+               "Value" : 9,
+              "Visible": true
+            }*/
+            },
+            "number-2": {
+              "Image": "Numb/-2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : -2,
+              "Visible": true
+            },
+            "number-3": {
+              "Image": "Numb/-3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : -3,
+              "Visible": true
+            },
+            "number-6": {
+              "Image": "Numb/-6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : -6,
+              "Visible": true
+            },
+            "number-7": {
+              "Image": "Numb/-7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : -7,
+              "Visible": true
+            }
           }
         },
         "Step3": {
@@ -9889,6 +12573,88 @@
                 175
               ]
             }
+          },
+          "Scrolling":{
+            "number0": {
+              "Image": "Numbers/number0.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number6": {
+              "Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number7": {
+              "Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number9": {
+              "Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            }
           }
         },
         "Step4": {
@@ -10094,6 +12860,88 @@
                 200,
                 500
               ]
+            }
+          },
+          "Scrolling":{
+            "number0": {
+              "Image": "Numbers/number0.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number6": {
+              "Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number7": {
+              "Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number9": {
+              "Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
             }
           }
         }
@@ -10330,6 +13178,80 @@
                 165
               ]
             }
+          },
+          "Scrolling":{
+            "number1": {
+              "Image": "Values/1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 1,
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Values/2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 2,
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Values/3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 3,
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Values/4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 4,
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Values/5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 5,
+              "Visible": true
+            },
+            "numberX2": {
+              "Image": "Values/x2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : "x2",
+              "Visible": true
+            },
+            "numberX3": {
+              "Image": "Values/x3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : "x3",
+              "Visible": true
+            },
+            "numberXX": {
+              "Image": "Values/xx.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : "xx",
+              "Visible": true
+            }
           }
         },
         "Step2": {
@@ -10598,6 +13520,135 @@
                 165
               ]
             }
+          },
+          "Scrolling":{
+            "number0": {
+              /* "Image": "Numbers/number0.png",
+               "Size": [
+                 30,
+                 40
+               ],
+               "Value" : 0,
+               "Visible": true*/
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 1,
+              "Visible": true
+            },
+            "number2": {
+              /*"Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 2,
+              "Visible": true*/
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 3,
+              "Visible": true
+            },
+            "number4": {
+              /*"Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 4,
+              "Visible": true*/
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 5,
+              "Visible": true
+            },
+            "number6": {
+              /*"Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+               "Value" : 6,
+              "Visible": true*/
+            },
+            "number7": {
+              /*"Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+               "Value" : 7,
+              "Visible": true*/
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : 8,
+              "Visible": true
+            },
+            "number9": {
+              /*"Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+               "Value" : 9,
+              "Visible": true
+            }*/
+            },
+            "number-2": {
+              "Image": "Numb/-2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : -2,
+              "Visible": true
+            },
+            "number-3": {
+              "Image": "Numb/-3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : -3,
+              "Visible": true
+            },
+            "number-6": {
+              "Image": "Numb/-6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : -6,
+              "Visible": true
+            },
+            "number-7": {
+              "Image": "Numb/-7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Value" : -7,
+              "Visible": true
+            }
           }
         },
         "Step3": {
@@ -10819,6 +13870,88 @@
                 175
               ]
             }
+          },
+          "Scrolling":{
+            "number0": {
+              "Image": "Numbers/number0.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number6": {
+              "Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number7": {
+              "Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number9": {
+              "Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            }
           }
         },
         "Step4": {
@@ -11024,6 +14157,88 @@
                 200,
                 500
               ]
+            }
+          },
+          "Scrolling":{
+            "number0": {
+              "Image": "Numbers/number0.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number6": {
+              "Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number7": {
+              "Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number9": {
+              "Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
             }
           }
         }

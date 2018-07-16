@@ -20,9 +20,7 @@ import static com.grasp.game.Util.MathUtils.asFloat;
 
 public class ReadConfiguration {
 
-
     public static List layoutArray;
-    Random RAND = new Random();
 
     static InputStream fin;
     static BufferedReader br;

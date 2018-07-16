@@ -18,7 +18,7 @@ import com.grasp.game.RealNumbers.BallDisplay;
 import com.grasp.game.RealNumbers.BallDragListener;
 import com.grasp.game.RealNumbers.DragBallIndicators;
 import com.grasp.game.RealNumbers.RemainderDragListener;
-import com.grasp.game.RealNumbers.ScrollingNumber;
+import com.grasp.game.BuilderBlocks.ScrollingNumber;
 import com.grasp.game.RealNumbers.VisibleComponents;
 import com.grasp.game.Timer.Timer;
 
@@ -41,6 +41,8 @@ public class Chapter1 extends ChapterScreen implements Screen {
   private Label submitButton = null;
   ArrayList<Image> displayBalls = null;
   ArrayList<Image> remainderBall = null;
+
+  ArrayList<Image> scrollingImages = null;
 
   //Get the components of level 3
   Label labelX;
@@ -75,7 +77,7 @@ public class Chapter1 extends ChapterScreen implements Screen {
     //Define all Listeners and Updation Objects
     ballDragListener = new BallDragListener(Events.BALL_DRAG_EVENT);
     remBallDragListener = new RemainderDragListener(Events.REMAINDER_BALL_DRAG);
-    numLocal = new ScrollingNumber(Events.SCROLL_NUMBER_SELECT);
+//    numLocal = new ScrollingNumber(Events.SCROLL_NUMBER_SELECT);
 
     getLevelName();
     initialiseDragListeners(currentLevelNumber);
@@ -139,7 +141,7 @@ public class Chapter1 extends ChapterScreen implements Screen {
   }
 
   // Drag and Drop Main Ball
-  DragListener drgListener = new DragListener(){
+   DragListener drgListener = new DragListener(){
     @Override
     public void drag(InputEvent event, float x, float y, int pointer) {
       Image dragball = (Image)event.getListenerActor();
@@ -152,7 +154,7 @@ public class Chapter1 extends ChapterScreen implements Screen {
   };
 
   // Drag Remainder Ball
-  DragListener remainderDragListener = new DragListener(){
+   DragListener remainderDragListener = new DragListener(){
 
     @Override
     public void drag(InputEvent event, float x, float y, int pointer) {
@@ -163,19 +165,17 @@ public class Chapter1 extends ChapterScreen implements Screen {
   };
 
   // Submit Button ClickListener
-  ClickListener submitBttnClickListener = new ClickListener(){
+   ClickListener submitBttnClickListener = new ClickListener(){
     @Override
     public void clicked(InputEvent event, float x, float y) {
-
       GameStates.screenStates = ScreenStates.LEVELSCREEN;
       time.dispose();
-
     }
   };
 
-  void defineLevel1To10Components() {
+  private void defineLevel1To10Components() {
 
-    //check if the updatables are present
+    //check if the updatable are present
     if(updatables == null)
       return;
 
@@ -238,14 +238,32 @@ public class Chapter1 extends ChapterScreen implements Screen {
     attachDraggables();
   }
 
-  void defineLevel11to15Components() {
+  private void defineLevel11to15Components() {
+
+    //check if the updatables are present
+    if(scrollingPara == null)
+      return;
+
+    numLocal = new ScrollingNumber();
+
+    scrollingImages = new ArrayList<Image>();
+
+    //totalObjects
+    int totalObjects = scrollingPara.size();
+
+    for(Image img : scrollingPara)
+    {
+      scrollingImages.add(img);
+
+      numLocal.scrolling(scrollingImages);
+    }
 
     //check if the updatables are present
     if(updatables == null)
       return;
 
     //totalObjects
-    int totalObjects = updatables.size();
+    totalObjects = updatables.size();
     for (Label updatable : updatables)
     {
       String str = updatable.getName();
@@ -271,10 +289,12 @@ public class Chapter1 extends ChapterScreen implements Screen {
       }
     }
 
-    for(Image numberI : numLocal.numbers)
+    for(Image numberI : scrollingPara)
     {
       stage.addActor(numberI);
     }
+
+
   }
 
   interface LevelDefinition {
@@ -301,7 +321,7 @@ public class Chapter1 extends ChapterScreen implements Screen {
 
   };
 
-  public void initialiseLevelComponents(int index) {
+  private void initialiseLevelComponents(int index) {
     levelInitialisations[index].initialise();
   }
 
@@ -309,7 +329,7 @@ public class Chapter1 extends ChapterScreen implements Screen {
     void allotDragListener();
   }
 
-  private DragListnerList[] dragListnerLists = new DragListnerList[] {
+  public DragListnerList[] dragListnerLists = new DragListnerList[] {
           new DragListnerList() {
             public void allotDragListener() { addLevel1DraggableListeners(); } },
           new DragListnerList() { public void allotDragListener() { addLevel1DraggableListeners(); } },
@@ -332,7 +352,7 @@ public class Chapter1 extends ChapterScreen implements Screen {
     dragListnerLists[index].allotDragListener();
   }
 
-  private void addLevel1DraggableListeners(){
+  public void addLevel1DraggableListeners(){
     //initialise the array of drag listeners
     int indexOfListener = 0;
     listeners = new ArrayList<DragListener>();
@@ -397,6 +417,7 @@ public class Chapter1 extends ChapterScreen implements Screen {
     time.update(deltaTime);
 
     numLocal.update(deltaTime);
+
     ballDisplay.update(deltaTime);
 
     if (glv.lableWrite){
@@ -435,4 +456,5 @@ public class Chapter1 extends ChapterScreen implements Screen {
     stage.draw();
     time.stage.draw();
   }
+
 }

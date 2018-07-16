@@ -36,10 +36,6 @@ public class RemainderDragListener extends OnDragCallBack {
     //Get the image being dragged
     Image draggedEntity = (Image)event.getListenerActor();
 
-    //update the relevant variables.
-//    variables.remainderValue++;
-//    variables.score++;
-
     //Update the dragged entity.
     if (draggedEntity != null) {
 
@@ -54,14 +50,6 @@ public class RemainderDragListener extends OnDragCallBack {
       //Send relevant notification
       postEvent();
 
-      //Update the remainder Position for the next set of remainders.
-
- /*   float progBarSize = variables.score * (300/aValue);
-      progbar1.setSize(30, progBarSize);
-
-      progbar1.setVisible(true);
-      label_r.setText(r +" ");
-      label_score.setText(score + " ");*/
     }
   }
 

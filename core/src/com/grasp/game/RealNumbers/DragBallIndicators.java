@@ -57,14 +57,6 @@ public class DragBallIndicators extends SumIndicator implements Subscriber {
       updateElement(DragBallLabels.Score4, chapterVariables.chapter1Variables.ValueOfR);
       updateElement(DragBallLabels.ScoreValue,
         chapterVariables.chapter1Variables.ValueOfScore);
-      //variables.remaiderPositionX += 40;
- /*   float progBarSize = variables.score * (300/aValue);
-      progbar1.setSize(30, progBarSize);
-
-      progbar1.setVisible(true);
-      label_r.setText(r +" ");
-      label_score.setText(score + " ");*/
-
     }
   }
 

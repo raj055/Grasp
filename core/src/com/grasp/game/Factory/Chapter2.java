@@ -8,14 +8,13 @@ import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.scenes.scene2d.utils.DragListener;
-import com.grasp.game.BuilderBlocks.Events;
 import com.grasp.game.Component.Nagetiv_Num;
 import com.grasp.game.Component.TextVeriabal;
 import com.grasp.game.Enum.ScreenStates;
 import com.grasp.game.Global.GlobalsCommonCount;
 import com.grasp.game.Global.Objects;
 import com.grasp.game.RealNumbers.BallDisplay;
-import com.grasp.game.RealNumbers.ScrollingNumber;
+import com.grasp.game.BuilderBlocks.ScrollingNumber;
 import com.grasp.game.Timer.Timer;
 
 import java.util.ArrayList;
@@ -92,6 +91,9 @@ public class Chapter2 extends ChapterScreen implements Screen {
 
   //Array List for the drag listeners.
   ArrayList<DragListener> listeners;
+
+  ArrayList<Image> scrollingImages = null;
+
   boolean moveTheBg = false;
 
   @Override
@@ -264,7 +266,7 @@ public class Chapter2 extends ChapterScreen implements Screen {
   }
   void defineLevel6to10Components() {
 
-    numLocal = new ScrollingNumber(Events.SCROLL_NUMBER_SELECT);
+//    numLocal = new ScrollingNumber(Events.SCROLL_NUMBER_SELECT);
 
     ballDisplay = new BallDisplay();
 
@@ -295,6 +297,24 @@ public class Chapter2 extends ChapterScreen implements Screen {
       else if (str.contains("number2")) {
         num_2 = updatable;
       }
+    }
+
+    //check if the updatables are present
+    if(scrollingPara == null)
+      return;
+
+    numLocal = new ScrollingNumber();
+
+    scrollingImages = new ArrayList<Image>();
+
+    //totalObjects
+    totalObjects = scrollingPara.size();
+
+    for(Image img : scrollingPara)
+    {
+      scrollingImages.add(img);
+
+      numLocal.scrolling(scrollingImages);
     }
 
     for (int i = 0; i < BallDisplay.columns; i++){
@@ -351,6 +371,24 @@ public class Chapter2 extends ChapterScreen implements Screen {
       else if (str.contains("Imgsyntex1")) {
         imgsyntex1 = updatable;
       }
+    }
+
+    //check if the updatables are present
+    if(scrollingPara == null)
+      return;
+
+    numLocal = new ScrollingNumber();
+
+    scrollingImages = new ArrayList<Image>();
+
+    //totalObjects
+     totalObjects = scrollingPara.size();
+
+    for(Image img : scrollingPara)
+    {
+      scrollingImages.add(img);
+
+      numLocal.scrolling(scrollingImages);
     }
 
     nagetivNum = new Nagetiv_Num();

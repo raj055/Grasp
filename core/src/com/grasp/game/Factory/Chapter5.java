@@ -7,11 +7,10 @@ import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.utils.DragListener;
-import com.grasp.game.BuilderBlocks.Events;
 import com.grasp.game.Enum.ClickPluse;
 import com.grasp.game.Enum.ScreenStates;
 import com.grasp.game.Global.GlobalsCommonCount;
-import com.grasp.game.RealNumbers.ScrollingNumber;
+import com.grasp.game.BuilderBlocks.ScrollingNumber;
 import com.grasp.game.Timer.Timer;
 
 import java.util.ArrayList;
@@ -193,7 +192,7 @@ public class Chapter5 extends ChapterScreen implements Screen {
     }
   }
   void defineLevel6To10Components() {
-    numLocal = new ScrollingNumber(Events.SCROLL_NUMBER_SELECT);
+//    numLocal = new ScrollingNumber(Events.SCROLL_NUMBER_SELECT);
 
     for(Image numberI : numLocal.numbers)
     {
@@ -219,7 +218,7 @@ public class Chapter5 extends ChapterScreen implements Screen {
 
   }
   void defineLevel11To15Components() {
-    numLocal = new ScrollingNumber(Events.SCROLL_NUMBER_SELECT);
+//    numLocal = new ScrollingNumber(Events.SCROLL_NUMBER_SELECT);
 
     for(Image numberI : numLocal.numbers)
     {

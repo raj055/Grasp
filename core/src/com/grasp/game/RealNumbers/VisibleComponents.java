@@ -69,7 +69,6 @@ public class VisibleComponents extends ShowEntity implements Subscriber {
     }
     else if(evt == Events.REMAINDER_BALL_DRAG){
       updateProgressBar(chapterVariables.chapter1Variables.ValueOfScore);
-//      updateVisibleComponents();
     }
   }
 }

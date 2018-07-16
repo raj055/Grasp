@@ -32,19 +32,6 @@ public class GlobalsCommonCount {
           "Numbers/number9.png"
   };
 
-  public static final String[] NumberLevel2 ={
-          "Numbers/number0.png",
-          "Numbers/number1.png",
-          "Numbers/number2.png",
-          "Numbers/number3.png",
-          "Numbers/number4.png",
-          "Numbers/number5.png",
-          "Numbers/number6.png",
-          "Numbers/number7.png",
-          "Numbers/number8.png",
-          "Numbers/number9.png"
-  };
-
   public static final String[] NumberLevel3 ={
           "Numbers/number1.png",
           "Numbers/number3.png",
@@ -208,7 +195,7 @@ public class GlobalsCommonCount {
   };
 
   public static final int[] posYDiff ={
-          4, 2, 3, 5, 1, 3, 4, 2, 5, 3
+          1, 1, 1, 1, 1, 1, 1, 1, 1, 1
   };
   public static final int[] posYNum ={
           0, 150, 100, 200, 300, 250, 80, 180, 270, 130
