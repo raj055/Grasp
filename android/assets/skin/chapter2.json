@@ -8068,6 +8068,18 @@
         },
         "Step2": {
           "Displays": {
+            "BgImage": {
+              "Image": "data/bg_1.png",
+              "Size": [
+                250,
+                40
+              ],
+              "Position": [
+                10,
+                60
+              ],
+              "Visible": false
+            },
             "Title": {
               "Image": "data_ch2/title.png",
               "Size": [
@@ -8334,15 +8346,6 @@
             }
           },
           "Scrolling":{
-            "number0": {
-              /* "Image": "Numbers/number0.png",
-               "Size": [
-                 30,
-                 40
-               ],
-               "Value" : 0,
-               "Visible": true*/
-            },
             "number1": {
               "Image": "Numbers/number1.png",
               "Size": [
@@ -8351,15 +8354,6 @@
               ],
               "Value" : 1,
               "Visible": true
-            },
-            "number2": {
-              /*"Image": "Numbers/number2.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 2,
-              "Visible": true*/
             },
             "number3": {
               "Image": "Numbers/number3.png",
@@ -8370,15 +8364,6 @@
               "Value" : 3,
               "Visible": true
             },
-            "number4": {
-              /*"Image": "Numbers/number4.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 4,
-              "Visible": true*/
-            },
             "number5": {
               "Image": "Numbers/number5.png",
               "Size": [
@@ -8388,24 +8373,6 @@
               "Value" : 5,
               "Visible": true
             },
-            "number6": {
-              /*"Image": "Numbers/number6.png",
-              "Size": [
-                30,
-                40
-              ],
-               "Value" : 6,
-              "Visible": true*/
-            },
-            "number7": {
-              /*"Image": "Numbers/number7.png",
-              "Size": [
-                30,
-                40
-              ],
-               "Value" : 7,
-              "Visible": true*/
-            },
             "number8": {
               "Image": "Numbers/number8.png",
               "Size": [
@@ -8414,16 +8381,6 @@
               ],
               "Value" : 8,
               "Visible": true
-            },
-            "number9": {
-              /*"Image": "Numbers/number9.png",
-              "Size": [
-                30,
-                40
-              ],
-               "Value" : 9,
-              "Visible": true
-            }*/
             },
             "number-2": {
               "Image": "Numb/-2.png",
@@ -9365,6 +9322,18 @@
         },
         "Step2": {
           "Displays": {
+            "BgImage": {
+              "Image": "data/bg_1.png",
+              "Size": [
+                250,
+                40
+              ],
+              "Position": [
+                10,
+                60
+              ],
+              "Visible": false
+            },
             "Title": {
               "Image": "data_ch2/title.png",
               "Size": [
@@ -9631,15 +9600,6 @@
             }
           },
           "Scrolling":{
-            "number0": {
-              /* "Image": "Numbers/number0.png",
-               "Size": [
-                 30,
-                 40
-               ],
-               "Value" : 0,
-               "Visible": true*/
-            },
             "number1": {
               "Image": "Numbers/number1.png",
               "Size": [
@@ -9648,15 +9608,6 @@
               ],
               "Value" : 1,
               "Visible": true
-            },
-            "number2": {
-              /*"Image": "Numbers/number2.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 2,
-              "Visible": true*/
             },
             "number3": {
               "Image": "Numbers/number3.png",
@@ -9667,15 +9618,6 @@
               "Value" : 3,
               "Visible": true
             },
-            "number4": {
-              /*"Image": "Numbers/number4.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 4,
-              "Visible": true*/
-            },
             "number5": {
               "Image": "Numbers/number5.png",
               "Size": [
@@ -9685,24 +9627,6 @@
               "Value" : 5,
               "Visible": true
             },
-            "number6": {
-              /*"Image": "Numbers/number6.png",
-              "Size": [
-                30,
-                40
-              ],
-               "Value" : 6,
-              "Visible": true*/
-            },
-            "number7": {
-              /*"Image": "Numbers/number7.png",
-              "Size": [
-                30,
-                40
-              ],
-               "Value" : 7,
-              "Visible": true*/
-            },
             "number8": {
               "Image": "Numbers/number8.png",
               "Size": [
@@ -9711,16 +9635,6 @@
               ],
               "Value" : 8,
               "Visible": true
-            },
-            "number9": {
-              /*"Image": "Numbers/number9.png",
-              "Size": [
-                30,
-                40
-              ],
-               "Value" : 9,
-              "Visible": true
-            }*/
             },
             "number-2": {
               "Image": "Numb/-2.png",
@@ -10662,6 +10576,18 @@
         },
         "Step2": {
           "Displays": {
+            "BgImage": {
+              "Image": "data/bg_1.png",
+              "Size": [
+                250,
+                40
+              ],
+              "Position": [
+                10,
+                60
+              ],
+              "Visible": false
+            },
             "Title": {
               "Image": "data_ch2/title.png",
               "Size": [
@@ -10928,15 +10854,6 @@
             }
           },
           "Scrolling":{
-            "number0": {
-              /* "Image": "Numbers/number0.png",
-               "Size": [
-                 30,
-                 40
-               ],
-               "Value" : 0,
-               "Visible": true*/
-            },
             "number1": {
               "Image": "Numbers/number1.png",
               "Size": [
@@ -10945,15 +10862,6 @@
               ],
               "Value" : 1,
               "Visible": true
-            },
-            "number2": {
-              /*"Image": "Numbers/number2.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 2,
-              "Visible": true*/
             },
             "number3": {
               "Image": "Numbers/number3.png",
@@ -10964,15 +10872,6 @@
               "Value" : 3,
               "Visible": true
             },
-            "number4": {
-              /*"Image": "Numbers/number4.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 4,
-              "Visible": true*/
-            },
             "number5": {
               "Image": "Numbers/number5.png",
               "Size": [
@@ -10982,24 +10881,6 @@
               "Value" : 5,
               "Visible": true
             },
-            "number6": {
-              /*"Image": "Numbers/number6.png",
-              "Size": [
-                30,
-                40
-              ],
-               "Value" : 6,
-              "Visible": true*/
-            },
-            "number7": {
-              /*"Image": "Numbers/number7.png",
-              "Size": [
-                30,
-                40
-              ],
-               "Value" : 7,
-              "Visible": true*/
-            },
             "number8": {
               "Image": "Numbers/number8.png",
               "Size": [
@@ -11008,16 +10889,6 @@
               ],
               "Value" : 8,
               "Visible": true
-            },
-            "number9": {
-              /*"Image": "Numbers/number9.png",
-              "Size": [
-                30,
-                40
-              ],
-               "Value" : 9,
-              "Visible": true
-            }*/
             },
             "number-2": {
               "Image": "Numb/-2.png",
@@ -11959,6 +11830,18 @@
         },
         "Step2": {
           "Displays": {
+            "BgImage": {
+              "Image": "data/bg_1.png",
+              "Size": [
+                250,
+                40
+              ],
+              "Position": [
+                10,
+                60
+              ],
+              "Visible": false
+            },
             "Title": {
               "Image": "data_ch2/title.png",
               "Size": [
@@ -12225,15 +12108,6 @@
             }
           },
           "Scrolling":{
-            "number0": {
-              /* "Image": "Numbers/number0.png",
-               "Size": [
-                 30,
-                 40
-               ],
-               "Value" : 0,
-               "Visible": true*/
-            },
             "number1": {
               "Image": "Numbers/number1.png",
               "Size": [
@@ -12242,15 +12116,6 @@
               ],
               "Value" : 1,
               "Visible": true
-            },
-            "number2": {
-              /*"Image": "Numbers/number2.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 2,
-              "Visible": true*/
             },
             "number3": {
               "Image": "Numbers/number3.png",
@@ -12261,15 +12126,6 @@
               "Value" : 3,
               "Visible": true
             },
-            "number4": {
-              /*"Image": "Numbers/number4.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 4,
-              "Visible": true*/
-            },
             "number5": {
               "Image": "Numbers/number5.png",
               "Size": [
@@ -12279,24 +12135,6 @@
               "Value" : 5,
               "Visible": true
             },
-            "number6": {
-              /*"Image": "Numbers/number6.png",
-              "Size": [
-                30,
-                40
-              ],
-               "Value" : 6,
-              "Visible": true*/
-            },
-            "number7": {
-              /*"Image": "Numbers/number7.png",
-              "Size": [
-                30,
-                40
-              ],
-               "Value" : 7,
-              "Visible": true*/
-            },
             "number8": {
               "Image": "Numbers/number8.png",
               "Size": [
@@ -12305,16 +12143,6 @@
               ],
               "Value" : 8,
               "Visible": true
-            },
-            "number9": {
-              /*"Image": "Numbers/number9.png",
-              "Size": [
-                30,
-                40
-              ],
-               "Value" : 9,
-              "Visible": true
-            }*/
             },
             "number-2": {
               "Image": "Numb/-2.png",
@@ -13256,6 +13084,18 @@
         },
         "Step2": {
           "Displays": {
+            "BgImage": {
+              "Image": "data/bg_1.png",
+              "Size": [
+                250,
+                40
+              ],
+              "Position": [
+                10,
+                60
+              ],
+              "Visible": false
+            },
             "Title": {
               "Image": "data_ch2/title.png",
               "Size": [
@@ -13522,15 +13362,6 @@
             }
           },
           "Scrolling":{
-            "number0": {
-              /* "Image": "Numbers/number0.png",
-               "Size": [
-                 30,
-                 40
-               ],
-               "Value" : 0,
-               "Visible": true*/
-            },
             "number1": {
               "Image": "Numbers/number1.png",
               "Size": [
@@ -13539,15 +13370,6 @@
               ],
               "Value" : 1,
               "Visible": true
-            },
-            "number2": {
-              /*"Image": "Numbers/number2.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 2,
-              "Visible": true*/
             },
             "number3": {
               "Image": "Numbers/number3.png",
@@ -13558,15 +13380,6 @@
               "Value" : 3,
               "Visible": true
             },
-            "number4": {
-              /*"Image": "Numbers/number4.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 4,
-              "Visible": true*/
-            },
             "number5": {
               "Image": "Numbers/number5.png",
               "Size": [
@@ -13576,24 +13389,6 @@
               "Value" : 5,
               "Visible": true
             },
-            "number6": {
-              /*"Image": "Numbers/number6.png",
-              "Size": [
-                30,
-                40
-              ],
-               "Value" : 6,
-              "Visible": true*/
-            },
-            "number7": {
-              /*"Image": "Numbers/number7.png",
-              "Size": [
-                30,
-                40
-              ],
-               "Value" : 7,
-              "Visible": true*/
-            },
             "number8": {
               "Image": "Numbers/number8.png",
               "Size": [
@@ -13602,16 +13397,6 @@
               ],
               "Value" : 8,
               "Visible": true
-            },
-            "number9": {
-              /*"Image": "Numbers/number9.png",
-              "Size": [
-                30,
-                40
-              ],
-               "Value" : 9,
-              "Visible": true
-            }*/
             },
             "number-2": {
               "Image": "Numb/-2.png",

@@ -2,6 +2,7 @@ package com.grasp.game.Enum;
 
 
 public enum ScreenStates {
+  LOGINSCREEN,
   MENUSCREEN,
   LEVELSCREEN,
   STEPS,

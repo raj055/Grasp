@@ -37,6 +37,7 @@ public class ReadConfiguration {
                      br = new BufferedReader(new InputStreamReader(fin));
 
                      buffer = new StringBuilder();
+
                     while ((line = br.readLine()) != null) {
                         buffer.append(line);
                     }

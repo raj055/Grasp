@@ -8,6 +8,7 @@ import com.grasp.game.Enum.ScreenStates;
 import com.grasp.game.Enum.Steps;
 import com.grasp.game.MyGame;
 import com.grasp.game.Screens.GameOverScreen;
+import com.grasp.game.Screens.LoginScreen;
 import com.grasp.game.Screens.MainScreen;
 
 /**
@@ -56,6 +57,9 @@ public class GameStates {
     //implement Current screen state
     switch (screenStates)
     {
+      case LOGINSCREEN:
+        currentScreen = new LoginScreen(ScreenStates.LOGINSCREEN);
+        break;
       case MENUSCREEN:
         currentScreen = new MainScreen(ScreenStates.MENUSCREEN);
         break;
